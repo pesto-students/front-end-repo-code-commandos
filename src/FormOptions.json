@@ -1,0 +1,5919 @@
+{
+  "cities": [
+    {
+      "city": "Delhi"
+    },
+    {
+      "city": "Mumbai"
+    },
+    {
+      "city": "Kolkāta"
+    },
+    {
+      "city": "Bangalore"
+    },
+    {
+      "city": "Chennai"
+    },
+    {
+      "city": "Hyderābād"
+    },
+    {
+      "city": "Pune"
+    },
+    {
+      "city": "Ahmedabad"
+    },
+    {
+      "city": "Sūrat"
+    },
+    {
+      "city": "Prayagraj"
+    },
+    {
+      "city": "Lucknow"
+    },
+    {
+      "city": "Jaipur"
+    },
+    {
+      "city": "Cawnpore"
+    },
+    {
+      "city": "Mirzāpur"
+    },
+    {
+      "city": "Nāgpur"
+    },
+    {
+      "city": "Ghāziābād"
+    },
+    {
+      "city": "Vadodara"
+    },
+    {
+      "city": "Vishākhapatnam"
+    },
+    {
+      "city": "Indore"
+    },
+    {
+      "city": "Thāne"
+    },
+    {
+      "city": "Bhopāl"
+    },
+    {
+      "city": "Chinchvad"
+    },
+    {
+      "city": "Patna"
+    },
+    {
+      "city": "Bilāspur"
+    },
+    {
+      "city": "Ludhiāna"
+    },
+    {
+      "city": "Agwār"
+    },
+    {
+      "city": "Āgra"
+    },
+    {
+      "city": "Madurai"
+    },
+    {
+      "city": "Jamshedpur"
+    },
+    {
+      "city": "Nāsik"
+    },
+    {
+      "city": "Farīdābād"
+    },
+    {
+      "city": "Aurangābād"
+    },
+    {
+      "city": "Rājkot"
+    },
+    {
+      "city": "Meerut"
+    },
+    {
+      "city": "Jabalpur"
+    },
+    {
+      "city": "Kalamboli"
+    },
+    {
+      "city": "Vasai"
+    },
+    {
+      "city": "Najafgarh"
+    },
+    {
+      "city": "Vārānasi"
+    },
+    {
+      "city": "Srīnagar"
+    },
+    {
+      "city": "Dhanbād"
+    },
+    {
+      "city": "Amritsar"
+    },
+    {
+      "city": "Alīgarh"
+    },
+    {
+      "city": "Guwāhāti"
+    },
+    {
+      "city": "Hāora"
+    },
+    {
+      "city": "Rānchi"
+    },
+    {
+      "city": "Gwalior"
+    },
+    {
+      "city": "Chandīgarh"
+    },
+    {
+      "city": "Vijayavāda"
+    },
+    {
+      "city": "Jodhpur"
+    },
+    {
+      "city": "Raipur"
+    },
+    {
+      "city": "Kota"
+    },
+    {
+      "city": "Kālkāji Devi"
+    },
+    {
+      "city": "Bhayandar"
+    },
+    {
+      "city": "Ambattūr"
+    },
+    {
+      "city": "Salt Lake City"
+    },
+    {
+      "city": "Bhātpāra"
+    },
+    {
+      "city": "Kūkatpalli"
+    },
+    {
+      "city": "Darbhanga"
+    },
+    {
+      "city": "Dāsarhalli"
+    },
+    {
+      "city": "Muzaffarpur"
+    },
+    {
+      "city": "Oulgaret"
+    },
+    {
+      "city": "New Delhi"
+    },
+    {
+      "city": "Tiruvottiyūr"
+    },
+    {
+      "city": "Puducherry"
+    },
+    {
+      "city": "Byatarayanpur"
+    },
+    {
+      "city": "Pallāvaram"
+    },
+    {
+      "city": "Secunderābād"
+    },
+    {
+      "city": "Shimla"
+    },
+    {
+      "city": "Puri"
+    },
+    {
+      "city": "Shrīrāmpur"
+    },
+    {
+      "city": "Hugli"
+    },
+    {
+      "city": "Chandannagar"
+    },
+    {
+      "city": "Sultānpur Mazra"
+    },
+    {
+      "city": "Krishnanagar"
+    },
+    {
+      "city": "Bārākpur"
+    },
+    {
+      "city": "Bhālswa Jahangirpur"
+    },
+    {
+      "city": "Nāngloi Jāt"
+    },
+    {
+      "city": "Yelahanka"
+    },
+    {
+      "city": "Titāgarh"
+    },
+    {
+      "city": "Dam Dam"
+    },
+    {
+      "city": "Bānsbāria"
+    },
+    {
+      "city": "Madhavaram"
+    },
+    {
+      "city": "Baj Baj"
+    },
+    {
+      "city": "Nerkunram"
+    },
+    {
+      "city": "Kendrāparha"
+    },
+    {
+      "city": "Sijua"
+    },
+    {
+      "city": "Manali"
+    },
+    {
+      "city": "Chakapara"
+    },
+    {
+      "city": "Pāppākurichchi"
+    },
+    {
+      "city": "Herohalli"
+    },
+    {
+      "city": "Madipakkam"
+    },
+    {
+      "city": "Sabalpur"
+    },
+    {
+      "city": "Salua"
+    },
+    {
+      "city": "Balasore"
+    },
+    {
+      "city": "Jālhalli"
+    },
+    {
+      "city": "Chinnasekkadu"
+    },
+    {
+      "city": "Jethuli"
+    },
+    {
+      "city": "Nagtala"
+    },
+    {
+      "city": "Bāgalūr"
+    },
+    {
+      "city": "Pakri"
+    },
+    {
+      "city": "Hunasamaranhalli"
+    },
+    {
+      "city": "Hesarghatta"
+    },
+    {
+      "city": "Bommayapālaiyam"
+    },
+    {
+      "city": "Gundūr"
+    },
+    {
+      "city": "Punādih"
+    },
+    {
+      "city": "Harilādih"
+    },
+    {
+      "city": "Alāwalpur"
+    },
+    {
+      "city": "Mādnāikanhalli"
+    },
+    {
+      "city": "Kādiganahalli"
+    },
+    {
+      "city": "Mahuli"
+    },
+    {
+      "city": "Zeyādah Kot"
+    },
+    {
+      "city": "Arshakunti"
+    },
+    {
+      "city": "Hīrāpur"
+    },
+    {
+      "city": "Mirchi"
+    },
+    {
+      "city": "Sonudih"
+    },
+    {
+      "city": "Sondekoppa"
+    },
+    {
+      "city": "Babura"
+    },
+    {
+      "city": "Mādavar"
+    },
+    {
+      "city": "Kadabgeri"
+    },
+    {
+      "city": "Nanmangalam"
+    },
+    {
+      "city": "Taliganja"
+    },
+    {
+      "city": "Tarchha"
+    },
+    {
+      "city": "Belgharia"
+    },
+    {
+      "city": "Kammanhalli"
+    },
+    {
+      "city": "Sonnappanhalli"
+    },
+    {
+      "city": "Kedihāti"
+    },
+    {
+      "city": "Doddajīvanhalli"
+    },
+    {
+      "city": "Simli Murārpur"
+    },
+    {
+      "city": "Sonāwān"
+    },
+    {
+      "city": "Devanandapur"
+    },
+    {
+      "city": "Tribeni"
+    },
+    {
+      "city": "Huttanhalli"
+    },
+    {
+      "city": "Nathupur"
+    },
+    {
+      "city": "Bāli"
+    },
+    {
+      "city": "Vājarhalli"
+    },
+    {
+      "city": "Saino"
+    },
+    {
+      "city": "Shekhpura"
+    },
+    {
+      "city": "Cāchohalli"
+    },
+    {
+      "city": "Nārāyanpur Kola"
+    },
+    {
+      "city": "Gyan Chak"
+    },
+    {
+      "city": "Kasgatpur"
+    },
+    {
+      "city": "Kitanelli"
+    },
+    {
+      "city": "Harchandi"
+    },
+    {
+      "city": "Santoshpur"
+    },
+    {
+      "city": "Bendravādi"
+    },
+    {
+      "city": "Kodagihalli"
+    },
+    {
+      "city": "Harna Buzurg"
+    },
+    {
+      "city": "Mailanhalli"
+    },
+    {
+      "city": "Sultānpur"
+    }
+  ],
+  "ages": [
+    {
+      "age": "18"
+    },
+    {
+      "age": "19"
+    },
+    {
+      "age": "20"
+    },
+    {
+      "age": "21"
+    },
+    {
+      "age": "22"
+    },
+    {
+      "age": "23"
+    },
+    {
+      "age": "24"
+    },
+    {
+      "age": "25"
+    },
+    {
+      "age": "26"
+    },
+    {
+      "age": "27"
+    },
+    {
+      "age": "28"
+    },
+    {
+      "age": "29"
+    },
+    {
+      "age": "30"
+    },
+    {
+      "age": "31"
+    },
+    {
+      "age": "32"
+    },
+    {
+      "age": "33"
+    },
+    {
+      "age": "34"
+    },
+    {
+      "age": "35"
+    },
+    {
+      "age": "36"
+    },
+    {
+      "age": "37"
+    },
+    {
+      "age": "38"
+    },
+    {
+      "age": "39"
+    },
+    {
+      "age": "40"
+    },
+    {
+      "age": "41"
+    },
+    {
+      "age": "42"
+    },
+    {
+      "age": "43"
+    },
+    {
+      "age": "44"
+    },
+    {
+      "age": "45"
+    },
+    {
+      "age": "46"
+    },
+    {
+      "age": "47"
+    },
+    {
+      "age": "48"
+    },
+    {
+      "age": "49"
+    },
+    {
+      "age": "50"
+    },
+    {
+      "age": "51"
+    },
+    {
+      "age": "52"
+    },
+    {
+      "age": "53"
+    },
+    {
+      "age": "54"
+    },
+    {
+      "age": "55"
+    },
+    {
+      "age": "56"
+    },
+    {
+      "age": "57"
+    },
+    {
+      "age": "58"
+    },
+    {
+      "age": "59"
+    },
+    {
+      "age": "60"
+    },
+    {
+      "age": "61"
+    },
+    {
+      "age": "62"
+    },
+    {
+      "age": "63"
+    },
+    {
+      "age": "64"
+    },
+    {
+      "age": "65"
+    }
+  ],
+  "ageRanges": [
+    {
+      "ageRange": "18 - 20"
+    },
+    {
+      "ageRange": "21 - 23"
+    },
+    {
+      "ageRange": "24 - 26"
+    },
+    {
+      "ageRange": "27 - 29"
+    },
+    {
+      "ageRange": "30 - 32"
+    },
+    {
+      "ageRange": "33 - 35"
+    },
+    {
+      "ageRange": "36 - 38"
+    },
+    {
+      "ageRange": "39 - 41"
+    },
+    {
+      "ageRange": "42 - 44"
+    },
+    {
+      "ageRange": "45 - 47"
+    },
+    {
+      "ageRange": "48 - 50"
+    },
+    {
+      "ageRange": "51 - 53"
+    },
+    {
+      "ageRange": "54 - 56"
+    },
+    {
+      "ageRange": "57 - 59"
+    },
+    {
+      "ageRange": "60 - 62"
+    },
+    {
+      "ageRange": "63 - 65"
+    }
+    
+  ],
+  "religions": [
+    {
+      "religion": "Hindu"
+    },
+    {
+      "religion": "Muslim - Shia"
+    },
+    {
+      "religion": "Muslim - Sunni"
+    },
+    {
+      "religion": "Muslim - Others"
+    },
+    {
+      "religion": "Christian - Catholic"
+    },
+    {
+      "religion": "Christian - Orthodox"
+    },
+    {
+      "religion": "Christian - Protestant"
+    },
+    {
+      "religion": "Christian - Others"
+    },
+    {
+      "religion": "Sikh"
+    },
+    {
+      "religion": "Jain - Digambar"
+    },
+    {
+      "religion": "Jain - Shwetambar"
+    },
+    {
+      "religion": "Jain - Others"
+    },
+    {
+      "religion": "Parsi"
+    },
+    {
+      "religion": "Buddhist"
+    },
+    {
+      "religion": "Jewish"
+    },
+    {
+      "religion": "Inter-Religion"
+    },
+    {
+      "religion": "No Religious Belief"
+    }
+  ],
+  "motherTongues": [
+    {
+      "motherTongue": "Arunachali"
+    },
+    {
+      "motherTongue": "Assamese"
+    },
+    {
+      "motherTongue": "Awadhi"
+    },
+    {
+      "motherTongue": "Bengali"
+    },
+    {
+      "motherTongue": "Bhojpuri"
+    },
+    {
+      "motherTongue": "Brij"
+    },
+    {
+      "motherTongue": "Bihari"
+    },
+    {
+      "motherTongue": "Badaga"
+    },
+    {
+      "motherTongue": "Chatisgarhi"
+    },
+    {
+      "motherTongue": "Dogri"
+    },
+    {
+      "motherTongue": "English"
+    },
+    {
+      "motherTongue": "French"
+    },
+    {
+      "motherTongue": "Garhwali"
+    },
+    {
+      "motherTongue": "Garo"
+    },
+    {
+      "motherTongue": "Gujarati"
+    },
+    {
+      "motherTongue": "Haryanvi"
+    },
+    {
+      "motherTongue": "Himachali/Pahari"
+    },
+    {
+      "motherTongue": "Hindi"
+    },
+    {
+      "motherTongue": "Kanauji"
+    },
+    {
+      "motherTongue": "Kannada"
+    },
+    {
+      "motherTongue": "Kashmiri"
+    },
+    {
+      "motherTongue": "Khandesi"
+    },
+    {
+      "motherTongue": "Khasi"
+    },
+    {
+      "motherTongue": "Konkani"
+    },
+    {
+      "motherTongue": "Koshali"
+    },
+    {
+      "motherTongue": "Kumaoni"
+    },
+    {
+      "motherTongue": "Kutchi"
+    },
+    {
+      "motherTongue": "Lepcha"
+    },
+    {
+      "motherTongue": "Ladacki"
+    },
+    {
+      "motherTongue": "Magahi"
+    },
+    {
+      "motherTongue": "Maithili"
+    },
+    {
+      "motherTongue": "Malayalam"
+    },
+    {
+      "motherTongue": "Manipuri"
+    },
+    {
+      "motherTongue": "Marathi"
+    },
+    {
+      "motherTongue": "Marwari"
+    },
+    {
+      "motherTongue": "Miji"
+    },
+    {
+      "motherTongue": "Mizo"
+    },
+    {
+      "motherTongue": "Monpa"
+    },
+    {
+      "motherTongue": "Nicobarese"
+    },
+    {
+      "motherTongue": "Nepali"
+    },
+    {
+      "motherTongue": "Oriya"
+    },
+    {
+      "motherTongue": "Punjabi"
+    },
+    {
+      "motherTongue": "Rajasthani"
+    },
+    {
+      "motherTongue": "Sanskrit"
+    },
+    {
+      "motherTongue": "Santhali"
+    },
+    {
+      "motherTongue": "Sindhi"
+    },
+    {
+      "motherTongue": "Sourashtra"
+    },
+    {
+      "motherTongue": "Tamil"
+    },
+    {
+      "motherTongue": "Telugu"
+    },
+    {
+      "motherTongue": "Tripuri    "
+    }
+  ],
+  "communities": [
+    {
+      "community": "Agarwal"
+    },
+    {
+      "community": "Iyengar"
+    },
+    {
+      "community": "Iyer"
+    },
+    {
+      "community": "Kayastha"
+    },
+    {
+      "community": "Khatri"
+    },
+    {
+      "community": "Maratha"
+    },
+    {
+      "community": "Nair"
+    },
+    {
+      "community": "Rajput"
+    },
+    {
+      "community": "Shia"
+    },
+    {
+      "community": "Agri"
+    },
+    {
+      "community": "Ahom"
+    },
+    {
+      "community": "Anavil Brahmin"
+    },
+    {
+      "community": "Arora"
+    },
+    {
+      "community": "Arya Vysya"
+    },
+    {
+      "community": "Bahi"
+    },
+    {
+      "community": "Baidya"
+    },
+    {
+      "community": "Baishnab"
+    },
+    {
+      "community": "Baishya"
+    },
+    {
+      "community": "Balija Naidu"
+    },
+    {
+      "community": "Baniya"
+    },
+    {
+      "community": "Barujibi"
+    },
+    {
+      "community": "Bengali Brahmin"
+    },
+    {
+      "community": "Bengali Kayastha"
+    },
+    {
+      "community": "Besta"
+    },
+    {
+      "community": "Bhandari"
+    },
+    {
+      "community": "Bhatia"
+    },
+    {
+      "community": "Bhovi"
+    },
+    {
+      "community": "Billava"
+    },
+    {
+      "community": "Born Again"
+    },
+    {
+      "community": "Brahmin"
+    },
+    {
+      "community": "Brahmin Bhumihar"
+    },
+    {
+      "community": "Brahmin Deshastha"
+    },
+    {
+      "community": "Brahmin Goswami"
+    },
+    {
+      "community": "Brahmin Kanada Madhva"
+    },
+    {
+      "community": "Brahmin Karhade"
+    },
+    {
+      "community": "Brahmin Kokanastha"
+    },
+    {
+      "community": "Brahmin Smartha"
+    },
+    {
+      "community": "Brahmin Tyagi"
+    },
+    {
+      "community": "Brahmin Vaidiki"
+    },
+    {
+      "community": "Bunt"
+    },
+    {
+      "community": "Catholic"
+    },
+    {
+      "community": "Chambhar"
+    },
+    {
+      "community": "Chaurasia"
+    },
+    {
+      "community": "Dawoodi Bohra"
+    },
+    {
+      "community": "Desai"
+    },
+    {
+      "community": "Devanga"
+    },
+    {
+      "community": "Dhangar"
+    },
+    {
+      "community": "Dheevara"
+    },
+    {
+      "community": "Dhobi"
+    },
+    {
+      "community": "Ediga"
+    },
+    {
+      "community": "Ehle"
+    },
+    {
+      "community": "Evangelical"
+    },
+    {
+      "community": "Ezhava"
+    },
+    {
+      "community": "Ezhuthachan"
+    },
+    {
+      "community": "Ganiga"
+    },
+    {
+      "community": "Garhwali Brahmins"
+    },
+    {
+      "community": "Garhwali Rajput"
+    },
+    {
+      "community": "Gomantak Maratha"
+    },
+    {
+      "community": "Goud"
+    },
+    {
+      "community": "Gounder"
+    },
+    {
+      "community": "Gour Brahmin"
+    },
+    {
+      "community": "Gowd Saraswat Brahmin"
+    },
+    {
+      "community": "Gowda"
+    },
+    {
+      "community": "Gramani"
+    },
+    {
+      "community": "Gudia"
+    },
+    {
+      "community": "Gujarati Brahmin"
+    },
+    {
+      "community": "Gujarati Lohana"
+    },
+    {
+      "community": "Gujarati Vaishnav"
+    },
+    {
+      "community": "Gupta"
+    },
+    {
+      "community": "Hadith"
+    },
+    {
+      "community": "Havyaka Brahmin"
+    },
+    {
+      "community": "Hindi Agarwal"
+    },
+    {
+      "community": "Hindi Arora"
+    },
+    {
+      "community": "Hindi Brahmin"
+    },
+    {
+      "community": "Hindi Kayastha"
+    },
+    {
+      "community": "Hindi Khatri"
+    },
+    {
+      "community": "Hindi Rajput"
+    },
+    {
+      "community": "Jacobite"
+    },
+    {
+      "community": "Jain"
+    },
+    {
+      "community": "Jain Digambar"
+    },
+    {
+      "community": "Jain Shwetamber"
+    },
+    {
+      "community": "Jaiswal"
+    },
+    {
+      "community": "Jat"
+    },
+    {
+      "community": "Kaibarta"
+    },
+    {
+      "community": "Kalar"
+    },
+    {
+      "community": "Kalinga Vysya"
+    },
+    {
+      "community": "Kalita"
+    },
+    {
+      "community": "Kamboj"
+    },
+    {
+      "community": "Kamma"
+    },
+    {
+      "community": "Kannada Bunt"
+    },
+    {
+      "community": "Kannada Lingayat"
+    },
+    {
+      "community": "Kapu"
+    },
+    {
+      "community": "Kapu Naidu"
+    },
+    {
+      "community": "Karana"
+    },
+    {
+      "community": "Kashyap"
+    },
+    {
+      "community": "Khandelwal"
+    },
+    {
+      "community": "Koli"
+    },
+    {
+      "community": "Kongu Vellala Gounder"
+    },
+    {
+      "community": "Kori"
+    },
+    {
+      "community": "Kshatriya"
+    },
+    {
+      "community": "Kulalar"
+    },
+    {
+      "community": "Kumbhakar"
+    },
+    {
+      "community": "Kumbhar"
+    },
+    {
+      "community": "Kumhar"
+    },
+    {
+      "community": "Kunbi"
+    },
+    {
+      "community": "Kuruba"
+    },
+    {
+      "community": "Kuruhina Shetty"
+    },
+    {
+      "community": "Leva"
+    },
+    {
+      "community": "Leva Patil"
+    },
+    {
+      "community": "Lingayat"
+    },
+    {
+      "community": "Lohana"
+    },
+    {
+      "community": "Madiga"
+    },
+    {
+      "community": "Mahar"
+    },
+    {
+      "community": "Maharashtrian"
+    },
+    {
+      "community": "Maheshwari"
+    },
+    {
+      "community": "Mahishya"
+    },
+    {
+      "community": "Mala"
+    },
+    {
+      "community": "Malayalam Menon"
+    },
+    {
+      "community": "Malayalam Nair"
+    },
+    {
+      "community": "Malayalam Nambiar"
+    },
+    {
+      "community": "Malayalam Pillai"
+    },
+    {
+      "community": "Mangalorean"
+    },
+    {
+      "community": "Marathi Brahmin"
+    },
+    {
+      "community": "Marathi CKP"
+    },
+    {
+      "community": "Marthoma"
+    },
+    {
+      "community": "Marwari"
+    },
+    {
+      "community": "Marwari Agarwal"
+    },
+    {
+      "community": "Maurya"
+    },
+    {
+      "community": "Meenavar"
+    },
+    {
+      "community": "Memon"
+    },
+    {
+      "community": "Menon"
+    },
+    {
+      "community": "Mogaveera"
+    },
+    {
+      "community": "Mudaliar Arcot"
+    },
+    {
+      "community": "Mudiraj"
+    },
+    {
+      "community": "Muthuraja"
+    },
+    {
+      "community": "Nadar"
+    },
+    {
+      "community": "Naicker"
+    },
+    {
+      "community": "Naidu"
+    },
+    {
+      "community": "Nambiar"
+    },
+    {
+      "community": "Nepali"
+    },
+    {
+      "community": "OBC"
+    },
+    {
+      "community": "Oswal"
+    },
+    {
+      "community": "Panchal"
+    },
+    {
+      "community": "Panicker"
+    },
+    {
+      "community": "Patel"
+    },
+    {
+      "community": "Patel Kadava"
+    },
+    {
+      "community": "Patel Leva"
+    },
+    {
+      "community": "Perika"
+    },
+    {
+      "community": "Pillai"
+    },
+    {
+      "community": "Prajapati"
+    },
+    {
+      "community": "Protestant"
+    },
+    {
+      "community": "Punjabi"
+    },
+    {
+      "community": "Punjabi Agarwal"
+    },
+    {
+      "community": "Punjabi Arora"
+    },
+    {
+      "community": "Punjabi Brahmin"
+    },
+    {
+      "community": "Punjabi Brahmin Saraswat"
+    },
+    {
+      "community": "Punjabi Khatri"
+    },
+    {
+      "community": "Punjabi Kshatriya"
+    },
+    {
+      "community": "Rajaka"
+    },
+    {
+      "community": "Rajput Lodhi"
+    },
+    {
+      "community": "Ramdasi"
+    },
+    {
+      "community": "Ramgharia"
+    },
+    {
+      "community": "Ravidasia"
+    },
+    {
+      "community": "Reddy"
+    },
+    {
+      "community": "Roman Catholic"
+    },
+    {
+      "community": "Sadgop"
+    },
+    {
+      "community": "Sahu"
+    },
+    {
+      "community": "Saini"
+    },
+    {
+      "community": "Saiva"
+    },
+    {
+      "community": "Saliya"
+    },
+    {
+      "community": "Saraswat"
+    },
+    {
+      "community": "Scheduled Caste"
+    },
+    {
+      "community": "Scheduled Tribe"
+    },
+    {
+      "community": "Setti"
+    },
+    {
+      "community": "Shimpi"
+    },
+    {
+      "community": "Sikh"
+    },
+    {
+      "community": "Sikh Gursikh"
+    },
+    {
+      "community": "Sikh Kesadhari"
+    },
+    {
+      "community": "Sikh Khatri"
+    },
+    {
+      "community": "Sikh Kshatriya"
+    },
+    {
+      "community": "Sikh Labana"
+    },
+    {
+      "community": "Sikh Ramdasia"
+    },
+    {
+      "community": "Sikh Ravidasia"
+    },
+    {
+      "community": "Sikh Saini"
+    },
+    {
+      "community": "Sindhi Amil"
+    },
+    {
+      "community": "Sindhi Baibhand"
+    },
+    {
+      "community": "Sindhi Larkana"
+    },
+    {
+      "community": "Sindhi Sahiti"
+    },
+    {
+      "community": "Sindhi Sakkhar"
+    },
+    {
+      "community": "Sindhi Shikarpuri"
+    },
+    {
+      "community": "Sonar"
+    },
+    {
+      "community": "Sozhiya Vellalar"
+    },
+    {
+      "community": "Sutar"
+    },
+    {
+      "community": "Syrian"
+    },
+    {
+      "community": "Tamil Brahmin"
+    },
+    {
+      "community": "Tamil Brahmin Iyer"
+    },
+    {
+      "community": "Tamil Mudaliar"
+    },
+    {
+      "community": "Telegu Brahmin"
+    },
+    {
+      "community": "Teli"
+    },
+    {
+      "community": "Thakur"
+    },
+    {
+      "community": "Thevar"
+    },
+    {
+      "community": "Thiyya"
+    },
+    {
+      "community": "Uppara"
+    },
+    {
+      "community": "Vaish"
+    },
+    {
+      "community": "Vaishnav"
+    },
+    {
+      "community": "Vaishnav Bhatia"
+    },
+    {
+      "community": "Vaishnav Vania"
+    },
+    {
+      "community": "Vaishya"
+    },
+    {
+      "community": "Valmiki"
+    },
+    {
+      "community": "Vania"
+    },
+    {
+      "community": "Vanjara"
+    },
+    {
+      "community": "Vannar"
+    },
+    {
+      "community": "Vanniyar"
+    },
+    {
+      "community": "Vishwakarma"
+    },
+    {
+      "community": "Viswa Brahmin"
+    },
+    {
+      "community": "Vokaliga"
+    },
+    {
+      "community": "Vysya"
+    },
+    {
+      "community": "Yadav"
+    }
+  ],
+  "qualifications": [
+    {
+      "qualification": "PhD"
+    },
+    {
+      "qualification": "Masters"
+    },
+    {
+      "qualification": "Bachelors"
+    },
+    {
+      "qualification": "Diploma"
+    },
+    {
+      "qualification": "12th"
+    }
+  ],
+  "universities": [
+    {
+      "university": "Abhilashi University"
+    },
+    {
+      "university": "Acharya N.G. Ranga Agricultural University"
+    },
+    {
+      "university": "Acharya Nagarjuna University"
+    },
+    {
+      "university": "Adamas University"
+    },
+    {
+      "university": "Adesh University"
+    },
+    {
+      "university": "Adikavi Nannaya University"
+    },
+    {
+      "university": "Ahmedabad University"
+    },
+    {
+      "university": "Ajeenkya D.Y. Patil University"
+    },
+    {
+      "university": "Akal University"
+    },
+    {
+      "university": "AKS University"
+    },
+    {
+      "university": "Alagappa University"
+    },
+    {
+      "university": "Alakh Prakash Goyal Shimla University"
+    },
+    {
+      "university": "Al-Falah University"
+    },
+    {
+      "university": "Aliah University"
+    },
+    {
+      "university": "Aligarh Muslim University"
+    },
+    {
+      "university": "All India Institute of Medical Sciences Bhopal"
+    },
+    {
+      "university": "All India Institute of Medical Sciences Bhubaneswar"
+    },
+    {
+      "university": "All India Institute of Medical Sciences Delhi"
+    },
+    {
+      "university": "All India Institute of Medical Sciences Jodhpur"
+    },
+    {
+      "university": "All India Institute of Medical Sciences Patna"
+    },
+    {
+      "university": "All India Institute of Medical Sciences Raipur"
+    },
+    {
+      "university": "All India Institute of Medical Sciences Rishikesh"
+    },
+    {
+      "university": "Alliance University"
+    },
+    {
+      "university": "Ambedkar University Delhi"
+    },
+    {
+      "university": "Amity University"
+    },
+    {
+      "university": "Amrita Vishwa Vidyapeetham"
+    },
+    {
+      "university": "Anand Agricultural University"
+    },
+    {
+      "university": "Anant National University"
+    },
+    {
+      "university": "Andhra University"
+    },
+    {
+      "university": "Anna University"
+    },
+    {
+      "university": "Annamalai University"
+    },
+    {
+      "university": "Apeejay Stya University"
+    },
+    {
+      "university": "Apex Professional University"
+    },
+    {
+      "university": "Apex University"
+    },
+    {
+      "university": "APJ Abdul Kalam Technological University"
+    },
+    {
+      "university": "Arka Jain University"
+    },
+    {
+      "university": "Arni University"
+    },
+    {
+      "university": "Arunachal University of Studies"
+    },
+    {
+      "university": "Arunodaya University"
+    },
+    {
+      "university": "Aryabhatta Knowledge University"
+    },
+    {
+      "university": "Ashoka University"
+    },
+    {
+      "university": "Assam Agricultural University"
+    },
+    {
+      "university": "Assam Don Bosco University"
+    },
+    {
+      "university": "Assam Down Town University"
+    },
+    {
+      "university": "Assam Rajiv Gandhi University of Cooperative Management"
+    },
+    {
+      "university": "Assam Science and Technology University"
+    },
+    {
+      "university": "Assam University"
+    },
+    {
+      "university": "Assam Women's University"
+    },
+    {
+      "university": "Atal Bihari Vajpayee Hindi Vishwavidyalaya"
+    },
+    {
+      "university": "Atal Bihari Vajpayee Vishwavidyalaya"
+    },
+    {
+      "university": "Atmiya University"
+    },
+    {
+      "university": "AURO University"
+    },
+    {
+      "university": "Avantika University"
+    },
+    {
+      "university": "Avinashilingam Institute for Home Science and Higher Education for Women"
+    },
+    {
+      "university": "Awadhesh Pratap Singh University"
+    },
+    {
+      "university": "Ayush and Health Sciences University of Chhattisgarh"
+    },
+    {
+      "university": "Azim Premji University"
+    },
+    {
+      "university": "B.S. Abdur Rahman Crescent Institute of Science and Technology"
+    },
+    {
+      "university": "Baba Farid University of Health Sciences"
+    },
+    {
+      "university": "Baba Ghulam Shah Badhshah University"
+    },
+    {
+      "university": "Baba Mastnath University"
+    },
+    {
+      "university": "Babasaheb Bhimrao Ambedkar Bihar University"
+    },
+    {
+      "university": "Babasaheb Bhimrao Ambedkar University"
+    },
+    {
+      "university": "Babu Banarasi Das University"
+    },
+    {
+      "university": "Baddi University of Emerging Sciences and Technologies"
+    },
+    {
+      "university": "BAHRA University"
+    },
+    {
+      "university": "Banaras Hindu University"
+    },
+    {
+      "university": "Banasthali Vidyapith"
+    },
+    {
+      "university": "Banda University of Agriculture and Technology"
+    },
+    {
+      "university": "Bangalore University"
+    },
+    {
+      "university": "Bankura University"
+    },
+    {
+      "university": "Bareilly International University"
+    },
+    {
+      "university": "Barkatullah University"
+    },
+    {
+      "university": "Bengaluru North University"
+    },
+    {
+      "university": "Bennett University"
+    },
+    {
+      "university": "Berhampur University"
+    },
+    {
+      "university": "Bhabha University"
+    },
+    {
+      "university": "Bhagat Phool Singh Mahila Vishwavidyalaya"
+    },
+    {
+      "university": "Bhagwant University"
+    },
+    {
+      "university": "Bhakta Kavi Narsinh Mehta University"
+    },
+    {
+      "university": "Bharath Institute of Higher Education and Research"
+    },
+    {
+      "university": "Bharathiar University"
+    },
+    {
+      "university": "Bharathidasan University"
+    },
+    {
+      "university": "Bharati Vidyapeeth Deemed University"
+    },
+    {
+      "university": "Bhartiya Skill Development University"
+    },
+    {
+      "university": "Bhatkhande Sanskriti Vishwavidyalaya"
+    },
+    {
+      "university": "Bhupal Nobles University"
+    },
+    {
+      "university": "Bhupendra Narayan Mandal University"
+    },
+    {
+      "university": "Bidhan Chandra Krishi Vishwavidyalaya"
+    },
+    {
+      "university": "Bihar Agricultural University"
+    },
+    {
+      "university": "Biju Patnaik University of Technology"
+    },
+    {
+      "university": "Binod Bihari Mahto Koyalanchal University"
+    },
+    {
+      "university": "Birla Institute of Technology"
+    },
+    {
+      "university": "Birla Institute of Technology and Science"
+    },
+    {
+      "university": "Birsa Agricultural University"
+    },
+    {
+      "university": "BLDE University"
+    },
+    {
+      "university": "BML Munjal University"
+    },
+    {
+      "university": "Bodoland University"
+    },
+    {
+      "university": "Brainware University"
+    },
+    {
+      "university": "Bundelkhand University"
+    },
+    {
+      "university": "C.U. Shah University"
+    },
+    {
+      "university": "Career Point University"
+    },
+    {
+      "university": "Central Agricultural University"
+    },
+    {
+      "university": "Central Institute of Fisheries Education"
+    },
+    {
+      "university": "Central Institute of Higher Tibetan Studies"
+    },
+    {
+      "university": "Central University of Andhra Pradesh"
+    },
+    {
+      "university": "Central University of Gujarat"
+    },
+    {
+      "university": "Central University of Haryana"
+    },
+    {
+      "university": "Central University of Himachal Pradesh"
+    },
+    {
+      "university": "Central University of Jammu"
+    },
+    {
+      "university": "Central University of Jharkhand"
+    },
+    {
+      "university": "Central University of Karnataka"
+    },
+    {
+      "university": "Central University of Kashmir"
+    },
+    {
+      "university": "Central University of Kerala"
+    },
+    {
+      "university": "Central University of Odisha"
+    },
+    {
+      "university": "Central University of Punjab"
+    },
+    {
+      "university": "Central University of Rajasthan"
+    },
+    {
+      "university": "Central University of South Bihar"
+    },
+    {
+      "university": "Central University of Tamil Nadu"
+    },
+    {
+      "university": "Centurion University of Technology and Management"
+    },
+    {
+      "university": "CEPT University"
+    },
+    {
+      "university": "Chanakya National Law University"
+    },
+    {
+      "university": "Chandigarh University"
+    },
+    {
+      "university": "Chandra Shekhar Azad University of Agriculture and Technology"
+    },
+    {
+      "university": "Charotar University of Science and Technology"
+    },
+    {
+      "university": "Chaudhary Bansi Lal University"
+    },
+    {
+      "university": "Chaudhary Charan Singh Haryana Agricultural University"
+    },
+    {
+      "university": "Chaudhary Charan Singh University"
+    },
+    {
+      "university": "Chaudhary Devi Lal University"
+    },
+    {
+      "university": "Chaudhary Ranbir Singh University"
+    },
+    {
+      "university": "Chennai Mathematical Institute"
+    },
+    {
+      "university": "Chhatrapati Shahu Ji Maharaj University"
+    },
+    {
+      "university": "Chhattisgarh Kamdhenu Vishwavidyalaya"
+    },
+    {
+      "university": "Chhattisgarh Swami Vivekananda Technical University"
+    },
+    {
+      "university": "Children's University"
+    },
+    {
+      "university": "Chitkara University, Himachal Pradesh"
+    },
+    {
+      "university": "Chitkara University, Punjab"
+    },
+    {
+      "university": "Christ University"
+    },
+    {
+      "university": "Cluster University of Jammu"
+    },
+    {
+      "university": "CMJ University"
+    },
+    {
+      "university": "CMR University"
+    },
+    {
+      "university": "Cochin University of Science and Technology"
+    },
+    {
+      "university": "Cooch Behar Panchanan Barma University"
+    },
+    {
+      "university": "Cotton University"
+    },
+    {
+      "university": "CSK Himachal Pradesh Krishi Vishvavidyalaya"
+    },
+    {
+      "university": "Dakshina Bharat Hindi Prachar Sabha"
+    },
+    {
+      "university": "Damodaram Sanjivayya National Law University"
+    },
+    {
+      "university": "Datta Meghe Institute of Medical Sciences"
+    },
+    {
+      "university": "DAV University"
+    },
+    {
+      "university": "Davangere University"
+    },
+    {
+      "university": "Dayalbagh Educational Institute"
+    },
+    {
+      "university": "Dayananda Sagar University"
+    },
+    {
+      "university": "Deccan College Post-Graduate and Research Institute"
+    },
+    {
+      "university": "Deen Dayal Upadhyay Gorakhpur University"
+    },
+    {
+      "university": "Deenbandhu Chhotu Ram University of Science and Technology"
+    },
+    {
+      "university": "Delhi Pharmaceutical Sciences and Research University"
+    },
+    {
+      "university": "Delhi Technological University"
+    },
+    {
+      "university": "Desh Bhagat University"
+    },
+    {
+      "university": "Dev Sanskriti Vishwavidyalaya"
+    },
+    {
+      "university": "Devi Ahilya Vishwavidyalaya"
+    },
+    {
+      "university": "Dharmsinh Desai University"
+    },
+    {
+      "university": "Dhirubhai Ambani Institute of Information and Communication Technology"
+    },
+    {
+      "university": "Diamond Harbour Women's University"
+    },
+    {
+      "university": "Dibrugarh University"
+    },
+    {
+      "university": "DIT University"
+    },
+    {
+      "university": "Doon University"
+    },
+    {
+      "university": "Dr K.N. Modi University"
+    },
+    {
+      "university": "Dr YSR Architecture and Fine Arts University"
+    },
+    {
+      "university": "Dr. A.P.J Abdul Kalam University"
+    },
+    {
+      "university": "Dr. A.P.J. Abdul Kalam Technical University"
+    },
+    {
+      "university": "Dr. B R Ambedkar National Institute of Technology Jalandhar"
+    },
+    {
+      "university": "Dr. B.R. Ambedkar University"
+    },
+    {
+      "university": "Dr. B.R. Ambedkar University of Social Sciences"
+    },
+    {
+      "university": "Dr. Babasaheb Ambedkar Marathwada University"
+    },
+    {
+      "university": "Dr. Babasaheb Ambedkar Technological University"
+    },
+    {
+      "university": "Dr. Balasaheb Sawant Konkan Krishi Vidyapeeth"
+    },
+    {
+      "university": "Dr. Bhimrao Ambedkar University"
+    },
+    {
+      "university": "Dr. C.V. Raman University"
+    },
+    {
+      "university": "Dr. D.Y. Patil Vidyapeeth"
+    },
+    {
+      "university": "Dr. Hari Singh Gour University"
+    },
+    {
+      "university": "Dr. M.G.R. Educational and Research Institute"
+    },
+    {
+      "university": "Dr. N.T.R. University of Health Sciences"
+    },
+    {
+      "university": "Dr. Panjabrao Deshmukh Krishi Vidyapeeth"
+    },
+    {
+      "university": "Dr. Rajendra Prasad Central Agricultural University"
+    },
+    {
+      "university": "Dr. Ram Manohar Lohia Avadh University"
+    },
+    {
+      "university": "Dr. Ram Manohar Lohiya National Law University"
+    },
+    {
+      "university": "Dr. Sarvepalli Radhakrishnan Rajasthan Ayurved University"
+    },
+    {
+      "university": "Dr. Shakuntala Misra National Rehabilitation University"
+    },
+    {
+      "university": "Dr. Vishwanath Karad MIT World Peace University"
+    },
+    {
+      "university": "Dr. Y.S. Parmar University of Horticulture and Forestry"
+    },
+    {
+      "university": "Dr. Y.S.R. Horticultural University"
+    },
+    {
+      "university": "Dravidian University"
+    },
+    {
+      "university": "EIILM University"
+    },
+    {
+      "university": "Era University"
+    },
+    {
+      "university": "Eternal University"
+    },
+    {
+      "university": "Fakir Mohan University"
+    },
+    {
+      "university": "Flame University"
+    },
+    {
+      "university": "Forest Research Institute"
+    },
+    {
+      "university": "G.H. Raisoni University"
+    },
+    {
+      "university": "G.L.S. University"
+    },
+    {
+      "university": "Galgotias University"
+    },
+    {
+      "university": "Gandhi Institute of Technology and Management"
+    },
+    {
+      "university": "Gandhigram Rural University"
+    },
+    {
+      "university": "Gangadhar Meher University"
+    },
+    {
+      "university": "Ganpat University"
+    },
+    {
+      "university": "Garden City University"
+    },
+    {
+      "university": "Gauhati University"
+    },
+    {
+      "university": "Gautam Buddha University"
+    },
+    {
+      "university": "GD Goenka University"
+    },
+    {
+      "university": "Geetanjali University"
+    },
+    {
+      "university": "GIET University"
+    },
+    {
+      "university": "GLA University"
+    },
+    {
+      "university": "Glocal University"
+    },
+    {
+      "university": "GNA University"
+    },
+    {
+      "university": "Goa University"
+    },
+    {
+      "university": "Gokhale Institute of Politics and Economics"
+    },
+    {
+      "university": "Gondwana University"
+    },
+    {
+      "university": "Govind Ballabh Pant University of Agriculture and Technology"
+    },
+    {
+      "university": "Govind Guru Tribal University"
+    },
+    {
+      "university": "Graphic Era Hill University"
+    },
+    {
+      "university": "Graphic Era University"
+    },
+    {
+      "university": "GSFC University"
+    },
+    {
+      "university": "Gujarat Ayurved University"
+    },
+    {
+      "university": "Gujarat National Law University"
+    },
+    {
+      "university": "Gujarat Technological University"
+    },
+    {
+      "university": "Gujarat University"
+    },
+    {
+      "university": "Gujarat University of Transplantation Sciences"
+    },
+    {
+      "university": "Gujarat Vidyapith"
+    },
+    {
+      "university": "Gulbarga University"
+    },
+    {
+      "university": "Guru Angad Dev Veterinary and Animal Sciences University"
+    },
+    {
+      "university": "Guru Ghasidas Vishwavidyalaya"
+    },
+    {
+      "university": "Guru Gobind Singh Indraprastha University"
+    },
+    {
+      "university": "Guru Jambheshwar University of Science and Technology"
+    },
+    {
+      "university": "Guru Kashi University"
+    },
+    {
+      "university": "Guru Nanak Dev University"
+    },
+    {
+      "university": "Guru Ravidas Ayurved University"
+    },
+    {
+      "university": "Gurukul Kangri Vishwavidyalaya"
+    },
+    {
+      "university": "Harcourt Butler Technical University"
+    },
+    {
+      "university": "Haridev Joshi University of Journalism and Mass Communication"
+    },
+    {
+      "university": "Hemchandracharya North Gujarat University"
+    },
+    {
+      "university": "Hemwati Nandan Bahuguna Garhwal University"
+    },
+    {
+      "university": "Hemwati Nandan Bahuguna Uttarakhand Medical Education University"
+    },
+    {
+      "university": "Hidayatullah National Law University"
+    },
+    {
+      "university": "Himachal Pradesh Technical University"
+    },
+    {
+      "university": "Himachal Pradesh University"
+    },
+    {
+      "university": "Himalayan University"
+    },
+    {
+      "university": "Himgiri ZEE University"
+    },
+    {
+      "university": "Hindustan Institute of Technology and Science"
+    },
+    {
+      "university": "Homi Bhabha National Institute"
+    },
+    {
+      "university": "ICFAI University, Dehradun"
+    },
+    {
+      "university": "ICFAI University, Himachal Pradesh"
+    },
+    {
+      "university": "ICFAI University, Jaipur"
+    },
+    {
+      "university": "ICFAI University, Jharkhand"
+    },
+    {
+      "university": "ICFAI University, Meghalaya"
+    },
+    {
+      "university": "ICFAI University, Mizoram"
+    },
+    {
+      "university": "ICFAI University, Nagaland"
+    },
+    {
+      "university": "ICFAI University, Raipur"
+    },
+    {
+      "university": "ICFAI University, Sikkim"
+    },
+    {
+      "university": "ICFAI University, Tripura"
+    },
+    {
+      "university": "IEC University"
+    },
+    {
+      "university": "IFHE Hyderabad"
+    },
+    {
+      "university": "IFTM University"
+    },
+    {
+      "university": "IIHMR University"
+    },
+    {
+      "university": "IIMT University"
+    },
+    {
+      "university": "IMS Unison University"
+    },
+    {
+      "university": "Indian Agricultural Research Institute"
+    },
+    {
+      "university": "Indian Institute of Engineering Science and Technology, Shibpur"
+    },
+    {
+      "university": "Indian Institute of Foreign Trade"
+    },
+    {
+      "university": "Indian Institute of Information Technology Allahabad"
+    },
+    {
+      "university": "Indian Institute of Information Technology and Management Gwalior"
+    },
+    {
+      "university": "Indian Institute of Information Technology, Design and Manufacturing"
+    },
+    {
+      "university": "Indian Institute of Information Technology, Guwahati"
+    },
+    {
+      "university": "Indian Institute of Information Technology, Kalyani"
+    },
+    {
+      "university": "Indian Institute of Information Technology, Kottayam"
+    },
+    {
+      "university": "Indian Institute of Information Technology, Lucknow"
+    },
+    {
+      "university": "Indian Institute of Information Technology, Manipur"
+    },
+    {
+      "university": "Indian Institute of Information Technology, Pune"
+    },
+    {
+      "university": "Indian Institute of Information Technology, Sri City"
+    },
+    {
+      "university": "Indian Institute of Information Technology, Una"
+    },
+    {
+      "university": "Indian Institute of Information Technology, Vadodara"
+    },
+    {
+      "university": "Indian Institute of Public Health"
+    },
+    {
+      "university": "Indian Institute of Science"
+    },
+    {
+      "university": "Indian Institute of Science Education and Research, Bhopal"
+    },
+    {
+      "university": "Indian Institute of Science Education and Research, Kolkata"
+    },
+    {
+      "university": "Indian Institute of Science Education and Research, Mohali"
+    },
+    {
+      "university": "Indian Institute of Science Education and Research, Pune"
+    },
+    {
+      "university": "Indian Institute of Science Education and Research, Thiruvananthapuram"
+    },
+    {
+      "university": "Indian Institute of Space Science and Technology"
+    },
+    {
+      "university": "Indian Institute of Teacher Education"
+    },
+    {
+      "university": "Indian Institute of Technology Bhubaneswar"
+    },
+    {
+      "university": "Indian Institute of Technology Bombay"
+    },
+    {
+      "university": "Indian Institute of Technology Delhi"
+    },
+    {
+      "university": "Indian Institute of Technology Gandhinagar"
+    },
+    {
+      "university": "Indian Institute of Technology Guwahati"
+    },
+    {
+      "university": "Indian Institute of Technology Hyderabad"
+    },
+    {
+      "university": "Indian Institute of Technology Indore"
+    },
+    {
+      "university": "Indian Institute of Technology Jodhpur"
+    },
+    {
+      "university": "Indian Institute of Technology Kanpur"
+    },
+    {
+      "university": "Indian Institute of Technology Kharagpur"
+    },
+    {
+      "university": "Indian Institute of Technology Madras"
+    },
+    {
+      "university": "Indian Institute of Technology Mandi"
+    },
+    {
+      "university": "Indian Institute of Technology Patna"
+    },
+    {
+      "university": "Indian Institute of Technology Roorkee"
+    },
+    {
+      "university": "Indian Institute of Technology Ropar"
+    },
+    {
+      "university": "Indian Institute of Technology, BHU"
+    },
+    {
+      "university": "Indian Maritime University"
+    },
+    {
+      "university": "Indian School of Mines"
+    },
+    {
+      "university": "Indian Statistical Institute"
+    },
+    {
+      "university": "Indian Veterinary Research Institute"
+    },
+    {
+      "university": "Indira Gandhi Delhi Technical University for Women"
+    },
+    {
+      "university": "Indira Gandhi Institute of Development Research"
+    },
+    {
+      "university": "Indira Gandhi Institute of Medical Sciences"
+    },
+    {
+      "university": "Indira Gandhi Krishi Vishwavidyalaya"
+    },
+    {
+      "university": "Indira Gandhi National Tribal University"
+    },
+    {
+      "university": "Indira Gandhi Technological and Medical Sciences University"
+    },
+    {
+      "university": "Indira Gandhi University, Meerpur"
+    },
+    {
+      "university": "Indira Kala Sangeet Vishwavidyalaya"
+    },
+    {
+      "university": "Indraprastha Institute of Information Technology"
+    },
+    {
+      "university": "Indrashil University"
+    },
+    {
+      "university": "Indus International University"
+    },
+    {
+      "university": "Indus University"
+    },
+    {
+      "university": "Institute of Advanced Research"
+    },
+    {
+      "university": "Institute of Advanced Studies in Education"
+    },
+    {
+      "university": "Institute of Chemical Technology"
+    },
+    {
+      "university": "Institute of Infrastructure, Technology, Research and Management"
+    },
+    {
+      "university": "Integral University"
+    },
+    {
+      "university": "International Institute for Population Sciences"
+    },
+    {
+      "university": "International Institute of Information Technology Bangalore"
+    },
+    {
+      "university": "International Institute of Information Technology, Bhubaneswar"
+    },
+    {
+      "university": "International Institute of Information Technology, Hyderabad"
+    },
+    {
+      "university": "International Institute of Information Technology, Naya Raipur"
+    },
+    {
+      "university": "Invertis University"
+    },
+    {
+      "university": "ISBM University"
+    },
+    {
+      "university": "Islamic University of Science and Technology"
+    },
+    {
+      "university": "ITM University Gwalior"
+    },
+    {
+      "university": "ITM University Raipur"
+    },
+    {
+      "university": "ITM Vocational University"
+    },
+    {
+      "university": "J.C. Bose University of Science and Technology"
+    },
+    {
+      "university": "Jadavpur University"
+    },
+    {
+      "university": "Jagadguru Ramanandacharya Rajasthan Sanskrit University"
+    },
+    {
+      "university": "Jagadguru Rambhadracharya Handicapped University"
+    },
+    {
+      "university": "Jagan Nath University"
+    },
+    {
+      "university": "Jagannath University"
+    },
+    {
+      "university": "Jagran Lakecity University"
+    },
+    {
+      "university": "Jai Narain Vyas University"
+    },
+    {
+      "university": "Jai Prakash Vishwavidyalaya"
+    },
+    {
+      "university": "Jain University"
+    },
+    {
+      "university": "Jain Vishva Bharati Institute"
+    },
+    {
+      "university": "Jaipur National University"
+    },
+    {
+      "university": "Jamia Hamdard"
+    },
+    {
+      "university": "Jamia Millia Islamia"
+    },
+    {
+      "university": "Jananayak Chandrashekhar University"
+    },
+    {
+      "university": "Janardan Rai Nagar Rajasthan Vidhyapeeth University"
+    },
+    {
+      "university": "Jawaharlal Institute of Postgraduate Medical Education and Research"
+    },
+    {
+      "university": "Jawaharlal Nehru Architecture and Fine Arts University"
+    },
+    {
+      "university": "Jawaharlal Nehru Centre for Advanced Scientific Research"
+    },
+    {
+      "university": "Jawaharlal Nehru Krishi Vishwavidyalaya"
+    },
+    {
+      "university": "Jawaharlal Nehru Technological University"
+    },
+    {
+      "university": "Jawaharlal Nehru Technological University, Anantapur"
+    },
+    {
+      "university": "Jawaharlal Nehru Technological University, Kakinada"
+    },
+    {
+      "university": "Jawaharlal Nehru University"
+    },
+    {
+      "university": "Jayoti Vidyapeeth Women's University"
+    },
+    {
+      "university": "Jaypee Institute of Information Technology"
+    },
+    {
+      "university": "Jaypee University Anoopshahr"
+    },
+    {
+      "university": "Jaypee University of Engineering and Technology"
+    },
+    {
+      "university": "Jaypee University of Information Technology"
+    },
+    {
+      "university": "JECRC University"
+    },
+    {
+      "university": "Jharkhand Rai University"
+    },
+    {
+      "university": "Jharkhand Raksha Shakti University"
+    },
+    {
+      "university": "JIS University"
+    },
+    {
+      "university": "Jiwaji University"
+    },
+    {
+      "university": "JK Lakshmipat University"
+    },
+    {
+      "university": "Jodhpur National University"
+    },
+    {
+      "university": "JS University"
+    },
+    {
+      "university": "JSS Academy of Higher Education and Research"
+    },
+    {
+      "university": "JSS Science and Technology University"
+    },
+    {
+      "university": "Junagadh Agricultural University"
+    },
+    {
+      "university": "K L University"
+    },
+    {
+      "university": "K.K. University"
+    },
+    {
+      "university": "K.R. Mangalam University"
+    },
+    {
+      "university": "Kadi Sarva Vishwavidyalaya"
+    },
+    {
+      "university": "Kakatiya University"
+    },
+    {
+      "university": "Kalasalingam Academy of Research and Education"
+    },
+    {
+      "university": "Kalinga University"
+    },
+    {
+      "university": "Kamdhenu University"
+    },
+    {
+      "university": "Kameshwar Singh Darbhanga Sanskrit University"
+    },
+    {
+      "university": "Kannada University"
+    },
+    {
+      "university": "Kannur University"
+    },
+    {
+      "university": "Karnatak University"
+    },
+    {
+      "university": "Karnataka Janapada Vishwavidyalaya"
+    },
+    {
+      "university": "Karnataka Samskrit University"
+    },
+    {
+      "university": "Karnataka State Law University"
+    },
+    {
+      "university": "Karnataka State Rural Development and Panchayat Raj University"
+    },
+    {
+      "university": "Karnataka State Women's University"
+    },
+    {
+      "university": "Karnataka Veterinary, Animal and Fisheries Sciences University"
+    },
+    {
+      "university": "Karnavati University"
+    },
+    {
+      "university": "Karpagam Academy of Higher Education"
+    },
+    {
+      "university": "Karunya Institute of Technology and Sciences"
+    },
+    {
+      "university": "Kavayitri Bahinabai Chaudhari North Maharashtra University"
+    },
+    {
+      "university": "Kavi Kulguru Kalidas Sanskrit Vishwavidyalaya"
+    },
+    {
+      "university": "Kazi Nazrul University"
+    },
+    {
+      "university": "Kaziranga University"
+    },
+    {
+      "university": "Kerala Agricultural University"
+    },
+    {
+      "university": "Kerala Kalamandalam"
+    },
+    {
+      "university": "Kerala University of Fisheries and Ocean Studies"
+    },
+    {
+      "university": "Kerala University of Health Sciences"
+    },
+    {
+      "university": "Kerala Veterinary and Animal Sciences University"
+    },
+    {
+      "university": "Khwaja Moinuddin Chishti Language University"
+    },
+    {
+      "university": "KIIT University"
+    },
+    {
+      "university": "King George's Medical University"
+    },
+    {
+      "university": "KLE Technological University"
+    },
+    {
+      "university": "KLE University"
+    },
+    {
+      "university": "Kolhan University"
+    },
+    {
+      "university": "Krantiguru Shyamji Krishna Verma Kachchh University"
+    },
+    {
+      "university": "Krishna Institute of Medical Sciences"
+    },
+    {
+      "university": "Krishna University"
+    },
+    {
+      "university": "KSGH Music and Performing Arts University"
+    },
+    {
+      "university": "Kumar Bhaskar Varma Sanskrit and Ancient Studies University"
+    },
+    {
+      "university": "Kumaun University"
+    },
+    {
+      "university": "Kurukshetra University"
+    },
+    {
+      "university": "Kushabhau Thakre Patrakarita Avam Jansanchar University"
+    },
+    {
+      "university": "Kuvempu University"
+    },
+    {
+      "university": "Lakshmibai National Institute of Physical Education"
+    },
+    {
+      "university": "Lakulish Yoga University"
+    },
+    {
+      "university": "Lala Lajpat Rai University of Veterinary and Animal Sciences"
+    },
+    {
+      "university": "Lalit Narayan Mithila University"
+    },
+    {
+      "university": "Lingaya's University"
+    },
+    {
+      "university": "LNCT University"
+    },
+    {
+      "university": "Lovely Professional University"
+    },
+    {
+      "university": "M.J.P. Rohilkhand University"
+    },
+    {
+      "university": "Madan Mohan Malaviya University of Technology"
+    },
+    {
+      "university": "Madhav University"
+    },
+    {
+      "university": "Madhyanchal Professional University"
+    },
+    {
+      "university": "Madurai Kamaraj University"
+    },
+    {
+      "university": "Magadh University"
+    },
+    {
+      "university": "Mahapurusha Srimanta Sankaradeva Viswavidyalaya"
+    },
+    {
+      "university": "Maharaja Agrasen Himalayan Garhwal University"
+    },
+    {
+      "university": "Maharaja Agrasen University"
+    },
+    {
+      "university": "Maharaja Bir Bikram University"
+    },
+    {
+      "university": "Maharaja Chhatrasal Bundelkhand University"
+    },
+    {
+      "university": "Maharaja Ganga Singh University"
+    },
+    {
+      "university": "Maharaja Krishnakumarsinhji Bhavnagar University"
+    },
+    {
+      "university": "Maharaja Ranjit Singh Punjab Technical University"
+    },
+    {
+      "university": "Maharaja Surajmal Brij University"
+    },
+    {
+      "university": "Maharana Pratap University of Agriculture and Technology"
+    },
+    {
+      "university": "Maharashtra Animal and Fishery Sciences University"
+    },
+    {
+      "university": "Maharashtra National Law University Mumbai"
+    },
+    {
+      "university": "Maharashtra National Law University, Aurangabad"
+    },
+    {
+      "university": "Maharashtra National Law University, Nagpur"
+    },
+    {
+      "university": "Maharashtra University of Health Sciences"
+    },
+    {
+      "university": "Maharishi Arvind University, Jaipur"
+    },
+    {
+      "university": "Maharishi Dayanand University"
+    },
+    {
+      "university": "Maharishi Mahesh Yogi Vedic Vishwavidyalaya"
+    },
+    {
+      "university": "Maharishi Markandeshwar University, Mullana"
+    },
+    {
+      "university": "Maharishi Markandeshwar University, Sadopur"
+    },
+    {
+      "university": "Maharishi Markandeshwar University, Solan"
+    },
+    {
+      "university": "Maharishi University"
+    },
+    {
+      "university": "Maharishi University of Management and Technology"
+    },
+    {
+      "university": "Maharshi Dayanand Saraswati University"
+    },
+    {
+      "university": "Maharshi Panini Sanskrit Vishwavidyalaya"
+    },
+    {
+      "university": "Mahatma Gandhi Antarrashtriya Hindi Vishwavidyalaya"
+    },
+    {
+      "university": "Mahatma Gandhi Central University, Motihari"
+    },
+    {
+      "university": "Mahatma Gandhi Chitrakoot Gramoday Vishwavidyalaya"
+    },
+    {
+      "university": "Mahatma Gandhi Kashi Vidyapeeth"
+    },
+    {
+      "university": "Mahatma Gandhi University"
+    },
+    {
+      "university": "Mahatma Gandhi University of Medical Sciences and Technology"
+    },
+    {
+      "university": "Mahatma Gandhi University, Meghalaya"
+    },
+    {
+      "university": "Mahatma Gandhi University, Nalgonda"
+    },
+    {
+      "university": "Mahatma Jyoti Rao Phoole University"
+    },
+    {
+      "university": "Mahatma Phule Krishi Vidyapeeth"
+    },
+    {
+      "university": "Makhanlal Chaturvedi Rashtriya Patrakarita Vishwavidyalaya"
+    },
+    {
+      "university": "Malaviya National Institute of Technology, Jaipur"
+    },
+    {
+      "university": "Malwanchal University"
+    },
+    {
+      "university": "Manav Bharti University"
+    },
+    {
+      "university": "Manav Rachna International Institute of Research and Studies"
+    },
+    {
+      "university": "Manav Rachna University"
+    },
+    {
+      "university": "Mandsaur University"
+    },
+    {
+      "university": "Mangalayatan University"
+    },
+    {
+      "university": "Mangalore University"
+    },
+    {
+      "university": "Manipal Academy of Higher Education"
+    },
+    {
+      "university": "Manipur International University"
+    },
+    {
+      "university": "Manipur Technical University"
+    },
+    {
+      "university": "Manipur University"
+    },
+    {
+      "university": "Manipur University of Culture"
+    },
+    {
+      "university": "Manonmaniam Sundaranar University"
+    },
+    {
+      "university": "Martin Luther Christian University"
+    },
+    {
+      "university": "Marwadi University"
+    },
+    {
+      "university": "MATS University"
+    },
+    {
+      "university": "Maulana Abul Kalam Azad University of Technology, West Bengal"
+    },
+    {
+      "university": "Maulana Azad National Institute of Technology"
+    },
+    {
+      "university": "Maulana Azad National Urdu University"
+    },
+    {
+      "university": "Maulana Azad University, Jodhpur"
+    },
+    {
+      "university": "Maulana Mazharul Haque Arabic and Persian University"
+    },
+    {
+      "university": "Medi-Caps University"
+    },
+    {
+      "university": "Meenakshi Academy of Higher Education and Research"
+    },
+    {
+      "university": "Mewar University"
+    },
+    {
+      "university": "MGM Institute of Health Sciences"
+    },
+    {
+      "university": "MIT Art Design and Technology University"
+    },
+    {
+      "university": "MIT University"
+    },
+    {
+      "university": "Mizoram University"
+    },
+    {
+      "university": "Mody University of Science and Technology"
+    },
+    {
+      "university": "Mohammad Ali Jauhar University"
+    },
+    {
+      "university": "Mohanlal Sukhadia University"
+    },
+    {
+      "university": "Monad University"
+    },
+    {
+      "university": "Mother Teresa Women's University"
+    },
+    {
+      "university": "Motherhood University"
+    },
+    {
+      "university": "Motilal Nehru National Institute of Technology Allahabad"
+    },
+    {
+      "university": "Murshidabad University"
+    },
+    {
+      "university": "MVN University"
+    },
+    {
+      "university": "Nagaland University"
+    },
+    {
+      "university": "Nalanda University"
+    },
+    {
+      "university": "NALSAR University of Law"
+    },
+    {
+      "university": "Nanaji Deshmukh Veterinary Science University"
+    },
+    {
+      "university": "Narendra Dev University of Agriculture and Technology"
+    },
+    {
+      "university": "Narsee Monjee Institute of Management and Higher Studies"
+    },
+    {
+      "university": "National Dairy Research Institute"
+    },
+    {
+      "university": "National Forensic Sciences University"
+    },
+    {
+      "university": "National Institute of Design"
+    },
+    {
+      "university": "National Institute of Educational Planning and Administration"
+    },
+    {
+      "university": "National Institute of Fashion Technology"
+    },
+    {
+      "university": "National Institute of Food Technology Entrepreneurship and Management"
+    },
+    {
+      "university": "National Institute of Mental Health and Neuro Sciences"
+    },
+    {
+      "university": "National Institute of Pharmaceutical Education and Research, Ahmedabad"
+    },
+    {
+      "university": "National Institute of Pharmaceutical Education and Research, Guwahati"
+    },
+    {
+      "university": "National Institute of Pharmaceutical Education and Research, Hajipur"
+    },
+    {
+      "university": "National Institute of Pharmaceutical Education and Research, Hyderabad"
+    },
+    {
+      "university": "National Institute of Pharmaceutical Education and Research, Kolkata"
+    },
+    {
+      "university": "National Institute of Pharmaceutical Education and Research, Rae Bareli"
+    },
+    {
+      "university": "National Institute of Pharmaceutical Education and Research, S.A.S. Nagar"
+    },
+    {
+      "university": "National Institute of Technology, Agartala"
+    },
+    {
+      "university": "National Institute of Technology, Arunachal Pradesh"
+    },
+    {
+      "university": "National Institute of Technology, Calicut"
+    },
+    {
+      "university": "National Institute of Technology, Delhi"
+    },
+    {
+      "university": "National Institute of Technology, Durgapur"
+    },
+    {
+      "university": "National Institute of Technology, Goa"
+    },
+    {
+      "university": "National Institute of Technology, Hamirpur"
+    },
+    {
+      "university": "National Institute of Technology, Jamshedpur"
+    },
+    {
+      "university": "National Institute of Technology, Karnataka"
+    },
+    {
+      "university": "National Institute of Technology, Kurukshetra"
+    },
+    {
+      "university": "National Institute of Technology, Manipur"
+    },
+    {
+      "university": "National Institute of Technology, Meghalaya"
+    },
+    {
+      "university": "National Institute of Technology, Mizoram"
+    },
+    {
+      "university": "National Institute of Technology, Nagaland"
+    },
+    {
+      "university": "National Institute of Technology, Patna"
+    },
+    {
+      "university": "National Institute of Technology, Puducherry"
+    },
+    {
+      "university": "National Institute of Technology, Raipur"
+    },
+    {
+      "university": "National Institute of Technology, Rourkela"
+    },
+    {
+      "university": "National Institute of Technology, Sikkim"
+    },
+    {
+      "university": "National Institute of Technology, Silchar"
+    },
+    {
+      "university": "National Institute of Technology, Srinagar"
+    },
+    {
+      "university": "National Institute of Technology, Tiruchirappalli"
+    },
+    {
+      "university": "National Institute of Technology, Uttarakhand"
+    },
+    {
+      "university": "National Institute of Technology, Warangal"
+    },
+    {
+      "university": "National Law Institute University"
+    },
+    {
+      "university": "National Law School of India University"
+    },
+    {
+      "university": "National Law University and Judicial Academy"
+    },
+    {
+      "university": "National Law University Odisha"
+    },
+    {
+      "university": "National Law University, Delhi"
+    },
+    {
+      "university": "National Law University, Jodhpur"
+    },
+    {
+      "university": "National Sanskrit University"
+    },
+    {
+      "university": "National Sports University"
+    },
+    {
+      "university": "National University of Study and Research in Law"
+    },
+    {
+      "university": "Nava Nalanda Mahavihara"
+    },
+    {
+      "university": "Navrachana University"
+    },
+    {
+      "university": "Navsari Agricultural University"
+    },
+    {
+      "university": "Nehru Gram Bharati Vishwavidyalaya"
+    },
+    {
+      "university": "NIILM University"
+    },
+    {
+      "university": "NIIT University"
+    },
+    {
+      "university": "Nilamber-Pitamber University"
+    },
+    {
+      "university": "NIMS University"
+    },
+    {
+      "university": "Nirma University"
+    },
+    {
+      "university": "NITTE University"
+    },
+    {
+      "university": "Nizam's Institute of Medical Sciences"
+    },
+    {
+      "university": "Noida International University"
+    },
+    {
+      "university": "North East Frontier Technical University"
+    },
+    {
+      "university": "North Eastern Hill University"
+    },
+    {
+      "university": "North Eastern Regional Institute of Science and Technology"
+    },
+    {
+      "university": "North Orissa University"
+    },
+    {
+      "university": "O.P. Jindal Global University"
+    },
+    {
+      "university": "O.P. Jindal University"
+    },
+    {
+      "university": "Odisha University of Agriculture and Technology"
+    },
+    {
+      "university": "OPJS University"
+    },
+    {
+      "university": "Oriental University"
+    },
+    {
+      "university": "Osmania University"
+    },
+    {
+      "university": "P P Savani University"
+    },
+    {
+      "university": "P.K. University"
+    },
+    {
+      "university": "Pacific Medical University"
+    },
+    {
+      "university": "Pacific University, India"
+    },
+    {
+      "university": "Padmashree Dr. D.Y. Patil Vidyapith"
+    },
+    {
+      "university": "Palamuru University"
+    },
+    {
+      "university": "Pandit Deendayal Petroleum University"
+    },
+    {
+      "university": "Pandit Deendayal Upadhyaya Shekhawati University"
+    },
+    {
+      "university": "Pandit Ravishankar Shukla University"
+    },
+    {
+      "university": "Panjab University"
+    },
+    {
+      "university": "Parul University"
+    },
+    {
+      "university": "Patna University"
+    },
+    {
+      "university": "PDM University"
+    },
+    {
+      "university": "PDPM Indian Institute of Information Technology, Design and Manufacturing"
+    },
+    {
+      "university": "PEC University of Technology"
+    },
+    {
+      "university": "People's University"
+    },
+    {
+      "university": "Periyar Maniammai Institute of Science and Technology"
+    },
+    {
+      "university": "Periyar University"
+    },
+    {
+      "university": "PES University"
+    },
+    {
+      "university": "Plastindia International University"
+    },
+    {
+      "university": "Pondicherry University"
+    },
+    {
+      "university": "Ponnaiyan Ramajayam Institute of Science and Technology"
+    },
+    {
+      "university": "Poornima University"
+    },
+    {
+      "university": "Post Graduate Institute of Medical Education and Research"
+    },
+    {
+      "university": "Potti Sreeramulu Telugu University"
+    },
+    {
+      "university": "Pragyan International University"
+    },
+    {
+      "university": "Pratap University"
+    },
+    {
+      "university": "Pravara Institute of Medical Sciences"
+    },
+    {
+      "university": "Presidency University"
+    },
+    {
+      "university": "Prof. Rajendra Singh (Rajju Bhaiya) University"
+    },
+    {
+      "university": "Professor Jayashankar Telangana State Agricultural University"
+    },
+    {
+      "university": "Pt. Bhagwat Dayal Sharma University of Health Sciences"
+    },
+    {
+      "university": "Punjab Agricultural University"
+    },
+    {
+      "university": "Punjab Technical University"
+    },
+    {
+      "university": "Punjabi University Patiala"
+    },
+    {
+      "university": "Punyashlok Ahilyadevi Holkar University, Solapur"
+    },
+    {
+      "university": "Quantum University"
+    },
+    {
+      "university": "Rabindra Bharati University"
+    },
+    {
+      "university": "Rabindranath Tagore University"
+    },
+    {
+      "university": "Raffles University"
+    },
+    {
+      "university": "Rai Technology University"
+    },
+    {
+      "university": "Rai University"
+    },
+    {
+      "university": "Raiganj University"
+    },
+    {
+      "university": "Raj Rishi Bharthari Matsya University"
+    },
+    {
+      "university": "Raja Mansingh Tomar Music and Arts University"
+    },
+    {
+      "university": "Rajasthan Technical University Kota"
+    },
+    {
+      "university": "Rajasthan University of Health Sciences"
+    },
+    {
+      "university": "Rajasthan University of Veterinary and Animal Sciences"
+    },
+    {
+      "university": "Rajiv Gandhi Institute of Petroleum Technology"
+    },
+    {
+      "university": "Rajiv Gandhi National Aviation University"
+    },
+    {
+      "university": "Rajiv Gandhi National Institute of Youth Development"
+    },
+    {
+      "university": "Rajiv Gandhi National University of Law"
+    },
+    {
+      "university": "Rajiv Gandhi Proudyogiki Vishwavidyalaya"
+    },
+    {
+      "university": "Rajiv Gandhi University"
+    },
+    {
+      "university": "Rajiv Gandhi University of Health Sciences"
+    },
+    {
+      "university": "Rajiv Gandhi University of Knowledge Technologies"
+    },
+    {
+      "university": "Rajmata Vijayaraje Scindia Krishi Vishwavidyalaya"
+    },
+    {
+      "university": "Rama Devi Women's University"
+    },
+    {
+      "university": "Rama University"
+    },
+    {
+      "university": "Ramaiah University of Applied Sciences"
+    },
+    {
+      "university": "Ramakrishna Mission Vivekananda Educational and Research Institute"
+    },
+    {
+      "university": "Ranchi University"
+    },
+    {
+      "university": "Rani Channamma University, Belagavi"
+    },
+    {
+      "university": "Rani Durgavati Vishwavidyalaya"
+    },
+    {
+      "university": "Rani Lakshmi Bai Central Agricultural University"
+    },
+    {
+      "university": "Ras Bihari Bose Subharti University"
+    },
+    {
+      "university": "Rashtrasant Tukadoji Maharaj Nagpur University"
+    },
+    {
+      "university": "Rashtriya Raksha University"
+    },
+    {
+      "university": "Rashtriya Sanskrit Sansthan University"
+    },
+    {
+      "university": "Ravenshaw University"
+    },
+    {
+      "university": "Rayalaseema University"
+    },
+    {
+      "university": "Rayat-Bahra University"
+    },
+    {
+      "university": "REVA University"
+    },
+    {
+      "university": "RIMT University"
+    },
+    {
+      "university": "Rishihood University"
+    },
+    {
+      "university": "RK University"
+    },
+    {
+      "university": "RKDF University"
+    },
+    {
+      "university": "Sabarmati University"
+    },
+    {
+      "university": "Sage University"
+    },
+    {
+      "university": "Sai Nath University"
+    },
+    {
+      "university": "Sai Tirupati University"
+    },
+    {
+      "university": "Sam Higginbottom Institute of Agriculture, Technology and Sciences"
+    },
+    {
+      "university": "Sambalpur University"
+    },
+    {
+      "university": "Sampurnanand Sanskrit Vishvavidyalaya"
+    },
+    {
+      "university": "Sanchi University of Buddhist-Indic Studies"
+    },
+    {
+      "university": "Sandip University"
+    },
+    {
+      "university": "Sandip University, Sijoul"
+    },
+    {
+      "university": "Sangai International University"
+    },
+    {
+      "university": "Sangam University"
+    },
+    {
+      "university": "Sanjay Gandhi Post Graduate Institute of Medical Sciences"
+    },
+    {
+      "university": "Sanjay Ghodawat University"
+    },
+    {
+      "university": "Sankalchand Patel University"
+    },
+    {
+      "university": "Sanskriti University"
+    },
+    {
+      "university": "Sant Baba Bhag Singh University"
+    },
+    {
+      "university": "Sant Gadge Baba Amravati University"
+    },
+    {
+      "university": "Sant Longowal Institute of Engineering and Technology"
+    },
+    {
+      "university": "Santosh University"
+    },
+    {
+      "university": "Sarala Birla University"
+    },
+    {
+      "university": "Sardar Patel University"
+    },
+    {
+      "university": "Sardar Patel University of Police, Security and Criminal Justice"
+    },
+    {
+      "university": "Sardar Vallabhbhai National Institute of Technology, Surat"
+    },
+    {
+      "university": "Sardar Vallabhbhai Patel University of Agriculture and Technology"
+    },
+    {
+      "university": "Sardarkrushinagar Dantiwada Agricultural University"
+    },
+    {
+      "university": "Sarguja University"
+    },
+    {
+      "university": "Sarvepalli Radhakrishnan University"
+    },
+    {
+      "university": "SASTRA University"
+    },
+    {
+      "university": "Satavahana University"
+    },
+    {
+      "university": "Sathyabama Institute of Science and Technology"
+    },
+    {
+      "university": "Saurashtra University"
+    },
+    {
+      "university": "Saveetha Institute of Medical and Technical Sciences"
+    },
+    {
+      "university": "Savitribai Phule Pune University"
+    },
+    {
+      "university": "School of Planning and Architecture, Bhopal"
+    },
+    {
+      "university": "School of Planning and Architecture, Delhi"
+    },
+    {
+      "university": "School of Planning and Architecture, Vijayawada"
+    },
+    {
+      "university": "Seacom Skills University"
+    },
+    {
+      "university": "Shaheed Mahendra Karma Vishwavidyalaya"
+    },
+    {
+      "university": "Sharda University"
+    },
+    {
+      "university": "Sharnbasva University"
+    },
+    {
+      "university": "Sher-e-Kashmir University of Agricultural Sciences and Technology of Jammu"
+    },
+    {
+      "university": "Sher-e-Kashmir University of Agricultural Sciences and Technology of Kashmir"
+    },
+    {
+      "university": "Sher-i-Kashmir Institute of Medical Sciences"
+    },
+    {
+      "university": "Shiv Nadar University"
+    },
+    {
+      "university": "Shivaji University"
+    },
+    {
+      "university": "Shobhit Institute of Engineering and Technology"
+    },
+    {
+      "university": "Shoolini University of Biotechnology and Management Sciences"
+    },
+    {
+      "university": "Shree Guru Gobind Singh Tricentenary University"
+    },
+    {
+      "university": "Shree Somnath Sanskrit University"
+    },
+    {
+      "university": "Shreemati Nathibai Damodar Thackersey Women's University"
+    },
+    {
+      "university": "Shri Govind Guru University"
+    },
+    {
+      "university": "Shri Guru Ram Rai Education Mission"
+    },
+    {
+      "university": "Shri Guru Ram Rai University"
+    },
+    {
+      "university": "Shri Jagannath Sanskrit Vishvavidyalaya"
+    },
+    {
+      "university": "Shri Jagdishprasad Jhabrmal Tibrewala University"
+    },
+    {
+      "university": "Shri Lal Bahadur Shastri Rashtriya Sanskrit Vidyapeetha"
+    },
+    {
+      "university": "Shri Mata Vaishno Devi University"
+    },
+    {
+      "university": "Shri Ramswaroop Memorial University"
+    },
+    {
+      "university": "Shri Vaishnav Vidyapeeth Vishwavidyalaya"
+    },
+    {
+      "university": "Shri Venkateshwara University"
+    },
+    {
+      "university": "Shri Vishwakarma Skill University"
+    },
+    {
+      "university": "Shridhar University"
+    },
+    {
+      "university": "Siddharth University"
+    },
+    {
+      "university": "Sidho Kanho Birsha University"
+    },
+    {
+      "university": "Sido Kanhu Murmu University"
+    },
+    {
+      "university": "Sikkim Manipal University"
+    },
+    {
+      "university": "Sikkim University"
+    },
+    {
+      "university": "Siksha 'O' Anusandhan"
+    },
+    {
+      "university": "Singhania University"
+    },
+    {
+      "university": "Sir Padampat Singhania University"
+    },
+    {
+      "university": "South Asian University"
+    },
+    {
+      "university": "Spicer Adventist University"
+    },
+    {
+      "university": "Sree Chitra Thirunal Institute of Medical Sciences and Technology"
+    },
+    {
+      "university": "Sree Sankaracharya University of Sanskrit"
+    },
+    {
+      "university": "Sri Balaji Vidyapeeth"
+    },
+    {
+      "university": "Sri Chandrasekharendra Saraswathi Viswa Mahavidyalaya"
+    },
+    {
+      "university": "Sri Dev Suman Uttarakhand University"
+    },
+    {
+      "university": "Sri Devaraj Urs Academy of Higher Education and Research"
+    },
+    {
+      "university": "Sri Guru Granth Sahib World University"
+    },
+    {
+      "university": "Sri Guru Ram Das University of Health Sciences"
+    },
+    {
+      "university": "Sri Konda Laxman Telangana State Horticultural University"
+    },
+    {
+      "university": "Sri Krishnadevaraya University"
+    },
+    {
+      "university": "Sri Padmavati Mahila Visvavidyalayam"
+    },
+    {
+      "university": "Sri Ramachandra Institute of Higher Education and Research"
+    },
+    {
+      "university": "Sri Sai University"
+    },
+    {
+      "university": "Sri Sathya Sai Institute of Higher Learning"
+    },
+    {
+      "university": "Sri Satya Sai University of Technology and Medical Sciences"
+    },
+    {
+      "university": "Sri Siddhartha Academy of Higher Education"
+    },
+    {
+      "university": "Sri Sri University"
+    },
+    {
+      "university": "Sri Venkateswara Institute of Medical Sciences"
+    },
+    {
+      "university": "Sri Venkateswara University"
+    },
+    {
+      "university": "Sri Venkateswara Vedic University"
+    },
+    {
+      "university": "Sri Venkateswara Veterinary University"
+    },
+    {
+      "university": "Srimanta Sankaradeva University of Health Sciences"
+    },
+    {
+      "university": "Srinivas University"
+    },
+    {
+      "university": "SRM Institute of Science and Technology"
+    },
+    {
+      "university": "SRM University Haryana"
+    },
+    {
+      "university": "SRM University, Sikkim"
+    },
+    {
+      "university": "St. Joseph University"
+    },
+    {
+      "university": "St. Peter's Institute of Higher Education and Research"
+    },
+    {
+      "university": "St. Xavier's University"
+    },
+    {
+      "university": "Starex University"
+    },
+    {
+      "university": "State University of Performing and Visual Arts"
+    },
+    {
+      "university": "Suamandeep Vidyapeeth"
+    },
+    {
+      "university": "Sunrise University"
+    },
+    {
+      "university": "Suresh Gyan Vihar University"
+    },
+    {
+      "university": "Sushant University"
+    },
+    {
+      "university": "Swami Keshwanand Rajasthan Agricultural University"
+    },
+    {
+      "university": "Swami Rama Himalayan University"
+    },
+    {
+      "university": "Swami Ramanand Teerth Marathwada University"
+    },
+    {
+      "university": "Swami Vivekanand Subharti University"
+    },
+    {
+      "university": "Swami Vivekanand University"
+    },
+    {
+      "university": "Swami Vivekananda Yoga Anusandhana Samsthana"
+    },
+    {
+      "university": "Swarnim Gujarat Sports University"
+    },
+    {
+      "university": "Swarnim Startup and Innovation University"
+    },
+    {
+      "university": "Symbiosis International University"
+    },
+    {
+      "university": "Symbiosis University of Applied Sciences"
+    },
+    {
+      "university": "Tamil Nadu Agricultural University"
+    },
+    {
+      "university": "Tamil Nadu Dr Ambedkar Law University"
+    },
+    {
+      "university": "Tamil Nadu Dr. J. Jayalalithaa Fisheries University"
+    },
+    {
+      "university": "Tamil Nadu Dr. M.G.R.Medical University"
+    },
+    {
+      "university": "Tamil Nadu Dr.J Jayalalithaa Music and Fine Arts University"
+    },
+    {
+      "university": "Tamil Nadu National Law University"
+    },
+    {
+      "university": "Tamil Nadu Physical Education and Sports University"
+    },
+    {
+      "university": "Tamil Nadu Teacher Education University"
+    },
+    {
+      "university": "Tamil Nadu Veterinary and Animal Sciences University"
+    },
+    {
+      "university": "Tamil University"
+    },
+    {
+      "university": "Tantia University"
+    },
+    {
+      "university": "Tata Institute of Fundamental Research"
+    },
+    {
+      "university": "Tata Institute of Social Sciences"
+    },
+    {
+      "university": "TeamLease Skills University"
+    },
+    {
+      "university": "Techno India University"
+    },
+    {
+      "university": "Teerthanker Mahaveer University"
+    },
+    {
+      "university": "Telangana University"
+    },
+    {
+      "university": "TERI School of Advanced Studies"
+    },
+    {
+      "university": "Tezpur University"
+    },
+    {
+      "university": "Thapar Institute of Engineering and Technology"
+    },
+    {
+      "university": "The English and Foreign Languages University"
+    },
+    {
+      "university": "The IIS University"
+    },
+    {
+      "university": "The Indian Law Institute"
+    },
+    {
+      "university": "The LNM Institute of Information Technology"
+    },
+    {
+      "university": "The Maharaja Sayajirao University of Baroda"
+    },
+    {
+      "university": "The National University of Advanced Legal Studies"
+    },
+    {
+      "university": "The Neotia University"
+    },
+    {
+      "university": "The Northcap University"
+    },
+    {
+      "university": "The Sanskrit College and University"
+    },
+    {
+      "university": "The West Bengal National University of Juridical Sciences"
+    },
+    {
+      "university": "Thiruvalluvar University"
+    },
+    {
+      "university": "Thunchath Ezhuthachan Malayalam University"
+    },
+    {
+      "university": "Tilak Maharashtra Vidyapeeth"
+    },
+    {
+      "university": "Tilka Manjhi Bhagalpur University"
+    },
+    {
+      "university": "Tripura University"
+    },
+    {
+      "university": "Tumkur University"
+    },
+    {
+      "university": "U.P. Pt. Deen Dayal Upadhyaya Veterinary Science University and Cattle Research Institute"
+    },
+    {
+      "university": "Uka Tarsadia University"
+    },
+    {
+      "university": "University of Agricultural and Horticultural Sciences, Shivamogga"
+    },
+    {
+      "university": "University of Agricultural Sciences, Bangalore"
+    },
+    {
+      "university": "University of Agricultural Sciences, Dharwad"
+    },
+    {
+      "university": "University of Agricultural Sciences, Raichur"
+    },
+    {
+      "university": "University of Allahabad"
+    },
+    {
+      "university": "University of Burdwan"
+    },
+    {
+      "university": "University of Calcutta"
+    },
+    {
+      "university": "University of Calicut"
+    },
+    {
+      "university": "University of Delhi"
+    },
+    {
+      "university": "University of Engineering and Management, Kolkata"
+    },
+    {
+      "university": "University of Gour Banga"
+    },
+    {
+      "university": "University of Horticultural Sciences, Bagalkot"
+    },
+    {
+      "university": "University of Hyderabad"
+    },
+    {
+      "university": "University of Jammu"
+    },
+    {
+      "university": "University of Kalyani"
+    },
+    {
+      "university": "University of Kashmir"
+    },
+    {
+      "university": "University of Kerala"
+    },
+    {
+      "university": "University of Kota"
+    },
+    {
+      "university": "University of Lucknow"
+    },
+    {
+      "university": "University of Madras"
+    },
+    {
+      "university": "University of Mumbai"
+    },
+    {
+      "university": "University of Mysore"
+    },
+    {
+      "university": "University of North Bengal"
+    },
+    {
+      "university": "University of Patanjali"
+    },
+    {
+      "university": "University of Petroleum and Energy Studies"
+    },
+    {
+      "university": "University of Rajasthan"
+    },
+    {
+      "university": "University of Science and Technology, Meghalaya"
+    },
+    {
+      "university": "University of Technology"
+    },
+    {
+      "university": "University of Trans-Disciplinary Health Sciences and Technology"
+    },
+    {
+      "university": "Usha Martin University"
+    },
+    {
+      "university": "Utkal University"
+    },
+    {
+      "university": "Utkal University of Culture"
+    },
+    {
+      "university": "Uttar Banga Krishi Viswavidyalaya"
+    },
+    {
+      "university": "Uttar Pradesh University of Medical Sciences"
+    },
+    {
+      "university": "Uttarakhand Aawasiya Vishwavidyalaya, Almora"
+    },
+    {
+      "university": "Uttarakhand Ayurved University"
+    },
+    {
+      "university": "Uttarakhand Sanskrit University"
+    },
+    {
+      "university": "Uttarakhand Technical University"
+    },
+    {
+      "university": "Uttaranchal University"
+    },
+    {
+      "university": "Vasantrao Naik Marathwada Krishi Vidyapeeth"
+    },
+    {
+      "university": "Veer Bahadur Singh Purvanchal University"
+    },
+    {
+      "university": "Veer Chandra Singh Garhwali Uttarakhand University of Horticulture & Forestry"
+    },
+    {
+      "university": "Veer Kunwar Singh University"
+    },
+    {
+      "university": "Veer Narmad South Gujarat University"
+    },
+    {
+      "university": "Veer Surendra Sai University of Technology"
+    },
+    {
+      "university": "Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology"
+    },
+    {
+      "university": "Vellore Institute of Technology"
+    },
+    {
+      "university": "Vels University"
+    },
+    {
+      "university": "Vidyasagar University"
+    },
+    {
+      "university": "Vignan University"
+    },
+    {
+      "university": "Vijayanagara Sri Krishnadevaraya University"
+    },
+    {
+      "university": "Vikram University"
+    },
+    {
+      "university": "Vikrama Simhapuri University"
+    },
+    {
+      "university": "Vinayaka Mission's Research Foundation"
+    },
+    {
+      "university": "Vinayaka Missions Sikkim University"
+    },
+    {
+      "university": "Vinoba Bhave University"
+    },
+    {
+      "university": "Vishwakarma University"
+    },
+    {
+      "university": "Visva-Bharati University"
+    },
+    {
+      "university": "Visvesvaraya National Institute of Technology"
+    },
+    {
+      "university": "Visvesvaraya Technological University"
+    },
+    {
+      "university": "VIT Bhopal University"
+    },
+    {
+      "university": "Vivekananda Global University"
+    },
+    {
+      "university": "West Bengal State University"
+    },
+    {
+      "university": "West Bengal University of Animal and Fishery Sciences"
+    },
+    {
+      "university": "West Bengal University of Health Sciences"
+    },
+    {
+      "university": "West Bengal University of Teachers' Training, Education Planning and Administration"
+    },
+    {
+      "university": "William Carey University, Meghalaya"
+    },
+    {
+      "university": "XIM University"
+    },
+    {
+      "university": "YBN University"
+    },
+    {
+      "university": "Yenepoya University"
+    },
+    {
+      "university": "Yogi Vemana University    "
+    }
+  ],
+  "organizations": [
+    {
+      "organization": "Aban Offshore"
+    },
+    {
+      "organization": "ABG Shipyard"
+    },
+    {
+      "organization": "ABP Group"
+    },
+    {
+      "organization": "ACC Limited"
+    },
+    {
+      "organization": "Acko General Insurance"
+    },
+    {
+      "organization": "Action Construction Equipment (ACE)"
+    },
+    {
+      "organization": "ACG Group"
+    },
+    {
+      "organization": "Action Group"
+    },
+    {
+      "organization": "Adani Group"
+    },
+    {
+      "organization": "Aditya Birla Group"
+    },
+    {
+      "organization": "Ador Group"
+    },
+    {
+      "organization": "Advanced Weapons and Equipment India"
+    },
+    {
+      "organization": "Afcons Infrastructure"
+    },
+    {
+      "organization": "Agriculture Insurance Company of India"
+    },
+    {
+      "organization": "Air Costa"
+    },
+    {
+      "organization": "Air India"
+    },
+    {
+      "organization": "Air India Express"
+    },
+    {
+      "organization": "Allcargo Logistics"
+    },
+    {
+      "organization": "Alkem Laboratories"
+    },
+    {
+      "organization": "Amartex"
+    },
+    {
+      "organization": "Ambuja Cements"
+    },
+    {
+      "organization": "Amrutanjan Healthcare"
+    },
+    {
+      "organization": "Amul"
+    },
+    {
+      "organization": "Angel One"
+    },
+    {
+      "organization": "Apollo Hospitals"
+    },
+    {
+      "organization": "Apollo Tyres"
+    },
+    {
+      "organization": "Aptech"
+    },
+    {
+      "organization": "Archies"
+    },
+    {
+      "organization": "Arise India"
+    },
+    {
+      "organization": "Artemis Hospital"
+    },
+    {
+      "organization": "Arvind"
+    },
+    {
+      "organization": "Armoured Vehicles Nigam (AVANI)"
+    },
+    {
+      "organization": "Atul"
+    },
+    {
+      "organization": "Ashok Leyland"
+    },
+    {
+      "organization": "Asia MotorWorks"
+    },
+    {
+      "organization": "Asian Paints Ltd"
+    },
+    {
+      "organization": "Avantha Group"
+    },
+    {
+      "organization": "Axis Bank"
+    },
+    {
+      "organization": "Bajaj Auto"
+    },
+    {
+      "organization": "Bajaj Group"
+    },
+    {
+      "organization": "Balaji Group"
+    },
+    {
+      "organization": "Balaji Telefilms"
+    },
+    {
+      "organization": "Ballarpur Industries Limited"
+    },
+    {
+      "organization": "Bank of Baroda"
+    },
+    {
+      "organization": "Bank of India"
+    },
+    {
+      "organization": "Bank of Maharashtra"
+    },
+    {
+      "organization": "Bellatrix Aerospace"
+    },
+    {
+      "organization": "BGR Energy Systems Ltd"
+    },
+    {
+      "organization": "BluSmart Mobility"
+    },
+    {
+      "organization": "Bharat Aluminium Company"
+    },
+    {
+      "organization": "Bharat Biotech"
+    },
+    {
+      "organization": "Bharat Dynamics Limited"
+    },
+    {
+      "organization": "Bharat Earth Movers"
+    },
+    {
+      "organization": "Bharat Electronics Limited"
+    },
+    {
+      "organization": "Bharat Forge"
+    },
+    {
+      "organization": "Bharat Heavy Electricals"
+    },
+    {
+      "organization": "Bharat Petroleum"
+    },
+    {
+      "organization": "Bharat Sanchar Nigam Limited"
+    },
+    {
+      "organization": "Bharati Shipyard"
+    },
+    {
+      "organization": "Bharti Airtel"
+    },
+    {
+      "organization": "Bharatiya Nabhikiya Vidyut Nigam Limited (BHAVINI)"
+    },
+    {
+      "organization": "Black Box Corporation"
+    },
+    {
+      "organization": "Blue Star"
+    },
+    {
+      "organization": "Biocon"
+    },
+    {
+      "organization": "Bombay Dyeing"
+    },
+    {
+      "organization": "Bonn Group of Industries"
+    },
+    {
+      "organization": "Borosil"
+    },
+    {
+      "organization": "BPL Group"
+    },
+    {
+      "organization": "BrahMos Aerospace"
+    },
+    {
+      "organization": "Britannia Industries"
+    },
+    {
+      "organization": "Brigade Enterprises"
+    },
+    {
+      "organization": "Cadila Healthcare"
+    },
+    {
+      "organization": "Café Coffee Day"
+    },
+    {
+      "organization": "Calcutta Tramways Company"
+    },
+    {
+      "organization": "Canara Bank"
+    },
+    {
+      "organization": "CaratLane"
+    },
+    {
+      "organization": "CEAT"
+    },
+    {
+      "organization": "Celkon"
+    },
+    {
+      "organization": "Century Plyboards"
+    },
+    {
+      "organization": "Centum Electronics"
+    },
+    {
+      "organization": "Central Bank of India"
+    },
+    {
+      "organization": "CESC Limited"
+    },
+    {
+      "organization": "Chennai Petroleum Corporation"
+    },
+    {
+      "organization": "Cipla"
+    },
+    {
+      "organization": "City Union Bank"
+    },
+    {
+      "organization": "CMC"
+    },
+    {
+      "organization": "Coal India Limited"
+    },
+    {
+      "organization": "Cochin Minerals and Rutile Limited"
+    },
+    {
+      "organization": "Cochin Shipyard Limited"
+    },
+    {
+      "organization": "Computer Age Management Services"
+    },
+    {
+      "organization": "Container Corporation of India"
+    },
+    {
+      "organization": "Coromandel International"
+    },
+    {
+      "organization": "Cosmic Circuits"
+    },
+    {
+      "organization": "Crompton Greaves"
+    },
+    {
+      "organization": "Crossword Bookstores"
+    },
+    {
+      "organization": "CSB Bank"
+    },
+    {
+      "organization": "Cyient"
+    },
+    {
+      "organization": "Dabur"
+    },
+    {
+      "organization": "Damodar Valley Corporation"
+    },
+    {
+      "organization": "Datamatics"
+    },
+    {
+      "organization": "Deccan Charters"
+    },
+    {
+      "organization": "Dedicated Freight Corridor Corporation of India"
+    },
+    {
+      "organization": "Dempo"
+    },
+    {
+      "organization": "Dena Bank"
+    },
+    {
+      "organization": "Dish TV"
+    },
+    {
+      "organization": "Dixon Technologies"
+    },
+    {
+      "organization": "DLF"
+    },
+    {
+      "organization": "DMart"
+    },
+    {
+      "organization": "Dr. Reddy's Laboratories"
+    },
+    {
+      "organization": "Dynamatic Technologies"
+    },
+    {
+      "organization": "EaseMyTrip"
+    },
+    {
+      "organization": "Edelweiss Group"
+    },
+    {
+      "organization": "Electronics Corporation of India Limited"
+    },
+    {
+      "organization": "Eicher Motors"
+    },
+    {
+      "organization": "EID Parry"
+    },
+    {
+      "organization": "Emami"
+    },
+    {
+      "organization": "Emcure Pharmaceuticals"
+    },
+    {
+      "organization": "Engineers India"
+    },
+    {
+      "organization": "English Indian Clays"
+    },
+    {
+      "organization": "Escorts Group"
+    },
+    {
+      "organization": "Essar Group"
+    },
+    {
+      "organization": "Essel Group"
+    },
+    {
+      "organization": "Eureka Forbes"
+    },
+    {
+      "organization": "Eveready Industries India"
+    },
+    {
+      "organization": "Exide Industries"
+    },
+    {
+      "organization": "Exide Life Insurance"
+    },
+    {
+      "organization": "Federal Bank"
+    },
+    {
+      "organization": "Financial Technologies Group"
+    },
+    {
+      "organization": "Firstsource"
+    },
+    {
+      "organization": "Flipkart"
+    },
+    {
+      "organization": "Forbes & Company Limited"
+    },
+    {
+      "organization": "Force Motors"
+    },
+    {
+      "organization": "Fortis Healthcare"
+    },
+    {
+      "organization": "Future Group"
+    },
+    {
+      "organization": "GAIL"
+    },
+    {
+      "organization": "Galaxy Surfactants"
+    },
+    {
+      "organization": "Garden Reach Shipbuilders & Engineers"
+    },
+    {
+      "organization": "Geojit Financial Services"
+    },
+    {
+      "organization": "Gini & Jony"
+    },
+    {
+      "organization": "Glenmark Pharmaceuticals"
+    },
+    {
+      "organization": "GMR Group"
+    },
+    {
+      "organization": "Goa Shipyard"
+    },
+    {
+      "organization": "GoAir Airlines"
+    },
+    {
+      "organization": "Godrej Group"
+    },
+    {
+      "organization": "Great Eastern Shipping"
+    },
+    {
+      "organization": "Greaves Cotton"
+    },
+    {
+      "organization": "Greenply"
+    },
+    {
+      "organization": "Gujarat Alkalies and Chemicals Limited (GACL)"
+    },
+    {
+      "organization": "Gujarat Mineral Development Corporation (GMDC)"
+    },
+    {
+      "organization": "Gujarat State Fertilizers and Chemicals (GSFC)"
+    },
+    {
+      "organization": "Gujarat State Petroleum Corporation (GSPC)"
+    },
+    {
+      "organization": "GVK"
+    },
+    {
+      "organization": "Haldiram's"
+    },
+    {
+      "organization": "Hatsun Agro Product"
+    },
+    {
+      "organization": "Havells"
+    },
+    {
+      "organization": "Hawkins Cookers"
+    },
+    {
+      "organization": "HCL Technologies"
+    },
+    {
+      "organization": "HDFC Bank"
+    },
+    {
+      "organization": "HDIL"
+    },
+    {
+      "organization": "Hero Cycles"
+    },
+    {
+      "organization": "Hero FinCorp"
+    },
+    {
+      "organization": "Hero MotoCorp"
+    },
+    {
+      "organization": "HFCL"
+    },
+    {
+      "organization": "Hindalco Industries"
+    },
+    {
+      "organization": "Hindustan Aeronautics Limited"
+    },
+    {
+      "organization": "Hindustan Construction Company"
+    },
+    {
+      "organization": "Hindustan Copper"
+    },
+    {
+      "organization": "Hindustan Motors"
+    },
+    {
+      "organization": "Hindustan Petroleum"
+    },
+    {
+      "organization": "Hindustan Shipyard"
+    },
+    {
+      "organization": "Hindustan Times"
+    },
+    {
+      "organization": "Hindustan Unilever"
+    },
+    {
+      "organization": "Hindustan Zinc"
+    },
+    {
+      "organization": "HLL Lifecare"
+    },
+    {
+      "organization": "HMT"
+    },
+    {
+      "organization": "Housing Development Finance Corporation (HDFC)"
+    },
+    {
+      "organization": "iball"
+    },
+    {
+      "organization": "ICICI Bank"
+    },
+    {
+      "organization": "IDBI Bank"
+    },
+    {
+      "organization": "Idea Cellular"
+    },
+    {
+      "organization": "Ideal Jawa"
+    },
+    {
+      "organization": "IDFC First Bank"
+    },
+    {
+      "organization": "IIFL Holdings Limited"
+    },
+    {
+      "organization": "Integral Coach Factory"
+    },
+    {
+      "organization": "Ircon International"
+    },
+    {
+      "organization": "Indian Railway Finance Corporation"
+    },
+    {
+      "organization": "Infrastructure Development Finance Company (IDFC)"
+    },
+    {
+      "organization": "Infrastructure Leasing & Financial Services (IL&FS)"
+    },
+    {
+      "organization": "India Cements"
+    },
+    {
+      "organization": "India Optel"
+    },
+    {
+      "organization": "Indiabulls"
+    },
+    {
+      "organization": "Indian Bank"
+    },
+    {
+      "organization": "Indian Express Limited"
+    },
+    {
+      "organization": "Indian Oil Corporation"
+    },
+    {
+      "organization": "Indian Overseas Bank"
+    },
+    {
+      "organization": "Indian Railways"
+    },
+    {
+      "organization": "Indian Railway Stations Development Corporation"
+    },
+    {
+      "organization": "Indian Telephone Industries Limited"
+    },
+    {
+      "organization": "IndiGo"
+    },
+    {
+      "organization": "Indo Gulf Fertilisers"
+    },
+    {
+      "organization": "IndusInd Bank"
+    },
+    {
+      "organization": "Infibeam"
+    },
+    {
+      "organization": "Infosys"
+    },
+    {
+      "organization": "InMobi"
+    },
+    {
+      "organization": "Inox Air Products"
+    },
+    {
+      "organization": "Inox Wind"
+    },
+    {
+      "organization": "Intelenet Global Services"
+    },
+    {
+      "organization": "Intex Technologies"
+    },
+    {
+      "organization": "ITC"
+    },
+    {
+      "organization": "Ittiam Systems"
+    },
+    {
+      "organization": "Jabong.com"
+    },
+    {
+      "organization": "Jain Irrigation Systems"
+    },
+    {
+      "organization": "Jaypee Group"
+    },
+    {
+      "organization": "Jet Airways"
+    },
+    {
+      "organization": "Jindal Steel and Power"
+    },
+    {
+      "organization": "JSW Ispat Steel"
+    },
+    {
+      "organization": "JSW Steel Ltd"
+    },
+    {
+      "organization": "Jubilant FoodWorks"
+    },
+    {
+      "organization": "Kerala Electrical and Allied Engineering Company (KEL)"
+    },
+    {
+      "organization": "Khadim's"
+    },
+    {
+      "organization": "Kalyani Group"
+    },
+    {
+      "organization": "Karbonn Mobiles"
+    },
+    {
+      "organization": "Karnataka Bank"
+    },
+    {
+      "organization": "Karur Vysya Bank"
+    },
+    {
+      "organization": "Kingfisher"
+    },
+    {
+      "organization": "Kirloskar Group"
+    },
+    {
+      "organization": "KPIT Technologies"
+    },
+    {
+      "organization": "Kokuyo Camlin"
+    },
+    {
+      "organization": "Konkan Railway Corporation"
+    },
+    {
+      "organization": "Kotak Mahindra Bank"
+    },
+    {
+      "organization": "KSK Energy Ventures"
+    },
+    {
+      "organization": "Kudremukh Iron Ore Company"
+    },
+    {
+      "organization": "Lakshmi Machine Works"
+    },
+    {
+      "organization": "Lakshmi Vilas Bank"
+    },
+    {
+      "organization": "Lanco Infratech"
+    },
+    {
+      "organization": "Larsen & Toubro"
+    },
+    {
+      "organization": "Lava International"
+    },
+    {
+      "organization": "Liberty Shoes"
+    },
+    {
+      "organization": "Life Insurance Corporation"
+    },
+    {
+      "organization": "Lifestyle"
+    },
+    {
+      "organization": "Living Media"
+    },
+    {
+      "organization": "Mahanadi Coalfields"
+    },
+    {
+      "organization": "Mahindra Aerospace"
+    },
+    {
+      "organization": "Mahindra & Mahindra"
+    },
+    {
+      "organization": "Mahindra Group"
+    },
+    {
+      "organization": "MakeMyTrip"
+    },
+    {
+      "organization": "Mangalore Chemicals & Fertilizers"
+    },
+    {
+      "organization": "Mangalore Refinery and Petrochemicals Limited"
+    },
+    {
+      "organization": "Marico"
+    },
+    {
+      "organization": "Maruti Suzuki"
+    },
+    {
+      "organization": "Mastek"
+    },
+    {
+      "organization": "Mazagon Dock Shipbuilders"
+    },
+    {
+      "organization": "MECON"
+    },
+    {
+      "organization": "Metro Shoes"
+    },
+    {
+      "organization": "Microland"
+    },
+    {
+      "organization": "Micromax Informatics"
+    },
+    {
+      "organization": "Milky Mist Dairy"
+    },
+    {
+      "organization": "Mindtree"
+    },
+    {
+      "organization": "Mindspace"
+    },
+    {
+      "organization": "Mishra Dhatu Nigam Limited(MIDHANI)"
+    },
+    {
+      "organization": "MMTC Ltd"
+    },
+    {
+      "organization": "Mistral Solutions"
+    },
+    {
+      "organization": "MKU (company)"
+    },
+    {
+      "organization": "MOIL"
+    },
+    {
+      "organization": "Moser Baer"
+    },
+    {
+      "organization": "Mother Dairy"
+    },
+    {
+      "organization": "Max Healthcare"
+    },
+    {
+      "organization": "Max Life Insurance"
+    },
+    {
+      "organization": "Max Ventures and Industries"
+    },
+    {
+      "organization": "Max Group"
+    },
+    {
+      "organization": "Mercator"
+    },
+    {
+      "organization": "Modern Coach Factory, Raebareli"
+    },
+    {
+      "organization": "Mphasis"
+    },
+    {
+      "organization": "MRF"
+    },
+    {
+      "organization": "MS Shoes"
+    },
+    {
+      "organization": "MSTC Limited"
+    },
+    {
+      "organization": "Mukand"
+    },
+    {
+      "organization": "Murugappa Group"
+    },
+    {
+      "organization": "Muthoot Finance"
+    },
+    {
+      "organization": "The Muthoot Group"
+    },
+    {
+      "organization": "Myntra"
+    },
+    {
+      "organization": "National Aluminium Company"
+    },
+    {
+      "organization": "Nayara Energy"
+    },
+    {
+      "organization": "NBCC"
+    },
+    {
+      "organization": "National Fertilizers"
+    },
+    {
+      "organization": "NHPC Limited"
+    },
+    {
+      "organization": "National Mineral Development Corporation (NMDC)"
+    },
+    {
+      "organization": "National Payments Corporation of India (NPCI)"
+    },
+    {
+      "organization": "NTPC Limited"
+    },
+    {
+      "organization": "NBC Bearings"
+    },
+    {
+      "organization": "NDTV"
+    },
+    {
+      "organization": "Nectar Lifesciences"
+    },
+    {
+      "organization": "Network 18"
+    },
+    {
+      "organization": "NIIT"
+    },
+    {
+      "organization": "Nilkamal Plastics"
+    },
+    {
+      "organization": "Nirma"
+    },
+    {
+      "organization": "NLC India Limited"
+    },
+    {
+      "organization": "Novanet"
+    },
+    {
+      "organization": "Nuclear Power Corporation of India"
+    },
+    {
+      "organization": "Nykaa"
+    },
+    {
+      "organization": "Oil and Natural Gas Corporation"
+    },
+    {
+      "organization": "Oil India"
+    },
+    {
+      "organization": "One 97 Paytm"
+    },
+    {
+      "organization": "ONGC Videsh"
+    },
+    {
+      "organization": "OMPL"
+    },
+    {
+      "organization": "Onida Electronics"
+    },
+    {
+      "organization": "OnMobile"
+    },
+    {
+      "organization": "Oracle Financial Services Software"
+    },
+    {
+      "organization": "Ordnance Factories Board"
+    },
+    {
+      "organization": "Oswald Labs"
+    },
+    {
+      "organization": "Pantaloons Fashion & Retail"
+    },
+    {
+      "organization": "Paramount Airways"
+    },
+    {
+      "organization": "Parle Agro"
+    },
+    {
+      "organization": "Parle Products"
+    },
+    {
+      "organization": "Patanjali Ayurved"
+    },
+    {
+      "organization": "Pawan Hans"
+    },
+    {
+      "organization": "Pentamedia Graphics"
+    },
+    {
+      "organization": "Persistent Systems"
+    },
+    {
+      "organization": "Petronet LNG"
+    },
+    {
+      "organization": "Pidilite Industries"
+    },
+    {
+      "organization": "Pine Labs"
+    },
+    {
+      "organization": "Piramal Enterprises"
+    },
+    {
+      "organization": "POSCO India"
+    },
+    {
+      "organization": "Power Finance Corporation"
+    },
+    {
+      "organization": "Power Grid Corporation of India"
+    },
+    {
+      "organization": "Power Trading Corporation of India"
+    },
+    {
+      "organization": "Praj"
+    },
+    {
+      "organization": "Punj Lloyd"
+    },
+    {
+      "organization": "Punjab & Sind Bank"
+    },
+    {
+      "organization": "Punjab National Bank"
+    },
+    {
+      "organization": "PVR Cinemas"
+    },
+    {
+      "organization": "R K Global"
+    },
+    {
+      "organization": "Raheja Developers"
+    },
+    {
+      "organization": "Raheja Group"
+    },
+    {
+      "organization": "Rajesh Exports"
+    },
+    {
+      "organization": "Ramco Systems"
+    },
+    {
+      "organization": "Ramco Group"
+    },
+    {
+      "organization": "Ranbaxy Laboratories"
+    },
+    {
+      "organization": "Rapido (company)"
+    },
+    {
+      "organization": "Rashtriya Chemicals & Fertilizers"
+    },
+    {
+      "organization": "Rashtriya Ispat Nigam"
+    },
+    {
+      "organization": "Raymond Group"
+    },
+    {
+      "organization": "Rediff.com"
+    },
+    {
+      "organization": "Reliance Capital"
+    },
+    {
+      "organization": "Reliance Communications"
+    },
+    {
+      "organization": "Reliance Entertainment"
+    },
+    {
+      "organization": "Reliance Group"
+    },
+    {
+      "organization": "Reliance Health"
+    },
+    {
+      "organization": "Reliance Infrastructure"
+    },
+    {
+      "organization": "Reliance Life Insurance"
+    },
+    {
+      "organization": "Reliance MediaWorks"
+    },
+    {
+      "organization": "Reliance Naval and Engineering Limited"
+    },
+    {
+      "organization": "Reliance Power"
+    },
+    {
+      "organization": "Reliance Digital"
+    },
+    {
+      "organization": "Reliance Fresh"
+    },
+    {
+      "organization": "Reliance Industries"
+    },
+    {
+      "organization": "Reliance Jio"
+    },
+    {
+      "organization": "Reliance Petroleum"
+    },
+    {
+      "organization": "Reliance Retail"
+    },
+    {
+      "organization": "RITES"
+    },
+    {
+      "organization": "Royal Enfield"
+    },
+    {
+      "organization": "Route Mobile"
+    },
+    {
+      "organization": "RPSG Group"
+    },
+    {
+      "organization": "RPG Group"
+    },
+    {
+      "organization": "Rural Electrification Corporation"
+    },
+    {
+      "organization": "Sahara India Pariwar"
+    },
+    {
+      "organization": "Samtel Avionics"
+    },
+    {
+      "organization": "Samtel Group"
+    },
+    {
+      "organization": "Saravana Bhavan"
+    },
+    {
+      "organization": "SAS Motors"
+    },
+    {
+      "organization": "Sasken Technologies"
+    },
+    {
+      "organization": "Sea6 Energy"
+    },
+    {
+      "organization": "Serum Institute of India"
+    },
+    {
+      "organization": "Shapoorji Pallonji Group"
+    },
+    {
+      "organization": "Shipping Corporation of India"
+    },
+    {
+      "organization": "Shoppers Stop"
+    },
+    {
+      "organization": "Shree Cement"
+    },
+    {
+      "organization": "Shree Ganesh Jewellery House"
+    },
+    {
+      "organization": "Shree Renuka Sugars"
+    },
+    {
+      "organization": "Shriram Group"
+    },
+    {
+      "organization": "Singareni Collieries Company"
+    },
+    {
+      "organization": "Skipper Limited"
+    },
+    {
+      "organization": "Skyroot Aerospace"
+    },
+    {
+      "organization": "Snapdeal"
+    },
+    {
+      "organization": "Sobha Ltd."
+    },
+    {
+      "organization": "Sonata Software"
+    },
+    {
+      "organization": "South Indian Bank"
+    },
+    {
+      "organization": "SpiceJet"
+    },
+    {
+      "organization": "SPI Cinemas"
+    },
+    {
+      "organization": "State Bank of India"
+    },
+    {
+      "organization": "Steel Authority of India"
+    },
+    {
+      "organization": "Sterlite Industries"
+    },
+    {
+      "organization": "Sterlite Technologies"
+    },
+    {
+      "organization": "Suminter India Organics"
+    },
+    {
+      "organization": "Sun Group"
+    },
+    {
+      "organization": "Sun Pharmaceutical"
+    },
+    {
+      "organization": "Surya Roshni Limited"
+    },
+    {
+      "organization": "Suzlon"
+    },
+    {
+      "organization": "Swaraj Mazda"
+    },
+    {
+      "organization": "Swiggy"
+    },
+    {
+      "organization": "Synthite"
+    },
+    {
+      "organization": "Tamil Nadu Newsprint and Papers Limited"
+    },
+    {
+      "organization": "Tamilnad Mercantile Bank Limited"
+    },
+    {
+      "organization": "TANLA"
+    },
+    {
+      "organization": "Tata Advanced Systems"
+    },
+    {
+      "organization": "Tata Business Support Services"
+    },
+    {
+      "organization": "Tata Chemicals"
+    },
+    {
+      "organization": "Tata Communications"
+    },
+    {
+      "organization": "Tata Consultancy Services"
+    },
+    {
+      "organization": "Tata Global Beverages"
+    },
+    {
+      "organization": "Tata Group"
+    },
+    {
+      "organization": "Tata Interactive Systems"
+    },
+    {
+      "organization": "Tata Motors"
+    },
+    {
+      "organization": "Tata Power"
+    },
+    {
+      "organization": "Tata Sky"
+    },
+    {
+      "organization": "Tata Steel"
+    },
+    {
+      "organization": "Tata Steel BSL"
+    },
+    {
+      "organization": "Tata Technologies"
+    },
+    {
+      "organization": "Tech Mahindra"
+    },
+    {
+      "organization": "Tega Industries Ltd."
+    },
+    {
+      "organization": "Terumo Penpol"
+    },
+    {
+      "organization": "The Himalaya Drug Company"
+    },
+    {
+      "organization": "The Hindu"
+    },
+    {
+      "organization": "The Times Group"
+    },
+    {
+      "organization": "Thermax"
+    },
+    {
+      "organization": "Thyrocare"
+    },
+    {
+      "organization": "Titagarh Wagons"
+    },
+    {
+      "organization": "Titan Company"
+    },
+    {
+      "organization": "Torrent Group"
+    },
+    {
+      "organization": "Tractors and Farm Equipment Limited"
+    },
+    {
+      "organization": "TradeIndia"
+    },
+    {
+      "organization": "Travancore Cochin Chemicals"
+    },
+    {
+      "organization": "Travancore Titanium Products"
+    },
+    {
+      "organization": "TTK Prestige"
+    },
+    {
+      "organization": "T-Series"
+    },
+    {
+      "organization": "TVS Motor Company"
+    },
+    {
+      "organization": "UCO Bank"
+    },
+    {
+      "organization": "UltraTech Cement"
+    },
+    {
+      "organization": "Union Bank of India"
+    },
+    {
+      "organization": "Unitech Group"
+    },
+    {
+      "organization": "United Breweries Group"
+    },
+    {
+      "organization": "UPL (company)"
+    },
+    {
+      "organization": "USV Private Limited"
+    },
+    {
+      "organization": "VA Tech Wabag"
+    },
+    {
+      "organization": "Vadilal"
+    },
+    {
+      "organization": "Vedanta Limited"
+    },
+    {
+      "organization": "V-Guard Industries"
+    },
+    {
+      "organization": "Vicco Group"
+    },
+    {
+      "organization": "Videocon"
+    },
+    {
+      "organization": "Vijaya Bank"
+    },
+    {
+      "organization": "VIP Industries"
+    },
+    {
+      "organization": "Voltas"
+    },
+    {
+      "organization": "Voonik"
+    },
+    {
+      "organization": "VST Industries"
+    },
+    {
+      "organization": "Wadia Group"
+    },
+    {
+      "organization": "Walchandnagar Industries"
+    },
+    {
+      "organization": "WAPCOS Limited"
+    },
+    {
+      "organization": "Welspun Corp"
+    },
+    {
+      "organization": "Welspun Energy"
+    },
+    {
+      "organization": "Welspun Investments and Commercials"
+    },
+    {
+      "organization": "Welspun Group"
+    },
+    {
+      "organization": "Welspun India"
+    },
+    {
+      "organization": "Welspun Retail"
+    },
+    {
+      "organization": "Welspun Maxsteel"
+    },
+    {
+      "organization": "West Bengal Electronics Industry Development Corporation (WEBEL)"
+    },
+    {
+      "organization": "West Bengal Power Development Corporation (WBPDCL)"
+    },
+    {
+      "organization": "West Bengal State Coop Bank (WBSTCB)"
+    },
+    {
+      "organization": "West Bengal State Electricity Distribution Company (WBSEDCL)"
+    },
+    {
+      "organization": "West Bengal State Electricity Transmission Company (WBSETCL)"
+    },
+    {
+      "organization": "Wipro"
+    },
+    {
+      "organization": "XOLO"
+    },
+    {
+      "organization": "Yantra"
+    },
+    {
+      "organization": "Yatra"
+    },
+    {
+      "organization": "Yebhi"
+    },
+    {
+      "organization": "Yepme"
+    },
+    {
+      "organization": "Yes Bank"
+    },
+    {
+      "organization": "Zandu Realty"
+    },
+    {
+      "organization": "Zee Entertainment Enterprises"
+    },
+    {
+      "organization": "Zee News"
+    },
+    {
+      "organization": "Zeta"
+    },
+    {
+      "organization": "Zensar Technologies"
+    },
+    {
+      "organization": "Zoho Corporation"
+    },
+    {
+      "organization": "Zomato"
+    }
+  ],
+  "hobbies": [
+    { "hobby": "Writing" },
+    { "hobby": "Singing" },
+    { "hobby": "Photography" },
+    { "hobby": "Cooking" },
+    { "hobby": "Dancing" },
+    { "hobby": "Playing instruments" },
+    { "hobby": "Painting" },
+    { "hobby": "DIY crafts" },
+    { "hobby": "Acting" },
+    { "hobby": "Content Creation " },
+    { "hobby": "Designing" },
+    { "hobby": "Gardening" },
+    { "hobby": "Blogging" },
+    { "hobby": "Poetry" },
+    { "hobby": "Doodling" },
+    { "hobby": "Travelling" },
+    { "hobby": "Movies" },
+    { "hobby": "Music" },
+    { "hobby": "Reading" },
+    { "hobby": "Sports" },
+    { "hobby": "Clubbing" },
+    { "hobby": "Social Media" },
+    { "hobby": "Gaming" },
+    { "hobby": "Binge-watching" },
+    { "hobby": "Biking" },
+    { "hobby": "Theater & Events" },
+    { "hobby": "Anime" },
+    { "hobby": "Stand ups" },
+    { "hobby": "Shopping" },
+    { "hobby": "Running" },
+    { "hobby": "Trekking" },
+    { "hobby": "Cycling" },
+    { "hobby": "Yoga & Meditation" },
+    { "hobby": "Aerobics / Zumba" },
+    { "hobby": "Swimming" },
+    { "hobby": "Walking" },
+    { "hobby": "Working Out" },
+    { "hobby": "Pets" },
+    { "hobby": "Foodie" },
+    { "hobby": "Vegan" },
+    { "hobby": "Home decor" },
+    { "hobby": "News & Politics" },
+    { "hobby": "Investments" },
+    { "hobby": "Social service" },
+    { "hobby": "Fashion & beauty" }
+  ],
+  "annualIncomes": [
+    { "annualIncome": "No Income" },
+    { "annualIncome": "Rs.1 Lakh" },
+    { "annualIncome": "Rs.2 Lakh" },
+    { "annualIncome": "Rs.3 Lakh" },
+    { "annualIncome": "Rs.4 Lakh" },
+    { "annualIncome": "Rs.5 Lakh" },
+    { "annualIncome": "Rs.7.5 Lakh" },
+    { "annualIncome": "Rs.10 Lakh" },
+    { "annualIncome": "Rs.15 Lakh" },
+    { "annualIncome": "Rs.20 Lakh" },
+    { "annualIncome": "Rs.25 Lakh" },
+    { "annualIncome": "Rs.35 Lakh" },
+    { "annualIncome": "Rs.50 Lakh" },
+    { "annualIncome": "Rs.70 Lakh" },
+    { "annualIncome": "Rs.1 Crore" }
+  ],
+  "diets": [
+    { "diet": "Veg" },
+    { "diet": "Non-veg" },
+    { "diet": "Occasionally Non-veg" },
+    { "diet": "Eggetarian" },
+    { "diet": "Vegan" },
+    { "diet": "Jain" }
+  ],
+  "professions": [
+    { "profession": "Government/Public Sector" },
+    { "profession": "Civil Services" },
+    { "profession": "Defense" },
+    { "profession": "Business/Self Employed" },
+    { "profession": "Not Working" },
+    { "profession": "Administration" },
+    { "profession": "Advertising, Media & Entertainment" },
+    { "profession": "Agricultural" },
+    { "profession": "Airline & Aviation" },
+    { "profession": "Architecture" },
+    { "profession": "Armed Forces" },
+    { "profession": "Banking & Finance" },
+    { "profession": "BPO & Customer Service" },
+    { "profession": "Corporate Management Professionals" },
+    { "profession": "Doctor" },
+    { "profession": "Education & Training" },
+    { "profession": "Engineering" },
+    { "profession": "Hospitality" },
+    { "profession": "Law Enforcement" },
+    { "profession": "Legal" },
+    { "profession": "Merchant Navy" },
+    { "profession": "Other Medical &amp; Healthcare" },
+    { "profession": "Science & Research" },
+    { "profession": "Software & IT" },
+    { "profession": "Top Management" },
+    { "profession": "Others" }
+  ],
+  "highestDegrees": [
+    { "highestDegree": "B.Arch" },
+    { "highestDegree": "B.Des" },
+    { "highestDegree": "B.E/B.Tech" },
+    { "highestDegree": "B.Pharma" },
+    { "highestDegree": "M.Arch" },
+    { "highestDegree": "M.Des" },
+    { "highestDegree": "M.E/M.Tech" },
+    { "highestDegree": "M.Pharma" },
+    { "highestDegree": "M.S. (Engineering)" },
+    { "highestDegree": "B.IT" },
+    { "highestDegree": "BCA" },
+    { "highestDegree": "MCA" },
+    { "highestDegree": "B.Com" },
+    { "highestDegree": "CA" },
+    { "highestDegree": "CFA" },
+    { "highestDegree": "CS" },
+    { "highestDegree": "ICWA" },
+    { "highestDegree": "M.Com" },
+    { "highestDegree": "BBA" },
+    { "highestDegree": "BHM" },
+    { "highestDegree": "MBA/PGDM" },
+    { "highestDegree": "BAMS" },
+    { "highestDegree": "BDS" },
+    { "highestDegree": "BHMS" },
+    { "highestDegree": "BPT" },
+    { "highestDegree": "BVSc." },
+    { "highestDegree": "DM" },
+    { "highestDegree": "M.D." },
+    { "highestDegree": "M.S. (Medicine)" },
+    { "highestDegree": "MBBS" },
+    { "highestDegree": "MCh" },
+    { "highestDegree": "MDS" },
+    { "highestDegree": "MPT" },
+    { "highestDegree": "MVSc." },
+    { "highestDegree": "L.L.B" },
+    { "highestDegree": "L.L.M." },
+    { "highestDegree": "B.A" },
+    { "highestDegree": "B.Ed" },
+    { "highestDegree": "B.Sc" },
+    { "highestDegree": "BFA" },
+    { "highestDegree": "BJMC" },
+    { "highestDegree": "M.A" },
+    { "highestDegree": "M.Ed" },
+    { "highestDegree": "M.Sc" },
+    { "highestDegree": "MFA" },
+    { "highestDegree": "MJMC" },
+    { "highestDegree": "MSW" },
+    { "highestDegree": "M.Phil" },
+    { "highestDegree": "PhD" },
+    { "highestDegree": "Diploma" },
+    { "highestDegree": "High School" },
+    { "highestDegree": "Trade School" }
+  ],
+  "states": [ 
+    { 
+      "state": "Andhra Pradesh" 
+    }, 
+    { 
+      "state": "Arunachal Pradesh" 
+    }, 
+    { 
+      "state": "Assam" 
+    }, 
+    { 
+      "state": "Bihar" 
+    }, 
+    { 
+      "state": "Chhattisgarh" 
+    }, 
+    { 
+      "state": "Goa" 
+    }, 
+    { 
+      "state": "Gujarat" 
+    }, 
+    { 
+      "state": "Haryana" 
+    }, 
+    { 
+      "state": "Himachal Pradesh" 
+    }, 
+    { 
+      "state": "Jharkhand" 
+    }, 
+    { 
+      "state": "Karnataka" 
+    }, 
+    { 
+      "state": "Kerala" 
+    }, 
+    { 
+      "state": "Madhya Pradesh" 
+    }, 
+    { 
+      "state": "Maharashtra" 
+    }, 
+    { 
+      "state": "Manipur" 
+    }, 
+    { 
+      "state": "Meghalaya" 
+    }, 
+    { 
+      "state": "Mizoram" 
+    }, 
+    { 
+      "state": "Nagaland" 
+    }, 
+    { 
+      "state": "Odisha" 
+    }, 
+    { 
+      "state": "Punjab" 
+    }, 
+    { 
+      "state": "Rajasthan" 
+    }, 
+    { 
+      "state": "Sikkim" 
+    }, 
+    { 
+      "state": "Tamil Nadu" 
+    }, 
+    { 
+      "state": "Telangana" 
+    }, 
+    { 
+      "state": "Tripura" 
+    }, 
+    { 
+      "state": "Uttar Pradesh" 
+    }, 
+    { 
+      "state": "Uttarakhand" 
+    }, 
+    { 
+      "state": "West Bengal" 
+    }, 
+    { 
+      "state": "Andaman and Nicobar Islands" 
+    }, 
+    { 
+      "state": "Chandigarh" 
+    }, 
+    { 
+      "state": "Dadra and Nagar Haveli and Daman and Diu" 
+    }, 
+    { 
+      "state": "Delhi" 
+    }, 
+    { 
+      "state": "Jammu and Kashmir" 
+    }, 
+    { 
+      "state": "Ladakh" 
+    }, 
+    { 
+      "state": "Lakshadweep" 
+    }, 
+    { 
+      "state": "Puducherry" 
+    } 
+  ],
+  "maritialStatuses":[
+    {"maritialStatus":"Never Married"},
+    {"maritialStatus":"Divorced"}
+  ],
+"familyTypes":[
+  {"familyType":"Joint"},
+  {"familyType":"Nuclear"},
+  {"familyType":"Single Parent Family"}
+]
+}

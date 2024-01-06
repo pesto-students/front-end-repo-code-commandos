@@ -1,0 +1,30 @@
+:root {
+    color-scheme: light dark;
+  }
+
+::-webkit-scrollbar {
+  width: 0em;
+  height: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f7e6c4;
+  border-radius: 10vw;
+  border: 0.25em solid #f1c376;
+  @media screen and (prefers-color-scheme: dark) {
+    background: #27374d;
+    border-radius: 10vw;
+    border: 0.25em solid #506a7e;
+  }
+}
+
+::-webkit-scrollbar-track {
+  margin-block: 4em;
+  background: #f1c376;
+  border-radius: 100vw;
+  @media screen and (prefers-color-scheme: dark) {
+    margin-block: 4em;
+    background: #506a7e;
+    border-radius: 100vw;
+  }
+}
