@@ -28,12 +28,12 @@ function RightCard() {
           <>
             {/*log-Reg*/}
             <div className="flex justify-around">
-              <a href={`${host}`}>
+              <a href={`https://match-made-back.onrender.com`}>
                 <h1 className="font-extrabold text-7xl dark:text-font_dark">
                   Login
                 </h1>
               </a>
-              <a href={`${host}`}>
+              <a href={`https://match-made-back.onrender.com`}>
                 <h1 className="font-extrabold text-7xl dark:text-font_dark">
                   Register
                 </h1>

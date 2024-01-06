@@ -41,7 +41,7 @@ function Chat() {
   // MAKE STATICS VALUES - DYNAMIC
   const _senderId = "6571f16ba15ead32cc0a5907";
   const _receiverId = "6572343b20e0ba4957caf1fa";
-  const socket = io(`${host}`);
+  const socket = io(`https://match-made-back.onrender.com`);
 
   const handleChatClick = (e) => {
     
@@ -69,7 +69,7 @@ function Chat() {
 
   const getMessages = async () => {
     const result = await axios.post(
-      `${host}/message/get-messages`,
+      `https://match-made-back.onrender.com/message/get-messages`,
       { chatId: conversationId },
       {
         headers: {
@@ -86,7 +86,7 @@ function Chat() {
     const getConversations = async () => {
       try {
         const result = await axios.post(
-          `${host}/chat/get-chat`,
+          `https://match-made-back.onrender.com/chat/get-chat`,
           "",
           {
             headers: {

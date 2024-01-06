@@ -87,7 +87,7 @@ function AstroMatch() {
     const partnerHoro = localStorage.getItem("partnerHoroscope");
     try {
       const result = await axios.post(
-        `${host}/user/astro-search`,
+        `https://match-made-back.onrender.com/user/astro-search`,
         { signs: partnerHoro },
         {
           headers: {

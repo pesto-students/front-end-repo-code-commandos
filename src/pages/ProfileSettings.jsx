@@ -44,7 +44,7 @@ function ProfileSettings() {
 
     // try {
     data.userId = "6572343b20e0ba4957caf1fa";
-    const res = await fetch(`${host}/user/update`, {
+    const res = await fetch(`https://match-made-back.onrender.com/user/update`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(data),
@@ -78,7 +78,7 @@ function ProfileSettings() {
       
       try {
         const result = await axios.post(
-          `${host}/user/find`,
+          `https://match-made-back.onrender.com/user/find`,
           "",
           {
             headers: {

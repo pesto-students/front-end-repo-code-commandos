@@ -56,7 +56,7 @@ const Form = ({ setFormId }) => {
     // data.P8ProfilePicture = null;
     formData.append("OtherData", JSON.stringify(data));
 
-    const result = await axios.post(`${host}/user/update`, formData, {
+    const result = await axios.post(`https://match-made-back.onrender.com/user/update`, formData, {
       headers: {
         "Access-Control-Allow-Origin": "*",
         "Content-Type": "multipart/form-data",

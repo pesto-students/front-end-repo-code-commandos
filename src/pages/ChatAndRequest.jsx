@@ -124,7 +124,7 @@ function ChatAndRequest() {
 
   const getData = async () => {
     const result = await axios.post(
-      `${host}/friends/sent-requests`,
+      `https://match-made-back.onrender.com/friends/sent-requests`,
       "",
       {
         headers: {
@@ -140,7 +140,7 @@ function ChatAndRequest() {
 
   const putData = async () => {
     const result = await axios.post(
-      `${host}/friends/received-requests`,
+      `https://match-made-back.onrender.com/friends/received-requests`,
       "",
       {
         headers: {
@@ -155,7 +155,7 @@ function ChatAndRequest() {
 
   const getFavourites = async () => {
     const result = await axios.post(
-      `${host}/user/favourites`,
+      `https://match-made-back.onrender.com/user/favourites`,
       "",
       {
         headers: {
@@ -178,7 +178,7 @@ function ChatAndRequest() {
   };
 
   const getChatList = async () => {
-    const result = await axios.post(`${host}/chat/get-chat`, "", {
+    const result = await axios.post(`https://match-made-back.onrender.com/chat/get-chat`, "", {
       headers: {
         Cookie: "token=" + cookies.token,
       },
@@ -208,7 +208,7 @@ function ChatAndRequest() {
     console.log(e.target.name);
     const details = e.target.name.split("!~");
     const result = await axios.post(
-      `${host}/friends/update-request`,
+      `https://match-made-back.onrender.com/friends/update-request`,
       { requestId: details[0], senderId: details[1], status: "Accepted" },
       {
         headers: {
@@ -224,7 +224,7 @@ function ChatAndRequest() {
   async function onDeclinedRequest(e) {
     console.log(e.target.name);
     const result = await axios.post(
-      `${host}/friends/update-request`,
+      `https://match-made-back.onrender.com/friends/update-request`,
       { requestId: e.target.name, status: "Rejected" },
       {
         headers: {

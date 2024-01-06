@@ -25,7 +25,7 @@ function Feed({ children }) {
     // console.log();
     try {
       const result = await axios.post(
-        `${host}/user/set-favourite`,
+        `https://match-made-back.onrender.com/user/set-favourite`,
         { favouriteUserId: children._id },
         {
           headers: {
@@ -46,7 +46,7 @@ function Feed({ children }) {
   const handleRequest = async () => {
     try {
       const result = await axios.post(
-        `${host}/friends/send-request`,
+        `https://match-made-back.onrender.com/friends/send-request`,
         { receiverId: children._id },
         {
           headers: {

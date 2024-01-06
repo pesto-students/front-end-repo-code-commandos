@@ -101,7 +101,7 @@ function Home() {
     e.preventDefault();
     await axios
       .post(
-        `${host}/user/login`,
+        `https://match-made-back.onrender.com/user/login`,
         { ...loginFormData },
         {headers:{"Access-Control-Allow-Origin":"*"}, crossDomain: true, withCredentials: true }
       )
@@ -130,7 +130,7 @@ function Home() {
     e.preventDefault();
     await axios
       .post(
-        `${host}/user/create`,
+        `https://match-made-back.onrender.com/user/create`,
         { ...formData },
         { crossDomain: true, withCredentials: true }
       )
