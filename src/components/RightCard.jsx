@@ -1,5 +1,6 @@
 import { useState } from "react";
 import React from "react";
+import {host} from "../utils/APIRoutes";
 
 function RightCard() {
   const [gender, setGender] = useState("Bride");
@@ -27,12 +28,12 @@ function RightCard() {
           <>
             {/*log-Reg*/}
             <div className="flex justify-around">
-              <a href="http://localhost:5173">
+              <a href={`${host}`}>
                 <h1 className="font-extrabold text-7xl dark:text-font_dark">
                   Login
                 </h1>
               </a>
-              <a href="http://localhost:5173">
+              <a href={`${host}`}>
                 <h1 className="font-extrabold text-7xl dark:text-font_dark">
                   Register
                 </h1>
