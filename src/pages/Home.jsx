@@ -103,7 +103,7 @@ function Home() {
       .post(
         `${host}/user/login`,
         { ...loginFormData },
-        { crossDomain: true, withCredentials: true }
+        {headers:{"Access-Control-Allow-Origin":"*"}, crossDomain: true, withCredentials: true }
       )
       .then((response) => {
         if (

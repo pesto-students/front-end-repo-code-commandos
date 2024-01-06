@@ -1,11 +1,11 @@
-import {useState} from "react";
+import { useState } from "react";
 import FormInputs from "./FormInputs";
 import { useNavigate } from "react-router-dom";
 import useFormContext from "../../hooks/useFormContext";
 import { Alert } from "@material-tailwind/react";
 import Button from "../Button";
 import axios from "axios";
-import {host} from "../../utils/APIRoutes";
+import { host } from "../../utils/APIRoutes";
 
 export const RegisterSideBar = () => {
   const { page } = useFormContext();
@@ -56,22 +56,20 @@ const Form = ({ setFormId }) => {
     // data.P8ProfilePicture = null;
     formData.append("OtherData", JSON.stringify(data));
 
-    const result = await axios.post(
-      `${host}/user/update`,
-      formData,
-      {
-        headers: {
-          "Content-Type": "multipart/form-data",
-        },
-        withCredentials: true,
-      }
-    );
+    const result = await axios.post(`${host}/user/update`, formData, {
+      headers: {
+        "Access-Control-Allow-Origin": "*",
+        "Content-Type": "multipart/form-data",
+      },
+      crossDomain: true,
+      withCredentials: true,
+    });
     console.log(result.data);
 
     if (result.data.message.modifiedCount >= 1) {
       navigate("/matchfeed");
     } else {
-		setOpenAlert(!openAlert)
+      setOpenAlert(!openAlert);
     }
 
     // const res = await fetch(`${host}/user/update`, {

@@ -108,9 +108,9 @@ function MatchFeed() {
         "",
         {
           headers: {
-            "Content-Type": "multipart/form-data",
+            "Access-Control-Allow-Origin":"*","Content-Type": "multipart/form-data",
           },
-          withCredentials: true,
+          crossDomain: true, withCredentials: true 
         }
       );
       // const response = await fetch(`${host}/user/match-feed`, {
