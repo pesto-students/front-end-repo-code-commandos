@@ -102,12 +102,14 @@ function MatchFeed() {
   // }, []);
 
   const fetchData = async () => {
+    const token = localStorage.getItem("token")
     try {
       const result = await axios.post(
         `https://match-made-back.onrender.com/user/match-feed`,
         "",
         {
           headers: {
+            Authorization: `Bearer ${token}`,
             "Access-Control-Allow-Origin":"*","Content-Type": "multipart/form-data",
           },
           crossDomain: true, withCredentials: true 
