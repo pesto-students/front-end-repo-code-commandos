@@ -4,11 +4,12 @@ import Cookies from "universal-cookie";
 import { Route, Navigate } from "react-router-dom";
 
 export const getToken = () => {
-  const [cookies, removeCookie] = useCookies([]);
+  // const [cookies, removeCookie] = useCookies([]);
 //   const cookies = new Cookies();
-  console.log(cookies.token);
+  // console.log(cookies.token);
 //   return cookies.get("token");
-  return cookies.token;
+  // return cookies.token;
+  return localStorage.getItem("token")
 };
 
 const ProtectedRoute = ({ component: Component, ...rest }) => {
