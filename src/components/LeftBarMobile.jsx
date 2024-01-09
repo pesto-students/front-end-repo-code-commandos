@@ -4,6 +4,9 @@ import Cookies from "universal-cookie";
 // import { useCookies } from "react-cookie";
 
 function LeftBarMobile({ activeAt }) {
+  function refreshPage() {
+    window.location.reload(false);
+  }
   const navigate = useNavigate();
   const cookies = new Cookies();
   // const [cookies, removeCookie] = useCookies([]);
@@ -13,6 +16,7 @@ function LeftBarMobile({ activeAt }) {
     e.preventDefault();
     localStorage.removeItem("token")
     // cookies.remove("token");
+    refreshPage();
     navigate("/");
   };
   

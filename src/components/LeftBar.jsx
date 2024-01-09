@@ -5,6 +5,10 @@ import LeftBarMobile from "../components/LeftBarMobile";
 // import { useCookies } from "react-cookie";
 
 function LeftBar({ activeAt }) {
+  function refreshPage() {
+    window.location.reload(false);
+  }
+
   const navigate = useNavigate();
   const cookies = new Cookies();
   // const [cookies, removeCookie] = useCookies([]);
@@ -13,8 +17,9 @@ function LeftBar({ activeAt }) {
 
   const handleLogout = (e) => {
     e.preventDefault();
-    localStorage.removeItem("token")
+    localStorage.removeItem("token");
     // cookies.remove("token");
+    refreshPage();
     navigate("/");
   };
   useEffect(() => {
