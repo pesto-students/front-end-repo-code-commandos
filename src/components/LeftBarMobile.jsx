@@ -13,7 +13,7 @@ function LeftBarMobile({ activeAt }) {
     e.preventDefault();
     localStorage.removeItem("token")
     // cookies.remove("token");
-    navigate("/");
+    navigate("/login");
   };
   
 

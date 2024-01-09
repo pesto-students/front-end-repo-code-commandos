@@ -15,7 +15,7 @@ function LeftBar({ activeAt }) {
     e.preventDefault();
     localStorage.removeItem("token")
     // cookies.remove("token");
-    navigate("/");
+    navigate("/login");
   };
   useEffect(() => {
     if (selectedOption === 2) {
