@@ -40,7 +40,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/login" element={<Home />} />
+        {/* <Route path="/login" element={<Home />} /> */}
         {isAuthenticated ? (
           <>
             <Route path="/" element={<MatchFeed />} />
