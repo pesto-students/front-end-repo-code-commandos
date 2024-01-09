@@ -120,8 +120,9 @@ function Home() {
           setLoginOpen(true);
         } else {
           localStorage.setItem("token", response.data.token);
-          navigate("/matchfeed");
           refreshPage();
+          navigate("/matchfeed");
+          
         }
       })
       .catch((error) => console.log(error));
