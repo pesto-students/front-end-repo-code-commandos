@@ -84,6 +84,7 @@ function AstroMatch() {
 
   const loadData = async () => {
     // console.log();
+    const token = localStorage.getItem("token")
     const partnerHoro = localStorage.getItem("partnerHoroscope");
     try {
       const result = await axios.post(
@@ -91,7 +92,8 @@ function AstroMatch() {
         { signs: partnerHoro },
         {
           headers: {
-            Cookie: "token=" + cookies.token,
+            Authorization: `Bearer ${token}`,
+            "Access-Control-Allow-Origin": "*",
           },
           withCredentials: true,
         }

@@ -23,13 +23,15 @@ function Feed({ children }) {
 
   const handleFavourite = async () => {
     // console.log();
+    const token = localStorage.getItem("token")
     try {
       const result = await axios.post(
         `https://match-made-back.onrender.com/user/set-favourite`,
         { favouriteUserId: children._id },
         {
           headers: {
-            Cookie: "token=" + cookies.token,
+            Authorization: `Bearer ${token}`,
+            "Access-Control-Allow-Origin": "*",
           },
           withCredentials: true,
         }
@@ -44,13 +46,15 @@ function Feed({ children }) {
   };
 
   const handleRequest = async () => {
+    const token = localStorage.getItem("token")
     try {
       const result = await axios.post(
         `https://match-made-back.onrender.com/friends/send-request`,
         { receiverId: children._id },
         {
           headers: {
-            Cookie: "token=" + cookies.token,
+            Authorization: `Bearer ${token}`,
+            "Access-Control-Allow-Origin": "*",
           },
           withCredentials: true,
         }

@@ -55,9 +55,11 @@ const Form = ({ setFormId }) => {
     formData.append("P8ProfilePicture", data.P8ProfilePicture);
     // data.P8ProfilePicture = null;
     formData.append("OtherData", JSON.stringify(data));
+    const token = localStorage.getItem("token")
 
     const result = await axios.post(`https://match-made-back.onrender.com/user/update`, formData, {
       headers: {
+        Authorization: `Bearer ${token}`,
         "Access-Control-Allow-Origin": "*",
         "Content-Type": "multipart/form-data",
       },

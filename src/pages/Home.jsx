@@ -7,7 +7,7 @@ import RightCard from "../components/RightCard";
 
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
-import {host} from "../utils/APIRoutes";
+import { host } from "../utils/APIRoutes";
 
 import {
   Tabs,
@@ -103,7 +103,13 @@ function Home() {
       .post(
         `https://match-made-back.onrender.com/user/login`,
         { ...loginFormData },
-        {headers:{"Access-Control-Allow-Origin":"*"}, crossDomain: true, withCredentials: true }
+        {
+          headers: {
+            "Access-Control-Allow-Origin": "*",
+          },
+          crossDomain: true,
+          withCredentials: true,
+        }
       )
       .then((response) => {
         if (
@@ -113,7 +119,7 @@ function Home() {
         ) {
           setLoginOpen(true);
         } else {
-          localStorage.setItem('token',response.data.token)
+          localStorage.setItem("token", response.data.token);
           navigate("/matchfeed");
           refreshPage();
         }
@@ -129,11 +135,18 @@ function Home() {
 
   const handleRegisterSubmit = async (e) => {
     e.preventDefault();
+
     await axios
       .post(
         `https://match-made-back.onrender.com/user/create`,
         { ...formData },
-        { crossDomain: true, withCredentials: true }
+        {
+          headers: {
+            "Access-Control-Allow-Origin": "*",
+          },
+          crossDomain: true,
+          withCredentials: true,
+        }
       )
       .then((response) => {
         console.log(response.data.message);

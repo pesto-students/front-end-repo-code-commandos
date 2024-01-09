@@ -12,11 +12,9 @@ import PremiumDialog from "../components/BuyPlanDialog";
 import BuyPlanDialog from "../components/BuyPlanDialog";
 import LoadingSkeleton from "../components/LoadingSkeleton";
 import axios from "axios";
-import {host} from "../utils/APIRoutes";
-
+import { host } from "../utils/APIRoutes";
 
 function MatchFeed() {
-
   const navigate = useNavigate();
   const [cookies, removeCookie] = useCookies([]);
 
@@ -29,6 +27,7 @@ function MatchFeed() {
   //   verifyCookie();
   // }, []);
 
+  const token = localStorage.getItem("token");
   const [mvalue, setMvalue] = useState("col-span-2");
   const [fvalue, setFvalue] = useState("md:col-span-9");
   const [click, setClick] = useState(false);
@@ -102,7 +101,6 @@ function MatchFeed() {
   // }, []);
 
   const fetchData = async () => {
-    const token = localStorage.getItem("token")
     try {
       const result = await axios.post(
         `https://match-made-back.onrender.com/user/match-feed`,
@@ -110,9 +108,11 @@ function MatchFeed() {
         {
           headers: {
             Authorization: `Bearer ${token}`,
-            "Access-Control-Allow-Origin":"*","Content-Type": "multipart/form-data",
+            "Access-Control-Allow-Origin": "*",
+            "Content-Type": "multipart/form-data",
           },
-          crossDomain: true, withCredentials: true 
+          crossDomain: true,
+          withCredentials: true,
         }
       );
       // const response = await fetch(`${host}/user/match-feed`, {
@@ -148,7 +148,6 @@ function MatchFeed() {
       <div className="flex flex-col h-screen w-full bg-bg_light dark:bg-bg_dark">
         <Header />
         <div className="grid grid-cols-1 md:grid-cols-12 h-full mb-10 gap-2">
-          
           <div className="col-span-1 md:col-span-1 md:h-[88vh] md:order-first order-3">
             <LeftBar activeAt={1} />
           </div>

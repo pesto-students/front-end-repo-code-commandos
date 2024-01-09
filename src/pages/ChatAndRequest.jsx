@@ -88,7 +88,8 @@ function ChatAndRequest() {
       },
     },
   };
-
+  
+  const token = localStorage.getItem("token")
   const navigate = useNavigate();
   const [chat, setChat] = useState("md:col-span-11 col-span-1");
   const [chatList, setChatList] = useState("md:hidden hidden");
@@ -128,7 +129,8 @@ function ChatAndRequest() {
       "",
       {
         headers: {
-          Cookie: "token=" + cookies.token,
+          Authorization: `Bearer ${token}`,
+          "Access-Control-Allow-Origin": "*",
         },
         withCredentials: true,
       }
@@ -144,7 +146,8 @@ function ChatAndRequest() {
       "",
       {
         headers: {
-          Cookie: "token=" + cookies.token,
+          Authorization: `Bearer ${token}`,
+          "Access-Control-Allow-Origin": "*",
         },
         withCredentials: true,
       }
@@ -154,12 +157,14 @@ function ChatAndRequest() {
   };
 
   const getFavourites = async () => {
+    
     const result = await axios.post(
       `https://match-made-back.onrender.com/user/favourites`,
       "",
       {
         headers: {
-          Cookie: "token=" + cookies.token,
+          Authorization: `Bearer ${token}`,
+          "Access-Control-Allow-Origin": "*",
         },
         withCredentials: true,
       }
@@ -178,9 +183,11 @@ function ChatAndRequest() {
   };
 
   const getChatList = async () => {
+    
     const result = await axios.post(`https://match-made-back.onrender.com/chat/get-chat`, "", {
       headers: {
-        Cookie: "token=" + cookies.token,
+        Authorization: `Bearer ${token}`,
+        "Access-Control-Allow-Origin": "*",
       },
       withCredentials: true,
     });
@@ -206,13 +213,15 @@ function ChatAndRequest() {
 
   async function onConsideredRequest(e) {
     console.log(e.target.name);
+    
     const details = e.target.name.split("!~");
     const result = await axios.post(
       `https://match-made-back.onrender.com/friends/update-request`,
       { requestId: details[0], senderId: details[1], status: "Accepted" },
       {
         headers: {
-          Cookie: "token=" + cookies.token,
+          Authorization: `Bearer ${token}`,
+          "Access-Control-Allow-Origin": "*",
         },
         withCredentials: true,
       }
@@ -222,13 +231,15 @@ function ChatAndRequest() {
   }
 
   async function onDeclinedRequest(e) {
+    
     console.log(e.target.name);
     const result = await axios.post(
       `https://match-made-back.onrender.com/friends/update-request`,
       { requestId: e.target.name, status: "Rejected" },
       {
         headers: {
-          Cookie: "token=" + cookies.token,
+          Authorization: `Bearer ${token}`,
+          "Access-Control-Allow-Origin": "*",
         },
         withCredentials: true,
       }

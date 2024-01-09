@@ -6,7 +6,7 @@ import LeftBar from "../components/LeftBar";
 import Button from "../components/Button";
 import BuyPlanDialog from "../components/BuyPlanDialog";
 import { useCookies } from "react-cookie";
-import {host} from "../utils/APIRoutes";
+import { host } from "../utils/APIRoutes";
 
 import {
   Typography,
@@ -43,8 +43,9 @@ function Chat() {
   const _receiverId = "6572343b20e0ba4957caf1fa";
   const socket = io(`https://match-made-back.onrender.com`);
 
+  const token = localStorage.getItem("token");
+
   const handleChatClick = (e) => {
-    
     setChatClick(!chatclick);
     // localStorage.setItem('convo',e.chatId)
     // setChatPartner({firstName:e.firstName, lastName:e.lastName})
@@ -68,12 +69,14 @@ function Chat() {
   };
 
   const getMessages = async () => {
+    
     const result = await axios.post(
       `https://match-made-back.onrender.com/message/get-messages`,
       { chatId: conversationId },
       {
         headers: {
-          Cookie: "token=" + cookies.token,
+          Authorization: `Bearer ${token}`,
+          "Access-Control-Allow-Origin": "*",
         },
         withCredentials: true,
       }
@@ -81,6 +84,8 @@ function Chat() {
     // console.log(result.data.message);
     setConversation(result.data.message);
   };
+
+  
 
   useEffect(() => {
     const getConversations = async () => {
@@ -90,7 +95,8 @@ function Chat() {
           "",
           {
             headers: {
-              Cookie: "token=" + cookies.token,
+              Authorization: `Bearer ${token}`,
+              "Access-Control-Allow-Origin": "*",
             },
             withCredentials: true,
           }

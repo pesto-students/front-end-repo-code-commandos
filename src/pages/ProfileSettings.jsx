@@ -34,6 +34,8 @@ function ProfileSettings() {
     handleChange,
   } = useFormContext();
 
+  const token = localStorage.getItem("token")
+  
   const handlePrev = () => setPage((prev) => prev - 1);
 
   const handleNext = () => setPage((prev) => prev + 1);
@@ -82,7 +84,8 @@ function ProfileSettings() {
           "",
           {
             headers: {
-              Cookie: "token=" + cookies.token,
+              Authorization: `Bearer ${token}`,
+              "Access-Control-Allow-Origin": "*",
             },
             withCredentials: true,
           }
