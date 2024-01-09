@@ -47,7 +47,7 @@ function App() {
         {/* <Route path="/login" element={<Home />} /> */}
         {isAuthenticated ? (
           <>
-            {/* <Route path="/" element={<MatchFeed />} /> */}
+            <Route path="/" element={<MatchFeed />} />
             <Route exact path="/matchfeed" element={<MatchFeed />} />
             <Route exact path="/chat-request" element={<ChatAndRequest />} />
             <Route exact path="/chat" element={<Chat />} />
