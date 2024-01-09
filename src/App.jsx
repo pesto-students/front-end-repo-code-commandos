@@ -47,18 +47,14 @@ function App() {
         {/* <Route path="/login" element={<Home />} /> */}
         {isAuthenticated ? (
           <>
-            <Route path="/" element={<MatchFeed />} />
-            <Route exact path="/matchfeed" element={<MatchFeed />} />
-            <Route exact path="/chat-request" element={<ChatAndRequest />} />
-            <Route exact path="/chat" element={<Chat />} />
-            <Route exact path="/register" element={<Register />} />
-            <Route exact path="/astromatch" element={<AstroMatch />} />
-            <Route exact path="/leftmobile" element={<LeftBarMobile />} />
-            <Route
-              exact
-              path="/profile-settings"
-              element={<ProfileSettings />}
-            />
+            <Route exact path="/" element={<MatchFeed />} />
+            <Route path="/matchfeed" element={<MatchFeed />} />
+            <Route path="/chat-request" element={<ChatAndRequest />} />
+            <Route path="/chat" element={<Chat />} />
+            <Route path="/register" element={<Register />} />
+            <Route path="/astromatch" element={<AstroMatch />} />
+            <Route path="/leftmobile" element={<LeftBarMobile />} />
+            <Route path="/profile-settings" element={<ProfileSettings />} />
           </>
         ) : (
           <Route path="/" element={<Home />} />
