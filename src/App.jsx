@@ -16,7 +16,11 @@ import { useCookies } from "react-cookie";
 import Home from "./pages/Home";
 
 function App() {
-  const isAuthenticated = getToken();
+  const [isAuthenticated, setIsAuthenticated] = useState(null);
+
+  useEffect(() => {
+    setIsAuthenticated(getToken());
+  }, []);
 
   // const [cookies, removeCookie] = useCookies([]);
 
