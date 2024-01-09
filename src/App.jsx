@@ -58,7 +58,7 @@ function App() {
             
           </>
         ) : (
-          <Route path="/*" element={<Home />} />
+          <Route element={<Home />} />
         )}
       </Routes>
     </BrowserRouter>

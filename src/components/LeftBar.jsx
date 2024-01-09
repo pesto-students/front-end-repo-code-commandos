@@ -13,8 +13,9 @@ function LeftBar({ activeAt }) {
 
   const handleLogout = (e) => {
     e.preventDefault();
-    cookies.remove("token");
-    navigate("/login");
+    localStorage.removeItem("token")
+    // cookies.remove("token");
+    navigate("/");
   };
   useEffect(() => {
     if (selectedOption === 2) {
