@@ -40,10 +40,10 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        {/* <Route path="/login" element={<Home />} /> */}
+        {/* <Route path="/" element={<Home />} /> */}
         {isAuthenticated ? (
           <>
-            <Route path="/" element={<MatchFeed />} />
+            {/* <Route path="/" element={<MatchFeed />} /> */}
             <Route exact path="/matchfeed" element={<MatchFeed />} />
             <Route exact path="/chat-request" element={<ChatAndRequest />} />
             <Route exact path="/chat" element={<Chat />} />
@@ -55,10 +55,9 @@ function App() {
               path="/profile-settings"
               element={<ProfileSettings />}
             />
-            
           </>
         ) : (
-          <Route element={<Home />} />
+          <Route path="/" element={<Home />} />
         )}
       </Routes>
     </BrowserRouter>
