@@ -130,7 +130,7 @@ function MatchFeed() {
   };
   useEffect(() => {
     fetchData();
-  }, []);
+  }, [token]);
 
   const handleClick = (click) => {
     setClick(click);
