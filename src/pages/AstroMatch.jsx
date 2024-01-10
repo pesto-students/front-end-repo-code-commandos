@@ -49,8 +49,9 @@ function AstroMatch() {
   const [details, setDetails] = useState();
 
   const token = localStorage.getItem("token");
-  const partnerHoroscope = localStorage.getItem("partnerHoroscope");
+  
   const horoscope = localStorage.getItem("horoscope");
+  const partnerHoroscope = localStorage.getItem("partnerHoroscope");
 
   const handleOpen = () => setOpen(!open);
 
@@ -203,15 +204,15 @@ function AstroMatch() {
                     variant="circular"
                     alt="user 1"
                     size="xxxl"
-                    className="border-2 border-white hover:z-10 focus:z-10"
-                    src={`/image/AstroSigns/${horoscope?.toLowerCase()}.png`}
+                    className="p-5 border-2 border-white hover:z-10 focus:z-10 bg-button_light "
+                    src={`/image/AstroSigns/${horoscope.toLowerCase()}.png`}
                   />
                   <Avatar
                     variant="circular"
                     alt="user 2"
                     size="xxxl"
-                    className="border-2 border-white hover:z-10 focus:z-10"
-                    src={`/image/AstroSigns/${partnerHoroscope?.toLowerCase()}.png`}
+                    className="p-5 border-2 border-white hover:z-10 focus:z-10 bg-button_light"
+                    src={`/image/AstroSigns/${partnerHoroscope.toLowerCase()}.png`}
                   />
                 </ThemeProvider>
               </div>

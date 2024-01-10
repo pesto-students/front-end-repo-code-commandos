@@ -120,24 +120,25 @@ function Home() {
           setLoginOpen(true);
         } else {
           localStorage.setItem("token", response.data.token);
+          localStorage.setItem("horoscope", response.data.message.horoscope);
           refreshPage();
           navigate("/matchfeed");
           
         }
       })
       .catch((error) => console.log(error));
-  };
-
-  const [formData, setFormData] = useState({
-    gender: null,
-    phone: null,
-    password: null,
-  });
-
-  const handleRegisterSubmit = async (e) => {
-    e.preventDefault();
-
-    await axios
+    };
+    
+    const [formData, setFormData] = useState({
+      gender: null,
+      phone: null,
+      password: null,
+    });
+    
+    const handleRegisterSubmit = async (e) => {
+      e.preventDefault();
+      
+      await axios
       .post(
         `https://match-made-back.onrender.com/user/create`,
         { ...formData },
@@ -147,8 +148,9 @@ function Home() {
           },
           crossDomain: true,
           withCredentials: true,
+          
         }
-      )
+        )
       .then((response) => {
         console.log(response.data.message);
         console.log(typeof response.data.message);
