@@ -204,14 +204,14 @@ function AstroMatch() {
                     alt="user 1"
                     size="xxxl"
                     className="border-2 border-white hover:z-10 focus:z-10"
-                    src={`/image/AstroSigns/${horoscope.toLowerCase()}.png`}
+                    src={`/image/AstroSigns/${horoscope?.toLowerCase()}.png`}
                   />
                   <Avatar
                     variant="circular"
                     alt="user 2"
                     size="xxxl"
                     className="border-2 border-white hover:z-10 focus:z-10"
-                    src={`/image/AstroSigns/${partnerHoroscope.toLowerCase()}.png`}
+                    src={`/image/AstroSigns/${partnerHoroscope?.toLowerCase()}.png`}
                   />
                 </ThemeProvider>
               </div>

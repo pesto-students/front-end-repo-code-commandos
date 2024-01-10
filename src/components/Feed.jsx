@@ -68,8 +68,8 @@ function Feed({ children }) {
     }
   };
 
-  useEffect(() => handleAstro(),[]);
-  
+  // useEffect(() => handleAstro(),[]);
+
   return (
     <>
       {/* Grid - 3 Columns */}
