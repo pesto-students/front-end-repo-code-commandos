@@ -49,7 +49,7 @@ function AstroMatch() {
   const [details, setDetails] = useState();
 
   const token = localStorage.getItem("token");
-  const partnerHoro = localStorage.getItem("partnerHoroscope");
+  const partnerHoroscope = localStorage.getItem("partnerHoroscope");
   const horoscope = localStorage.getItem("horoscope");
 
   const handleOpen = () => setOpen(!open);
@@ -92,7 +92,7 @@ function AstroMatch() {
     try {
       const result = await axios.post(
         `https://match-made-back.onrender.com/user/astro-search`,
-        { signs: [horoscope, partnerHoro] },
+        { signs: [horoscope, partnerHoroscope] },
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -211,7 +211,7 @@ function AstroMatch() {
                     alt="user 2"
                     size="xxxl"
                     className="border-2 border-white hover:z-10 focus:z-10"
-                    src={`/image/AstroSigns/${partnerHoro.toLowerCase()}.png`}
+                    src={`/image/AstroSigns/${partnerHoroscope.toLowerCase()}.png`}
                   />
                 </ThemeProvider>
               </div>
