@@ -311,10 +311,10 @@ function Chat() {
                     />
                   </div>
                   {/* Our Side Message */}
-                  <Message our={false}>
+                  {/* <Message our={false}>
                     Hello there!Hello there! Hello there! Hello there! Hello
                     there! Hello there! Hello there! ♦
-                  </Message>
+                  </Message> */}
                   {conversation?.map((content) => {
                     return (
                       <Message
