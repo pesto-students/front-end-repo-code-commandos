@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import CarouselDefault from "./CarouselDefault";
 import Button from "./Button";
 import { useNavigate } from "react-router-dom";
@@ -68,6 +68,8 @@ function Feed({ children }) {
     }
   };
 
+  useEffect(() => handleAstro(),[]);
+  
   return (
     <>
       {/* Grid - 3 Columns */}
