@@ -76,7 +76,7 @@ function PersonalDetails() {
 								id="P1Age"
 								type="number"
 								placeholder="21"
-								min="0"
+								// min="0"
 								required={true}
 								value={data.P1Age}
 								// onChange={handleChange}

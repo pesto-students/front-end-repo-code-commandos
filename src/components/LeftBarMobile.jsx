@@ -80,7 +80,7 @@ function LeftBarMobile({ activeAt }) {
             </button>
             {/* TODO: Logout function */}
             <button 
-            // onClick={handleLogout}
+            onClick={handleLogout}
             >
               <svg
                 width="35"
