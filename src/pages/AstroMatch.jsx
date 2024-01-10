@@ -92,7 +92,7 @@ function AstroMatch() {
     try {
       const result = await axios.post(
         `https://match-made-back.onrender.com/user/astro-search`,
-        { signs: partnerHoro },
+        { signs: [horoscope, partnerHoro] },
         {
           headers: {
             Authorization: `Bearer ${token}`,

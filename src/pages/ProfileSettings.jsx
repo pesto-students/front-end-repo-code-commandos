@@ -20,6 +20,7 @@ import useFormContext from "../hooks/useFormContext";
 import Button from "../components/Button";
 import axios from "axios";
 import {host} from "../utils/APIRoutes";
+import { useNavigate } from "react-router-dom";
 
 function ProfileSettings() {
   const {
