@@ -211,7 +211,7 @@ function AstroMatch() {
                     alt="user 2"
                     size="xxxl"
                     className="border-2 border-white hover:z-10 focus:z-10"
-                    src={`/image/AstroSigns/${partnerHoroscope.toLowerCase()}.png`}
+                    src={`/image/AstroSigns/${partnerHoro.toLowerCase()}.png`}
                   />
                 </ThemeProvider>
               </div>
