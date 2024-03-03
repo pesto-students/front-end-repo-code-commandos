@@ -10,7 +10,7 @@ export const GetToken = ({children}) => {
 //   return cookies.get("token");
   // return cookies.token;
   if(!localStorage.getItem("token")){
-    <Navigate to="/" />
+    return <Navigate to="/" />
   }
   return children;
 };
