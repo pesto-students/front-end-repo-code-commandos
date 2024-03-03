@@ -44,7 +44,6 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Redirect from="*" to="/login" />
         <Route exact path="/login" element={<ProtectedLoginRoute/>} />
         {/* <Route path="/" element={<MatchFeed />} /> */}
         <Route
