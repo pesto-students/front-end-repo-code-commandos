@@ -3,13 +3,16 @@ import { useCookies } from "react-cookie";
 import Cookies from "universal-cookie";
 import { Route, Navigate } from "react-router-dom";
 
-export const getToken = () => {
+export const GetToken = ({children}) => {
   // const [cookies, removeCookie] = useCookies([]);
 //   const cookies = new Cookies();
   // console.log(cookies.token);
 //   return cookies.get("token");
   // return cookies.token;
-  return localStorage.getItem("token")
+  if(!localStorage.getItem("token")){
+    <Navigate to="/" />
+  }
+  return children;
 };
 
 const ProtectedRoute = ({ component: Component, ...rest }) => {

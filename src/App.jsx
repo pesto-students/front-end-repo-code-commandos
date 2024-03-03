@@ -10,17 +10,17 @@ import Register from "./pages/Register";
 import AstroMatch from "./pages/AstroMatch";
 import ProfileSettings from "./pages/ProfileSettings";
 import PrivateRoutes from "./pages/PrivateRoutes";
-import ProtectedRoute, { getToken } from "./pages/ProtectedRoute";
+import ProtectedRoute, { GetToken } from "./pages/ProtectedRoute";
 import { useCookies } from "react-cookie";
 
 import Home from "./pages/Home";
 
 function App() {
-  const [isAuthenticated, setIsAuthenticated] = useState(null);
+  // const [isAuthenticated, setIsAuthenticated] = useState(null);
 
-  useEffect(() => {
-    setIsAuthenticated(getToken());
-  }, []);
+  // useEffect(() => {
+  //   setIsAuthenticated(getToken());
+  // }, []);
 
   // const [cookies, removeCookie] = useCookies([]);
 
@@ -44,11 +44,15 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        {/* <Route path="/login" element={<Home />} /> */}
-        {isAuthenticated ? (
+        <Route path="/" element={<Home />} />
+        {/* <Route path="/" element={<MatchFeed />} /> */}
+        <Route path="/matchfeed" element={
+          <GetToken>
+            <MatchFeed />
+          </GetToken>
+        } />
+        {/* {isAuthenticated ? (
           <>
-            <Route path="/" element={<MatchFeed />} />
-            <Route path="/matchfeed" element={<MatchFeed />} />
             <Route path="/chat-request" element={<ChatAndRequest />} />
             <Route path="/chat" element={<Chat />} />
             <Route path="/register" element={<Register />} />
@@ -58,7 +62,7 @@ function App() {
           </>
         ) : (
           <Route path="/" element={<Home />} />
-        )}
+        )} */}
       </Routes>
     </BrowserRouter>
   );
