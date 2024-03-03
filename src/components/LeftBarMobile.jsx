@@ -16,8 +16,8 @@ function LeftBarMobile({ activeAt }) {
     e.preventDefault();
     localStorage.removeItem("token")
     // cookies.remove("token");
-    refreshPage();
-    navigate("/");
+    // refreshPage();
+    navigate("/login");
   };
   
 

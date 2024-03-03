@@ -121,7 +121,7 @@ function Home() {
         } else {
           localStorage.setItem("token", response.data.token);
           localStorage.setItem("horoscope", response.data.message.horoscope);
-          refreshPage();
+          // refreshPage();
           navigate("/matchfeed");
           
         }
@@ -158,7 +158,7 @@ function Home() {
           setRegisterOpen(true);
         } else {
           navigate("/register");
-          refreshPage();
+          // refreshPage();
         }
       })
       .catch((error) => console.log(error));

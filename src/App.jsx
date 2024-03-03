@@ -10,7 +10,7 @@ import Register from "./pages/Register";
 import AstroMatch from "./pages/AstroMatch";
 import ProfileSettings from "./pages/ProfileSettings";
 import PrivateRoutes from "./pages/PrivateRoutes";
-import ProtectedRoute, { GetToken } from "./pages/ProtectedRoute";
+import ProtectedRoute,{ProtectedLoginRoute} from "./pages/ProtectedRoute";
 import { useCookies } from "react-cookie";
 
 import Home from "./pages/Home";
@@ -44,21 +44,32 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<ProtectedLoginRoute/>} />
         {/* <Route path="/" element={<MatchFeed />} /> */}
-        <Route path="/matchfeed" element={
-          <GetToken>
-            <MatchFeed />
-          </GetToken>
-        } />
+        <Route
+          path="/"
+          element={
+            <ProtectedRoute>
+              <MatchFeed />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/matchfeed"
+          element={
+            <ProtectedRoute>
+              <MatchFeed />
+            </ProtectedRoute>
+          }
+        />
+        <Route path="/chat-request" element={<ProtectedRoute><ChatAndRequest /></ProtectedRoute>} />
+        <Route path="/chat" element={<ProtectedRoute><Chat /></ProtectedRoute>} />
+        <Route path="/register" element={<ProtectedRoute><Register /></ProtectedRoute>} />
+        <Route path="/astromatch" element={<ProtectedRoute><AstroMatch /></ProtectedRoute>} />
+        <Route path="/leftmobile" element={<ProtectedRoute><LeftBarMobile /></ProtectedRoute>} />
+        <Route path="/profile-settings" element={<ProtectedRoute><ProfileSettings /></ProtectedRoute>} />
         {/* {isAuthenticated ? (
           <>
-            <Route path="/chat-request" element={<ChatAndRequest />} />
-            <Route path="/chat" element={<Chat />} />
-            <Route path="/register" element={<Register />} />
-            <Route path="/astromatch" element={<AstroMatch />} />
-            <Route path="/leftmobile" element={<LeftBarMobile />} />
-            <Route path="/profile-settings" element={<ProfileSettings />} />
           </>
         ) : (
           <Route path="/" element={<Home />} />

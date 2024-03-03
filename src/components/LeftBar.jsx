@@ -6,7 +6,7 @@ import LeftBarMobile from "../components/LeftBarMobile";
 
 function LeftBar({ activeAt }) {
   function refreshPage() {
-    window.location.reload(false);
+    window.location.reload(false);        
   }
 
   const navigate = useNavigate();
@@ -19,8 +19,8 @@ function LeftBar({ activeAt }) {
     e.preventDefault();
     localStorage.removeItem("token");
     // cookies.remove("token");
-    refreshPage();
-    navigate("/");
+    // refreshPage();
+    navigate("/login");
   };
   useEffect(() => {
     if (selectedOption === 2) {
@@ -44,7 +44,7 @@ function LeftBar({ activeAt }) {
             >
               <Link to="/matchfeed">
                 <svg
-                  width="35"
+                  width="35"    
                   height="35"
                   viewBox="0 0 24 24"
                   className="fill-bg_dark dark:fill-bg_light"
