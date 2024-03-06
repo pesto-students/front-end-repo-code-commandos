@@ -10,6 +10,7 @@ function InputField({
   max,
   name,
   value,
+  _onChange,
 }) {
   const { handleChange } = useFormContext();
   let desc = false;
@@ -37,7 +38,7 @@ function InputField({
             className={`flex ml-1 bg-bg_light border border-button_light hover:ring-4 hover:ring-button_light text-gray-900 text-lg rounded-lg w-full p-2.5 dark:bg-[#17212e] dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:hover:ring-4 dark:hover:ring-button_dark`}
             rows={4}
             cols={48}
-            onChange={handleChange}
+            onChange={_onChange || handleChange}
             required
           />
         ) : (
@@ -46,10 +47,10 @@ function InputField({
             id={id}
             min={min}
             max={max}
-            value={type == "text"  ? value : value >= min ? value : min}
+            defaultValue={type == "text"  ? value : value >= min ? value : min}
             className={`flex ml-1 bg-bg_light border border-button_light hover:ring-4 hover:ring-button_light text-gray-900 text-lg rounded-lg w-full p-2.5 dark:bg-[#17212e] dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:hover:ring-4 dark:hover:ring-button_dark`}
             placeholder={placeholder}
-            onChange={handleChange}
+            onChange={_onChange || handleChange}
             required
           />
         )
@@ -62,7 +63,7 @@ function InputField({
           className={`flex ml-1 bg-bg_light border border-button_light hover:ring-4 hover:ring-button_light text-gray-900 text-lg rounded-lg w-full p-2.5 dark:bg-[#17212e] dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:hover:ring-4 dark:hover:ring-button_dark`}
           rows={4}
           cols={40}
-          onChange={handleChange}
+          onChange={_onChange || handleChange}
           required
         />
       ) : (
@@ -71,11 +72,11 @@ function InputField({
           id={id}
           min={min}
           max={max}
-          valu={value}
+          defaultValue={value || ""}
           name={name}
           className="flex ml-1 bg-bg_light border border-button_light hover:ring-4 hover:ring-button_light text-gray-900 text-lg rounded-lg w-full p-2.5 dark:bg-[#17212e] dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:hover:ring-4 dark:hover:ring-button_dark"
           placeholder={placeholder}
-          onChange={handleChange}
+          onChange={_onChange || handleChange}
         />
       )}
     </>

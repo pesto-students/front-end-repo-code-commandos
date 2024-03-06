@@ -101,7 +101,7 @@ function Home() {
     e.preventDefault();
     await axios
       .post(
-        `https://match-made-back.onrender.com/user/login`,
+        `http://localhost:3000/user/login`,
         { ...loginFormData },
         {
           headers: {
@@ -119,7 +119,7 @@ function Home() {
         ) {
           setLoginOpen(true);
         } else {
-          localStorage.setItem("token", response.data.token);
+          localStorage.setItem("token", response.data.message.token);
           localStorage.setItem("horoscope", response.data.message.horoscope);
           // refreshPage();
           navigate("/matchfeed");
@@ -140,7 +140,7 @@ function Home() {
       
       await axios
       .post(
-        `https://match-made-back.onrender.com/user/create`,
+        `http://localhost:3000/user/create`,
         { ...formData },
         {
           headers: {
@@ -157,6 +157,7 @@ function Home() {
         if (response.data.message === "User already exists") {
           setRegisterOpen(true);
         } else {
+          localStorage.setItem("token", response.data.message.token);
           navigate("/register");
           // refreshPage();
         }

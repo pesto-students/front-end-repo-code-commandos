@@ -20,7 +20,6 @@ const ProtectedRoute = ({ children }) => {
   //   return cookies.get("token");
   // return cookies.token;
   const token = localStorage.getItem("token");
-  console.log(token);
   if (!token) {
     return <Navigate to="/login" />;
   }

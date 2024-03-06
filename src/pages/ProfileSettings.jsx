@@ -35,6 +35,24 @@ function ProfileSettings() {
     handleChange,
   } = useFormContext();
 
+  const [profilePic, setProfilePic] = useState("");
+
+  const convertToBase64 = (file) => {
+    return new Promise((resolve, reject) => {
+      const fileReader = new FileReader();
+      fileReader.readAsDataURL(file);
+      fileReader.onload = () => resolve(fileReader.result);
+      fileReader.onerror = () => reject(error);
+    })
+  }
+
+  const handleProfileChange = async (e) => {
+    const file = {data:e.target.files[0],id:e.target.id,type:'file'}
+    setProfilePic(URL.createObjectURL(file.data));
+    const base64 = await convertToBase64(file.data);
+    // handleChange({target:{...file, value:base64}});
+  };
+  
   const [userData, setUserData] = useState({
     phone: "",
     gender: "",
@@ -72,10 +90,6 @@ function ProfileSettings() {
   };
 
   const token = localStorage.getItem("token")
-  
-  const handlePrev = () => setPage((prev) => prev - 1);
-
-  const handleNext = () => setPage((prev) => prev + 1);
 
   // const handleSubmit = async (e) => {
   //   e.preventDefault();
@@ -90,19 +104,39 @@ function ProfileSettings() {
   //   });
 
   //Added from match-made-front
+
+  const handleUpdateChange = (e) => {
+    console.log("Value::" + e.target.value);
+    console.log("Name::" + e.target.name);
+    const type = e.target.type;
+
+    const _id = e.target.id;
+    console.log(_id + type);
+    let value = type === "checkbox" ? e.target.checked : e.target.value;
+    if (type === "file") {
+      // console.log(e.target.files[0]);
+      console.log(e.target.value)
+    }
+
+    setUserData((prevData) => ({
+      ...prevData,
+      [_id]: value,
+    }));
+  }  
+
   const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log(data);
+    console.log("Data::"+userData);
     // const data2 = new FormData(data);
 
     // try {
 
-    // data.userId = "6572343b20e0ba4957caf1fa";
+
     const formData = new FormData();
 
     // formData.append("P8ProfilePicture", data.P8ProfilePicture);
     // data.P8ProfilePicture = null;
-    formData.append("OtherData", JSON.stringify(data));
+    formData.append("OtherData", JSON.stringify(userData));
 
     const result = await axios.post(
       "http://localhost:3000/user/update",
@@ -155,7 +189,7 @@ function ProfileSettings() {
       
       try {
         const result = await axios.post(
-          `https://match-made-back.onrender.com/user/find`,
+          `http://localhost:3000/user/find`,
           "",
           {
             headers: {
@@ -229,10 +263,10 @@ function ProfileSettings() {
                             id="P1FirstName"
                             value={userData?.firstName}
                             type="text"
-                            placeholder="Ramesh"
                             required={true}
+                            _onChange={handleUpdateChange}
                             //value={data?.P1FirstName}
-                            onChange={handleChange}
+                            // onChange={(e) => setUserData((prev) => ({...prev, firstName:e.target.value}))}
                           />
                         </div>
                         <div>
@@ -250,8 +284,9 @@ function ProfileSettings() {
                             type="text"
                             placeholder="Doe"
                             required={true}
+                            _onChange={handleUpdateChange}
                             //value={data?.P1LastName}
-                            onChange={handleChange}
+                            // onChange={(e) => setUserData((prev) => ({...prev, lastName:e.target.value}))}
                           />
                         </div>
                       </div>
@@ -273,7 +308,7 @@ function ProfileSettings() {
                             min="0"
                             required={true}
                             //value={data?.P1Age}
-                            onChange={handleChange}
+                            _onChange={handleUpdateChange}
                           />
                         </div>
                         <div>
@@ -292,7 +327,7 @@ function ProfileSettings() {
                             placeholder="5.2"
                             required={true}
                             //value={data?.P1Height}
-                            onChange={handleChange}
+                            _onChange={handleUpdateChange}
                           />
                         </div>
                         <div>
@@ -311,7 +346,7 @@ function ProfileSettings() {
                             placeholder="56"
                             required={true}
                             //value={data?.P1Weight}
-                            onChange={handleChange}
+                            _onChange={handleUpdateChange}
                           />
                         </div>
                         <div className="md:w-60 w-full">
@@ -330,7 +365,7 @@ function ProfileSettings() {
                             placeholder=""
                             required={true}
                             //value={data?.P1Dob}
-                            onChange={handleChange}
+                            _onChange={handleUpdateChange}
                           />
                         </div>
                       </div>
@@ -678,281 +713,6 @@ function ProfileSettings() {
                           />
                         </div>
                       </div>
-                      <div className="my-2 flex flex-col lg:flex-row lg:items-center gap-4">
-                        <div className="lg:w-60 w-full">
-                          <Typography
-                            variant="h6"
-                            color="blue-gray"
-                            className="mb-2 font-medium dark:text-white"
-                          >
-                            Hobby
-                          </Typography>
-                          <InputChip
-                            name="P4Hobby"
-                            id="P4Hobby"
-                            value={userData?.hobby}
-                            list="hobbies"
-                            keyType="hobby"
-                            //value={data?.P4Hobby}
-                            onChange={handleChange}
-                          />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* P5 */}
-                  <div className="">
-                    <div className="flex justify-between">
-                      <Typography
-                        variant="h4"
-                        color="blue-gray"
-                        className="dark:text-white"
-                      >
-                        Partner Preference
-                      </Typography>
-                    </div>
-                    <div className="my-4 flex flex-col md:w-4/6 lg:w-auto h-full">
-                      <div className="my-2 flex flex-col lg:flex-row lg:items-center gap-4">
-                        <div className="lg:w-60 w-full">
-                          <Typography
-                            variant="h6"
-                            color="blue-gray"
-                            className="mb-2 font-medium dark:text-white"
-                          >
-                            Age Range
-                          </Typography>
-                          <InputChip
-                            name="P5AgeRange"
-                            id="P5AgeRange"
-                            value={userData?.ageRange}
-                            list="ages"
-                            keyType="age"
-                            //value={data?.P5AgeRange}
-                            onChange={handleChange}
-                          />
-                        </div>
-                        <div className="lg:w-60 w-full">
-                          <Typography
-                            variant="h6"
-                            color="blue-gray"
-                            className="mb-2 font-medium dark:text-white"
-                          >
-                            Maritial Preference
-                          </Typography>
-                          <InputChip
-                            name="P5MaritialPreference"
-                            id="P5MaritialPreference"
-                            value={userData?.maritialPreference}
-                            list="maritialStatuses"
-                            keyType="maritialStatus"
-                            //value={data?.P5MaritialPreference}
-                            onChange={handleChange}
-                          />
-                        </div>
-                      </div>
-                      <div className="my-2 flex flex-col lg:flex-row lg:items-center gap-4">
-                        <div className="lg:w-60 w-full">
-                          <Typography
-                            variant="h6"
-                            color="blue-gray"
-                            className="mb-2 font-medium dark:text-white"
-                          >
-                            Diet
-                          </Typography>
-                          <InputChip
-                            name="P5PartnerDiet"
-                            id="P5PartnerDiet"
-                            value={userData?.partnerDiet}
-                            list="diets"
-                            keyType="diet"
-                            //value={data?.P5PartnerDiet}
-                            onChange={handleChange}
-                          />
-                        </div>
-                      </div>
-                      <div className="my-2 flex flex-col lg:flex-row lg:items-center gap-4">
-                        <div className="lg:w-60 w-full">
-                          <Typography
-                            variant="h6"
-                            color="blue-gray"
-                            className="mb-2 font-medium dark:text-white"
-                          >
-                            City
-                          </Typography>
-                          <InputChip
-                            name="P5PartnerCity"
-                            id="P5PartnerCity"
-                            value={userData?.partnerCity}
-                            list="cities"
-                            keyType="city"
-                            //value={data?.P5PartnerCity}
-                            onChange={handleChange}
-                          />
-                        </div>
-                        <div className="lg:w-60 w-full">
-                          <Typography
-                            variant="h6"
-                            color="blue-gray"
-                            className="mb-2 font-medium dark:text-white"
-                          >
-                            State
-                          </Typography>
-                          <InputChip
-                            name="P5PartnerState"
-                            id="P5PartnerState"
-                            value={userData?.partnerState}
-                            list="states"
-                            keyType="state"
-                            //value={data?.P5PartnerState}
-                            onChange={handleChange}
-                          />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  {/* P6 */}
-                  <div className="">
-                    <div className="flex justify-between">
-                      <Typography
-                        variant="h4"
-                        color="blue-gray"
-                        className="dark:text-white"
-                      >
-                        Partner's Family Background
-                      </Typography>
-                    </div>
-                    <div className="my-4 flex flex-col md:w-4/6 lg:w-auto w-full h-full">
-                      <div className="my-2 flex flex-col lg:flex-row lg:items-center gap-4">
-                        <div className="lg:w-60 w-full">
-                          <Typography
-                            variant="h6"
-                            color="blue-gray"
-                            className="mb-2 font-medium dark:text-white"
-                          >
-                            Religion
-                          </Typography>
-                          <InputChip
-                            name="P6PartnerReligion"
-                            id="P6PartnerReligion"
-                            value={userData?.partnerReligion}
-                            list="religions"
-                            keyType="religion"
-                            //value={data?.P6PartnerReligion}
-                            onChange={handleChange}
-                          />
-                        </div>
-                        <div className="lg:w-60 w-full">
-                          <Typography
-                            variant="h6"
-                            color="blue-gray"
-                            className="mb-2 font-medium dark:text-white"
-                          >
-                            Community
-                          </Typography>
-                          <InputChip
-                            name="P6PartnerCommunity"
-                            id="P6PartnerCommunity"
-                            value={userData?.partnerCommunity}
-                            list="communities"
-                            keyType="community"
-                            //value={data?.P6PartnerCommunity}
-                            onChange={handleChange}
-                          />
-                        </div>
-                      </div>
-                      <div className="my-2 flex items-center gap-4">
-                        <div className="lg:w-60 w-full">
-                          <Typography
-                            variant="h6"
-                            color="blue-gray"
-                            className="mb-2 font-medium dark:text-white"
-                          >
-                            Family Type
-                          </Typography>
-                          <InputChip
-                            name="P6PartnerFamilyType"
-                            id="P6PartnerFamilyType"
-                            value={userData?.partnerFamilyType}
-                            list="familyTypes"
-                            keyType="familyType"
-                            //value={data?.P6PartnerFamilyType}
-                            onChange={handleChange}
-                          />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  {/* P7 */}
-                  <div className="">
-                    <div className="flex justify-between">
-                      <Typography
-                        variant="h4"
-                        color="blue-gray"
-                        className="dark:text-white"
-                      >
-                        Partner's Qualification and Profession
-                      </Typography>
-                    </div>
-                    <div className="my-4 flex flex-col md:w-4/6 lg:w-auto w-full h-full">
-                      <div className="my-2 flex flex-col lg:flex-row lg:items-center gap-4">
-                        <div className="lg:w-60 w-full">
-                          <Typography
-                            variant="h6"
-                            color="blue-gray"
-                            className="mb-2 font-medium dark:text-white"
-                          >
-                            Qualification Preference
-                          </Typography>
-                          <InputChip
-                            name="P7PartnerQualification"
-                            id="P7PartnerQualification"
-                            value={userData?.partnerQualification}
-                            list="qualifications"
-                            keyType="qualification"
-                            //value={data?.P7PartnerQualification}
-                            onChange={handleChange}
-                          />
-                        </div>
-                        <div className="lg:w-60 w-full">
-                          <Typography
-                            variant="h6"
-                            color="blue-gray"
-                            className="mb-2 font-medium dark:text-white"
-                          >
-                            Partner's Profession
-                          </Typography>
-                          <InputChip
-                            name="P7PartnerProfession"
-                            id="P7PartnerProfession"
-                            value={userData?.partnerProfession}
-                            list="professions"
-                            keyType="profession"
-                            //value={data?.P7PartnerProfession}
-                            onChange={handleChange}
-                          />
-                        </div>
-                      </div>
-                      <div className="my-2 flex flex-col lg:flex-row lg:items-center gap-4">
-                        <div className="lg:w-60 w-full">
-                          <Typography
-                            variant="h6"
-                            color="blue-gray"
-                            className="mb-2 font-medium dark:text-white"
-                          >
-                            Annual Income
-                          </Typography>
-                          <InputChip
-                            name="P7PartnerAnnualIncome"
-                            id="P7PartnerAnnualIncome"
-                            value={userData?.partnerAnnualIncome}
-                            list="annualIncomes"
-                            keyType="annualIncome"
-                            //value={data?.P7PartnerAnnualIncome}
-                            onChange={handleChange}
-                          />
-                        </div>
-                      </div>
                     </div>
                   </div>
                   {/* P8 */}
@@ -986,7 +746,7 @@ function ProfileSettings() {
                           placeholder="ramesh@gmail.com"
                           required={true}
                           //value={data?.P8ProfileEmail}
-                          // onChange={handleChange}
+                          _onChange={handleUpdateChange}
                         />
                         <div className=" lg:w-[30rem]">
                           <Typography
@@ -1003,6 +763,7 @@ function ProfileSettings() {
                             type="textarea"
                             placeholder="I'm a morning person, who loves to do adventurous hikes & loves cooking..."
                             required={true}
+                            _onChange={handleUpdateChange}
                             //value={data?.P8ProfileDescription}
                             // onChange={handleChange}
                           />
@@ -1033,7 +794,6 @@ function ProfileSettings() {
                       <button
                         type="button"
                         onClick={handleSubmit}
-                        disabled={!canSubmit}
                         className={`flex p-2 rounded-xl w-full lg:w-1/6 border-solid border-2 text-bg_dark dark:text-bg_light h-full font-light items-center justify-center bg-button_light focus:z-10 focus:ring-2 focus:ring-button_dark dark:bg-button_dark dark:focus:z-10 dark:focus:ring-2 dark:focus:ring-button_dark dark:focus:border-bg_dark ${submitHide}`}
                       >
                         Update
@@ -1052,31 +812,23 @@ function ProfileSettings() {
             <div className="w-[60%] h-[48vh] p-2">
               <img
                 className="h-full w-full rounded-lg object-cover object-center mt-2"
-                src="https://images.unsplash.com/photo-1682407186023-12c70a4a35e0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2832&q=80"
-                alt="nature image"
+                src={profilePic || userData?.profilePicture}
+                alt="profile image"
               />
             </div>
             {/* Upload Button */}
             <div className="items-center w-[55%] h-10 m-2">
-              <Button>Upload </Button>
-
-              {/* <div class="flex items-center justify-center w-full">
-                <label
-                  for="dropzone-file"
-                  class="flex flex-col items-center justify-center w-full border-2 border-gray-300 border-dashed rounded-lg cursor-pointer bg-gray-50 dark:hover:bg-bray-800 dark:bg-gray-700 hover:bg-gray-100 dark:border-gray-600 dark:hover:border-gray-500 dark:hover:bg-gray-600"
-                >
-                  <div class="flex flex-col items-center justify-center pt-5 pb-6">
-                    <p class="mb-2 text-sm text-gray-500 dark:text-gray-400">
-                      <span class="font-semibold">Click to upload</span> or drag
-                      and drop
-                    </p>
-                    <p class="text-xs text-gray-500 dark:text-gray-400">
-                      SVG, PNG, JPG or GIF (MAX. 800x400px)
-                    </p>
-                  </div>
-                  <input id="dropzone-file" type="file" className="hidden" />
-                </label>
-              </div> */}
+            <label className="flex p-2 cursor-pointer rounded-xl border-solid border-2 text-bg_dark dark:text-bg_light w-full h-full font-light items-center justify-center bg-button_light focus:z-10 focus:ring-2 focus:ring-button_dark dark:bg-button_dark dark:focus:z-10 dark:focus:ring-2 dark:focus:ring-button_dark dark:focus:border-bg_dark mt-2">
+                Change profile
+                <input
+                  type="file"
+                  accept=".jpg, .jpeg, .png"
+                  name="P8ProfilePicture"
+                  id="P8ProfilePicture"
+                  className="hidden"
+                  onChange={handleProfileChange}
+                />
+              </label>
             </div>
 
             <Card className="mt-24 mb-4 w-2/3 bg-white dark:bg-black">

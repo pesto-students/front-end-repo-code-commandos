@@ -57,7 +57,8 @@ const Form = ({ setFormId }) => {
     formData.append("OtherData", JSON.stringify(data));
     const token = localStorage.getItem("token")
 
-    const result = await axios.post(`https://match-made-back.onrender.com/user/update`, formData, {
+    // const result = await axios.post(`https://match-made-back.onrender.com/user/update`, formData, {
+    const result = await axios.post(`http://localhost:3000/user/update`, formData, {
       headers: {
         Authorization: `Bearer ${token}`,
         "Access-Control-Allow-Origin": "*",

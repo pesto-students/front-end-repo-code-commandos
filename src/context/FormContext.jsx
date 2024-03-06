@@ -115,16 +115,18 @@ export const FormProvider = ({ children }) => {
   const submitHide = page !== Object.keys(title).length - 1 && "hidden";
 
   const handleChange = (e) => {
-    console.log("H::" + e.target.value);
+    console.log("Value::" + e.target.value);
+    console.log("Name::" + e.target.name);
     const type = e.target.type;
 
     const id = e.target.id;
     console.log(id + type);
     let value = type === "checkbox" ? e.target.checked : e.target.value;
     if (type === "file") {
-      value = e.target.files[0];
-      console.log(e.target.files[0]);
+      // console.log(e.target.files[0]);
+      console.log(e.target.value)
     }
+
     setData((prevData) => ({
       ...prevData,
       [id]: value,

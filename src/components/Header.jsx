@@ -1,18 +1,23 @@
 import React, { useState, useEffect } from "react";
-import {host} from "../utils/APIRoutes";
+import { host } from "../utils/APIRoutes";
 export default function Header() {
-  const [Theme, setTheme] = useState("light");
+  const [Theme, setTheme] = useState(
+    localStorage.getItem("dark-mode") || "light"
+  );
 
   useEffect(() => {
     if (Theme === "dark") {
       document.documentElement.classList.add("dark");
+      localStorage.setItem("dark-mode", "dark");
     } else {
       document.documentElement.classList.remove("dark");
+      localStorage.setItem("dark-mode", "light");
     }
   }, [Theme]);
 
   const handleThemeSwitch = () => {
     setTheme(Theme === "dark" ? "light" : "dark");
+    localStorage.setItem("dark-mode", Theme);
   };
 
   return (
