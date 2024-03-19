@@ -1,6 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import io from "socket.io-client";
+import { io } from "socket.io-client";
 import Header from "../components/Header";
 import LeftBar from "../components/LeftBar";
 import Button from "../components/Button";
@@ -117,11 +117,11 @@ function Chat() {
 			socket.on("welcome", (data) => {
 				console.log(`Message from server : ${data}`);
 			});
+		});
 
-			socket.on("s-message", (newMessage) => {
-				console.log("User Message: " + newMessage.texts);
-				setConversation((preMessages) => [...preMessages, newMessage]);
-			});
+		socket.on("s-message", (newMessage) => {
+			console.log("User Message: " + newMessage.texts);
+			setConversation((preMessages) => [...preMessages, newMessage]);
 		});
 
 		return () => {
