@@ -114,7 +114,7 @@ function Chat() {
 			}
 		};
 		getConversations();
-	}, [conversationId]);
+	}, []);
 
 	useEffect(() => {
 		socket.on("connection", (res) => {
@@ -342,6 +342,7 @@ function Chat() {
 										onChange={(e) =>
 											setMessage(e.target.value)
 										}
+										value={message}
 									/>
 									<div>
 										<IconButton
