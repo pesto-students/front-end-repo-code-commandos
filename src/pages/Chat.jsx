@@ -87,8 +87,6 @@ function Chat() {
 		setConversation(result.data.message);
 	};
 
-	useEffect(() => {}, []);
-
 	useEffect(() => {
 		const getConversations = async () => {
 			try {
@@ -113,28 +111,32 @@ function Chat() {
 			}
 		};
 
-		socket.on("connection", (res) => {
-			console.log("Connection ID" + res.id);
-			socket.on("message", (newMessage) => {
+		getConversations();
+
+		socket.on("connection", () => {
+			socket.on("welcome", (data) => {
+				console.log(`Message from server : ${data}`);
+			});
+
+			socket.on("s-message", (newMessage) => {
 				console.log("User Message: " + newMessage.texts);
 				setConversation((preMessages) => [...preMessages, newMessage]);
 			});
 		});
 
-		getConversations();
-
 		return () => {
-			socket.disconnect();
+			socket.off("Disconnected!");
 		};
 	}, []);
 
 	const sendMessage = () => {
 		// EMIT MESSAGE TO BACKEND
-		socket.emit("message", {
+		let msg = {
 			chatId: conversationId,
 			senderid: senderId,
 			texts: message,
-		});
+		};
+		socket.emit("message", msg);
 
 		// setMessage((prevMessage) => [
 		// 	...prevMessage,
@@ -145,14 +147,14 @@ function Chat() {
 		// 	},
 		// ]);
 
-		// setConversation((prevConversation) => [
-		// 	...prevConversation,
-		// 	{
-		// 		chatId: conversationId,
-		// 		senderId: senderId,
-		// 		text: message,
-		// 	},
-		// ]);
+		setConversation((prevConversation) => [
+			...prevConversation,
+			{
+				chatId: conversationId,
+				senderId: senderId,
+				text: message,
+			},
+		]);
 
 		setMessage("");
 	};
