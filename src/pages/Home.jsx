@@ -100,33 +100,35 @@ function Home() {
   const handleLoginSubmit = async (e) => {
     e.preventDefault();
     await axios
-      .post(
-        `http://localhost:3000/user/login`,
-        { ...loginFormData },
-        {
-          headers: {
-            "Access-Control-Allow-Origin": "*",
-          },
-          crossDomain: true,
-          withCredentials: true,
-        }
-      )
-      .then((response) => {
-        if (
-          response.data.message ===
-            "Access Denied. Incorrect password or phone number" ||
-          response.data.message === "Incorrect password or phone number"
-        ) {
-          setLoginOpen(true);
-        } else {
-          localStorage.setItem("token", response.data.message.token);
-          localStorage.setItem("horoscope", response.data.message.horoscope);
-          // refreshPage();
-          navigate("/matchfeed");
-          
-        }
-      })
-      .catch((error) => console.log(error));
+		.post(
+			`https://matchmade.onrender.com/user/login`,
+			{ ...loginFormData },
+			{
+				headers: {
+					"Access-Control-Allow-Origin": "*",
+				},
+				crossDomain: true,
+				withCredentials: true,
+			}
+		)
+		.then((response) => {
+			if (
+				response.data.message ===
+					"Access Denied. Incorrect password or phone number" ||
+				response.data.message === "Incorrect password or phone number"
+			) {
+				setLoginOpen(true);
+			} else {
+				localStorage.setItem("token", response.data.message.token);
+				localStorage.setItem(
+					"horoscope",
+					response.data.message.horoscope
+				);
+				// refreshPage();
+				navigate("/matchfeed");
+			}
+		})
+		.catch((error) => console.log(error));
     };
     
     const [formData, setFormData] = useState({
@@ -139,30 +141,29 @@ function Home() {
       e.preventDefault();
       
       await axios
-      .post(
-        `http://localhost:3000/user/create`,
-        { ...formData },
-        {
-          headers: {
-            "Access-Control-Allow-Origin": "*",
-          },
-          crossDomain: true,
-          withCredentials: true,
-          
-        }
-        )
-      .then((response) => {
-        console.log(response.data.message);
-        console.log(typeof response.data.message);
-        if (response.data.message === "User already exists") {
-          setRegisterOpen(true);
-        } else {
-          localStorage.setItem("token", response.data.message.token);
-          navigate("/register");
-          // refreshPage();
-        }
-      })
-      .catch((error) => console.log(error));
+			.post(
+				`https://matchmade.onrender.com/user/create`,
+				{ ...formData },
+				{
+					headers: {
+						"Access-Control-Allow-Origin": "*",
+					},
+					crossDomain: true,
+					withCredentials: true,
+				}
+			)
+			.then((response) => {
+				console.log(response.data.message);
+				console.log(typeof response.data.message);
+				if (response.data.message === "User already exists") {
+					setRegisterOpen(true);
+				} else {
+					localStorage.setItem("token", response.data.message.token);
+					navigate("/register");
+					// refreshPage();
+				}
+			})
+			.catch((error) => console.log(error));
   };
 
   // useEffect(() => {
