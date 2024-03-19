@@ -40,9 +40,6 @@ function Chat() {
 	const [chatclick, setChatClick] = useState(false);
 	const [backclick, setBackClick] = useState(false);
 
-	// MAKE STATICS VALUES - DYNAMIC
-	const _senderId = "6571f16ba15ead32cc0a5907";
-	const _receiverId = "6572343b20e0ba4957caf1fa";
 	const socket = io(`https://match-made-back.onrender.com`, {
 		auth: {
 			token: conversationId,
@@ -90,6 +87,8 @@ function Chat() {
 		setConversation(result.data.message);
 	};
 
+	useEffect(() => {}, []);
+
 	useEffect(() => {
 		const getConversations = async () => {
 			try {
@@ -113,28 +112,16 @@ function Chat() {
 				console.log(error);
 			}
 		};
-		getConversations();
-	}, []);
 
-	useEffect(() => {
 		socket.on("connection", (res) => {
 			console.log("Connection ID" + res.id);
+			socket.on("message", (newMessage) => {
+				console.log("User Message: " + newMessage.texts);
+				setConversation((preMessages) => [...preMessages, newMessage]);
+			});
 		});
 
-		socket.emit("get-id", { chatId: conversationId });
-
-		// Convesation ID
-		socket.on("connection-id", (converse) => {
-			console.log("User conversation ID: " + converse.id);
-			console.log("Result: " + converse.result);
-			// setConversation(converse.result);
-			// setConversationId("6572e52ade9c5c60389b7147");
-		});
-
-		socket.on("message", (newMessage) => {
-			console.log("User Message: " + newMessage.text);
-			setConversation((preMessages) => [...preMessages, newMessage]);
-		});
+		getConversations();
 
 		return () => {
 			socket.disconnect();
