@@ -59,7 +59,7 @@ const Form = ({ setFormId }) => {
 
 		// const result = await axios.post(`https://match-made-back.onrender.com/user/update`, formData, {
 		const result = await axios.post(
-			`https://matchmade.onrender.com/user/update`,
+			`https://match-made-back.onrender.com/user/update`,
 			formData,
 			{
 				headers: {
