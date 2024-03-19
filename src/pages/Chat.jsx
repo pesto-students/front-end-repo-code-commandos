@@ -113,7 +113,7 @@ function Chat() {
 
 		getConversations();
 
-		socket.on("connection", () => {
+		socket.on("connect", () => {
 			socket.on("welcome", (data) => {
 				console.log(`Message from server : ${data}`);
 			});
