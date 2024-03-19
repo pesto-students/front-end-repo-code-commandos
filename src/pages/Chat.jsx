@@ -132,7 +132,7 @@ function Chat() {
 		});
 
 		socket.on("message", (newMessage) => {
-			console.log("User Message: " + newMessage.texts);
+			console.log("User Message: " + newMessage.text);
 			setConversation((preMessages) => [...preMessages, newMessage]);
 		});
 
@@ -158,14 +158,14 @@ function Chat() {
 		// 	},
 		// ]);
 
-		setConversation((prevConversation) => [
-			...prevConversation,
-			{
-				chatId: conversationId,
-				senderId: senderId,
-				text: message,
-			},
-		]);
+		// setConversation((prevConversation) => [
+		// 	...prevConversation,
+		// 	{
+		// 		chatId: conversationId,
+		// 		senderId: senderId,
+		// 		text: message,
+		// 	},
+		// ]);
 
 		setMessage("");
 	};
