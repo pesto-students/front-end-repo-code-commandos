@@ -122,7 +122,7 @@ function Chat() {
 		});
 
 		socket.on("s-message", (newMessage) => {
-			console.log("User Message: " + newMessage.texts);
+			console.log("User Message: " + newMessage.text);
 			setConversation((preMessages) => [...preMessages, newMessage]);
 		});
 
@@ -136,7 +136,7 @@ function Chat() {
 		let msg = {
 			chatId: conversationId,
 			senderid: senderId,
-			texts: message,
+			text: message,
 		};
 		socket.emit("message", msg);
 
@@ -304,12 +304,12 @@ function Chat() {
 									{conversation?.map((content) => {
 										return (
 											<Message
-												id={content.texts}
+												id={content.text}
 												our={
 													content.senderId == senderId
 												}
 											>
-												{content.texts}
+												{content.text}
 											</Message>
 										);
 									})}
