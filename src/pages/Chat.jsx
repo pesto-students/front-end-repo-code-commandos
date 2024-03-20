@@ -122,8 +122,15 @@ function Chat() {
 		});
 
 		socket.on("s-message", (newMessage) => {
-			console.log("User Message: " + newMessage.text);
-			setConversation((preMessages) => [...preMessages, newMessage]);
+			console.log("User Message: " + newMessage);
+			setConversation((preMessages) => [
+				...preMessages,
+				{
+					chatId: newMessage.chatId,
+					senderId: newMessage.senderId,
+					text: newMessage.text,
+				},
+			]);
 		});
 
 		return () => {
@@ -135,7 +142,7 @@ function Chat() {
 		// EMIT MESSAGE TO BACKEND
 		let msg = {
 			chatId: conversationId,
-			senderid: senderId,
+			senderId: senderId,
 			text: message,
 		};
 		socket.emit("message", msg);
