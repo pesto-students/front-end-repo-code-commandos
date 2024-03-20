@@ -140,12 +140,11 @@ function Chat() {
 
 	const sendMessage = () => {
 		// EMIT MESSAGE TO BACKEND
-		let msg = {
+		socket.emit("message", {
 			chatId: conversationId,
 			senderId: senderId,
 			text: message,
-		};
-		socket.emit("message", msg);
+		});
 
 		// setMessage((prevMessage) => [
 		// 	...prevMessage,
