@@ -26,7 +26,7 @@ function Chat() {
 	const navigate = useNavigate();
 	const [cookies, removeCookie] = useCookies([]);
 	const [chatPartner, setChatPartner] = useState({});
-	const [senderId, setSenderId] = useState();
+	const [senderId, setSenderId] = useState(localStorage.getItem("convo-you"));
 	const [conversationId, setConversationId] = useState(
 		localStorage.getItem("convo")
 	);
@@ -103,7 +103,6 @@ function Chat() {
 				);
 
 				setChatListData(result.data.message);
-				setSenderId(localStorage.getItem("convo-you"));
 				getMessages();
 				console.log(senderId);
 			} catch (error) {
@@ -117,12 +116,12 @@ function Chat() {
 	useEffect(() => {
 		socket.on("connect", () => {
 			socket.on("welcome", (data) => {
-				console.log(`Message from server : ${data}`);
+				console.log("Message from server :", data);
 			});
 		});
 
 		socket.on("s-message", (newMessage) => {
-			console.log("User Message: " + newMessage);
+			console.log("User Message: ", newMessage);
 			setConversation((preMessages) => [
 				...preMessages,
 				{
