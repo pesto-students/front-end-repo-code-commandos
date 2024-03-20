@@ -40,7 +40,7 @@ function Chat() {
 	const [chatclick, setChatClick] = useState(false);
 	const [backclick, setBackClick] = useState(false);
 
-	const socket = io("https://match-made-back.onrender.com:10001", {
+	const socket = io("https://match-made-back.onrender.com", {
 		auth: {
 			token: conversationId,
 		},
