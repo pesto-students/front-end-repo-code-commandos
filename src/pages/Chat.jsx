@@ -309,7 +309,7 @@ function Chat() {
 													content.senderId == senderId
 												}
 											>
-												{content.text}
+												{content.texts}
 											</Message>
 										);
 									})}
