@@ -311,7 +311,8 @@ function Chat() {
 											<Message
 												id={content.text}
 												our={
-													content.senderId == senderId
+													content.senderId ===
+													senderId
 												}
 											>
 												{content.text}
