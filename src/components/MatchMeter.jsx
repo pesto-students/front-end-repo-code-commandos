@@ -6,19 +6,19 @@ function MatchMeter({ clicked, children }) {
   const [bar, setBar] = useState(0);
 
   useEffect(() => {
-    setBar(children.totalScore);
+    setBar(children.totalScore > 100 ? "100" : children.totalScore);
   }, [children.totalScore]);
 
   return (
     <>
       <div className="justify-center py-4 flex flex-col gap-4 text-bg_dark dark:text-bg_light items-center">
         <p className="">Match Meter</p>
-        <p className=" text-5xl font-semibold">{children.totalScore}%</p>
+        <p className=" text-5xl font-semibold">{bar}%</p>
 
         {!clicked ? (
           <div className="relative mt-4 h-[60vh] w-20 bg-bg_light rounded-xl border-2 border-bg_light dark:border-bg_light mx-auto">
             <div
-              style={{ maxHeight: "100%", height: `${bar}%` }}
+              style={{ height: `${bar}%` }}
               className={`absolute bottom-0 bg-button_light dark:bg-button_dark w-[76px] rounded-lg`}
             ></div>
           </div>
