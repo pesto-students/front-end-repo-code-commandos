@@ -3,12 +3,11 @@ import MatchList from "./MatchList";
 import MatchListItem from "./MatchListItem";
 
 function MatchMeter({ clicked, children }) {
-  const [bar, setBar] = useState(0)
+  const [bar, setBar] = useState(0);
 
   useEffect(() => {
-    setBar(children.totalScore)
-  }, [children.totalScore])
-  
+    setBar(children.totalScore);
+  }, [children.totalScore]);
 
   return (
     <>
@@ -19,7 +18,7 @@ function MatchMeter({ clicked, children }) {
         {!clicked ? (
           <div className="relative mt-4 h-[60vh] w-20 bg-bg_light rounded-xl border-2 border-bg_light dark:border-bg_light mx-auto">
             <div
-              style={{ height: `${bar}%` }}
+              style={{ maxHeight: "100%", height: `${bar}%` }}
               className={`absolute bottom-0 bg-button_light dark:bg-button_dark w-[76px] rounded-lg`}
             ></div>
           </div>
