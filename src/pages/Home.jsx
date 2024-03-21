@@ -315,6 +315,7 @@ function Home() {
 															required={true}
 															min={10}
 															max={10}
+															pattern="[+]*[0-9]{10}"
 															onChange={(e) =>
 																setFormData({
 																	...formData,
@@ -402,6 +403,7 @@ function Home() {
 															type="tel"
 															placeholder="8100 456789"
 															required={true}
+															pattern="[+]*[0-9]{10}"
 															onChange={(e) =>
 																setLoginFormData(
 																	{
