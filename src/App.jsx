@@ -42,41 +42,42 @@ function App() {
   // });
 
   return (
-    <BrowserRouter>
-      <Routes>
-        {/* <Route path="/*" element={<ProtectedLoginRoute/>} /> */}
-        <Route path="/login" element={<ProtectedLoginRoute/>} />
-        {/* <Route path="/" element={<MatchFeed />} /> */}
-        <Route
-          path="/"
-          element={
-            <ProtectedRoute>
-              <MatchFeed />
-            </ProtectedRoute>
-          }
-        />
-        <Route
-          path="/matchfeed"
-          element={
-            <ProtectedRoute>
-              <MatchFeed />
-            </ProtectedRoute>
-          }
-        />
-        <Route path="/chat-request" element={<ProtectedRoute><ChatAndRequest /></ProtectedRoute>} />
-        <Route path="/chat" element={<ProtectedRoute><Chat /></ProtectedRoute>} />
-        <Route path="/register" element={<ProtectedRoute><Register /></ProtectedRoute>} />
-        <Route path="/astromatch" element={<ProtectedRoute><AstroMatch /></ProtectedRoute>} />
-        <Route path="/leftmobile" element={<ProtectedRoute><LeftBarMobile /></ProtectedRoute>} />
-        <Route path="/profile-settings" element={<ProtectedRoute><ProfileSettings /></ProtectedRoute>} />
-        {/* {isAuthenticated ? (
-          <>
-          </>
-        ) : (
-          <Route path="/" element={<Home />} />
-        )} */}
-      </Routes>
-    </BrowserRouter>
+    // <BrowserRouter>
+    //   <Routes>
+    //     {/* <Route path="/*" element={<ProtectedLoginRoute/>} /> */}
+    //     <Route path="/login" element={<ProtectedLoginRoute/>} />
+    //     {/* <Route path="/" element={<MatchFeed />} /> */}
+    //     <Route
+    //       path="/"
+    //       element={
+    //         <ProtectedRoute>
+    //           <MatchFeed />
+    //         </ProtectedRoute>
+    //       }
+    //     />
+    //     <Route
+    //       path="/matchfeed"
+    //       element={
+    //         <ProtectedRoute>
+    //           <MatchFeed />
+    //         </ProtectedRoute>
+    //       }
+    //     />
+    //     <Route path="/chat-request" element={<ProtectedRoute><ChatAndRequest /></ProtectedRoute>} />
+    //     <Route path="/chat" element={<ProtectedRoute><Chat /></ProtectedRoute>} />
+    //     <Route path="/register" element={<ProtectedRoute><Register /></ProtectedRoute>} />
+    //     <Route path="/astromatch" element={<ProtectedRoute><AstroMatch /></ProtectedRoute>} />
+    //     <Route path="/leftmobile" element={<ProtectedRoute><LeftBarMobile /></ProtectedRoute>} />
+    //     <Route path="/profile-settings" element={<ProtectedRoute><ProfileSettings /></ProtectedRoute>} />
+    //     {/* {isAuthenticated ? (
+    //       <>
+    //       </>
+    //     ) : (
+    //       <Route path="/" element={<Home />} />
+    //     )} */}
+    //   </Routes>
+    // </BrowserRouter>
+    <div></div>
   );
 }
 
