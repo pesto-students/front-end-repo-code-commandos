@@ -24,6 +24,8 @@ import { useNavigate } from "react-router-dom";
 
 function Chat() {
 	const navigate = useNavigate();
+	
+	const [token, setToken] = useState();
 	const [cookies, removeCookie] = useCookies([]);
 	const [chatPartner, setChatPartner] = useState({});
 	const [senderId, setSenderId] = useState(localStorage.getItem("convo-you"));
@@ -45,8 +47,6 @@ function Chat() {
 			token: conversationId,
 		},
 	});
-
-	const token = localStorage.getItem("token");
 
 	const handleChatClick = (e) => {
 		setChatClick(!chatclick);
@@ -88,6 +88,12 @@ function Chat() {
 	};
 
 	useEffect(() => {
+		setToken(localStorage.getItem('token'))
+		if(!token) navigate('/login');
+		else {
+			getConversations();
+			socketConnet();
+		} 
 		const getConversations = async () => {
 			try {
 				const result = await axios.post(
@@ -109,16 +115,18 @@ function Chat() {
 				console.log(error);
 			}
 		};
-
-		getConversations();
-	}, []);
-
-	useEffect(() => {
-		socket.on("connect", () => {
+		const socketConnet = () => {
+			socket.on("connect", () => {
 			socket.on("welcome", (data) => {
 				console.log("Message from server :", data);
 			});
 		});
+		} 
+		
+	}, []);
+
+	useEffect(() => {
+		
 
 		socket.on("s-message", (newMessage) => {
 			console.log("User Message: ", newMessage);

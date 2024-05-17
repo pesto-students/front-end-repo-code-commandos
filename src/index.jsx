@@ -2,28 +2,59 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { createHashRouter, RouterProvider } from "react-router-dom";
 import { ProtectedLoginRoute } from "./pages/ProtectedRoute";
-import Home from "./pages/Home";
 
 // import App from "./App.jsx";
 import "./index.css";
+
+import Home from './pages/Home';
 import MatchFeed from "./pages/MatchFeed";
 import Register from "./pages/Register";
+import ChatAndRequest from "./pages/ChatAndRequest";
+import Chat from "./pages/Chat";
+import AstroMatch from "./pages/AstroMatch";
+import LeftBarMobile from "./components/LeftBarMobile";
+import ProfileSettings from "./pages/ProfileSettings";
+import Error404 from "./pages/Error404";
 
 const router = createHashRouter([
   {
-    path: "/",
-    element: <Home />,
-    errorElement: <h3>404 Page Not Found.</h3>,
-  },
-  {
     path: "/login",
     element: <Home />,
-    errorElement: <h3>404 Page Not Found.</h3>,
+    errorElement: <Error404 />,
   },
   {
     path: "/register",
     element: <Register />,
-    errorElement: <h3>404 Page Not Found.</h3>,
+    errorElement: <Error404 />,
+  },
+  {
+    path: "/match-feed",
+    element: <MatchFeed />,
+    errorElement: <Error404 />,
+  },
+  {
+    path: "/chat-request",
+    element: <ChatAndRequest />,
+    errorElement: <Error404 />,
+  },
+  {
+    path: "/chat",
+    element: <Chat />,
+    errorElement: <Error404 />,
+  },
+  {
+    path: "/astromatch",
+    element: <AstroMatch />,
+    errorElement: <Error404 />,
+  },
+  {
+    path: "/profile-settings",
+    element: <ProfileSettings />,
+    errorElement: <Error404 />,
+  },
+  {
+    path: "/error404",
+    element: <Error404 />,
   },
 ]);
 

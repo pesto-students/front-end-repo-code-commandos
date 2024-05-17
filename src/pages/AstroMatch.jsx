@@ -18,6 +18,7 @@ import { useCookies } from "react-cookie";
 import axios from "axios";
 import AstroCardButton from "../components/AstroMatch/AstroCardButton";
 import { host } from "../utils/APIRoutes";
+import { useNavigate } from "react-router-dom";
 
 const theme = {
   avatar: {
@@ -37,6 +38,8 @@ const theme = {
 };
 
 function AstroMatch() {
+  const navigate = useNavigate();
+  const [token, setToken] = useState();
   const [card, setCard] = useState(1);
   const [title, setTitle] = useState("");
   const [open, setOpen] = React.useState(false);
@@ -47,8 +50,6 @@ function AstroMatch() {
   const [chatclick, setChatClick] = useState(false);
   const [backclick, setBackClick] = useState(false);
   const [details, setDetails] = useState();
-
-  const token = localStorage.getItem("token");
   
   const horoscope = localStorage.getItem("horoscope");
   const partnerHoroscope = localStorage.getItem("partnerHoroscope");
@@ -111,16 +112,20 @@ function AstroMatch() {
   };
 
   useEffect(() => {
+    setToken(localStorage.getItem('token'))
+    if(!token) navigate('/login')
+      else{
     loadData();
     changeTitle();
-  }, [card]);
+    }
+  }, []);
 
   return (
     <>
       <div className="flex flex-col h-screen w-full bg-bg_light dark:bg-bg_dark">
         <Header />
 
-        <div className="grid grid-cols-1 md:grid-cols-12 h-full mb-10 gap-2">
+        {details && (<div className="grid grid-cols-1 md:grid-cols-12 h-full mb-10 gap-2">
           <div className="col-span-1 md:col-span-1 md:h-[88vh] md:order-first order-3">
             <LeftBar activeAt={1} />
           </div>
@@ -320,7 +325,7 @@ function AstroMatch() {
               </div>
             </div>
           </div>
-        </div>
+        </div>)}
       </div>
     </>
   );

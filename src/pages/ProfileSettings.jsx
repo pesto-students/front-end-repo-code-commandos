@@ -20,9 +20,12 @@ import useFormContext from "../hooks/useFormContext";
 import Button from "../components/Button";
 import axios from "axios";
 import { host } from "../utils/APIRoutes";
-import { useNavigate } from "react-router-dom";
+import { redirect, useNavigate } from "react-router-dom";
 
 function ProfileSettings() {
+
+	const navigate = useNavigate();
+
 	const {
 		setPage,
 		data,
@@ -36,6 +39,7 @@ function ProfileSettings() {
 	} = useFormContext();
 
 	const [profilePic, setProfilePic] = useState("");
+	const [token, setToken] = useState();
 
 	const convertToBase64 = (file) => {
 		return new Promise((resolve, reject) => {
@@ -83,13 +87,11 @@ function ProfileSettings() {
 		hobby: "",
 	});
 
-	const navigate = useNavigate();
+	
 
 	const handleDiscard = () => {
 		navigate("/matchfeed");
 	};
-
-	const token = localStorage.getItem("token");
 
 	// const handleSubmit = async (e) => {
 	//   e.preventDefault();
@@ -209,7 +211,9 @@ function ProfileSettings() {
 	};
 
 	useEffect(() => {
-		loadData();
+		setToken(localStorage.getItem('token'))
+		if(!token) navigate('/login')
+		else loadData();
 	}, []);
 
 	//Added from match-made-front
@@ -224,7 +228,7 @@ function ProfileSettings() {
 			<div className="flex flex-col md:h-screen h-full w-full bg-bg_light dark:bg-bg_dark">
 				<Header />
 
-				<div className="md:grid md:grid-cols-12 md:h-full md:gap-2 flex flex-col-reverse h-full gap-2 mb-12">
+				{userData && (<div className="md:grid md:grid-cols-12 md:h-full md:gap-2 flex flex-col-reverse h-full gap-2 mb-12">
 					<div className="md:col-span-1 md:h-[88vh] md:block">
 						<LeftBar activeAt={3} />
 					</div>
@@ -928,7 +932,7 @@ function ProfileSettings() {
 							</CardFooter>
 						</Card>
 					</div>
-				</div>
+				</div>)}
 			</div>
 		</>
 	);

@@ -89,8 +89,8 @@ function ChatAndRequest() {
     },
   };
   
-  const token = localStorage.getItem("token")
   const navigate = useNavigate();
+  const [token, setToken] = useState();
   const [chat, setChat] = useState("md:col-span-11 col-span-1");
   const [chatList, setChatList] = useState("md:hidden hidden");
   const [chatListData, setChatListData] = useState([]);
@@ -205,10 +205,15 @@ function ChatAndRequest() {
   };
 
   useEffect(() => {
-    getData();
-    putData();
-    getFavourites();
-    getChatList();
+   setToken(localStorage.getItem("token"));
+    
+    if (!token) navigate('/login');
+    else{
+      getData();
+      putData();
+      getFavourites();
+      getChatList();
+    }
   }, []);
 
   async function onConsideredRequest(e) {

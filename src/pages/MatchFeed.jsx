@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, redirect } from "react-router-dom";
 import { useCookies } from "react-cookie";
 
 import Header from "../components/Header";
@@ -17,6 +17,7 @@ import { host } from "../utils/APIRoutes";
 function MatchFeed() {
   const navigate = useNavigate();
   const [cookies, removeCookie] = useCookies([]);
+  const [token, setToken] = useState();
 
   // useEffect(() => {
   //   const verifyCookie = async () => {
@@ -27,7 +28,7 @@ function MatchFeed() {
   //   verifyCookie();
   // }, []);
 
-  const token = localStorage.getItem("token");
+  // const token = localStorage.getItem("token");
   const [mvalue, setMvalue] = useState("col-span-2");
   const [fvalue, setFvalue] = useState("md:col-span-9");
   const [click, setClick] = useState(false);
@@ -128,9 +129,16 @@ function MatchFeed() {
       console.log(error);
     }
   };
+
   useEffect(() => {
-    fetchData();
-  }, [token]);
+    setToken(localStorage.getItem("token"));
+    if (!token) {
+      navigate('/login');
+    }
+    else{
+      fetchData();
+    }
+  }, []);
 
   const handleClick = (click) => {
     setClick(click);

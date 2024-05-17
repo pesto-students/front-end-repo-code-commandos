@@ -3,7 +3,7 @@ import "./InputSearch.css";
 import useFormContext from "../../hooks/useFormContext";
 
 function InputSearch({ onChangeValue, list, keyType, placeholder, id,value }) {
-  console.log("inputsearch: "+value)
+
   const { data,handleChange } = useFormContext();
   const [searchResultOpen, setSearchResultOpen] = useState(false);
   const [results, setResults] = useState([]);
