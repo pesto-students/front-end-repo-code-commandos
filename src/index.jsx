@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import { ProtectedLoginRoute } from "./pages/ProtectedRoute";
 import Home from "./pages/Home";
 
@@ -9,7 +9,7 @@ import "./index.css";
 import MatchFeed from "./pages/MatchFeed";
 import Register from "./pages/Register";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <Home />,
