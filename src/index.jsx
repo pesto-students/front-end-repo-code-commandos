@@ -11,6 +11,11 @@ import Register from "./pages/Register";
 
 const router = createBrowserRouter([
   {
+    path: "/",
+    element: <Home />,
+    errorElement: <h3>404 Page Not Found.</h3>,
+  },
+  {
     path: "/login",
     element: <Home />,
     errorElement: <h3>404 Page Not Found.</h3>,
