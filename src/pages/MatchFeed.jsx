@@ -105,8 +105,8 @@ function MatchFeed() {
   const fetchData = async () => {
     try {
       const result = await axios.post(
-        // `https://match-made-back.onrender.com/user/match-feed`,
-        `http://localhost:3000/user/match-feed`,
+        `https://match-made-back.onrender.com/user/match-feed`,
+        // `http://localhost:3000/user/match-feed`,
         "",
         {
           headers: {
