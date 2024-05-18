@@ -75,7 +75,7 @@ const Form = ({ setFormId }) => {
 
 		if (result.data.message.modifiedCount >= 1) {
 			localStorage.setItem("horoscope", result.data.message.horoscope);
-			navigate("/matchfeed");
+			navigate("/match-feed");
 		} else {
 			setOpenAlert(!openAlert);
 		}

@@ -10,7 +10,7 @@ export const ProtectedLoginRoute = () => {
   if (!token) {
     return <Home />;
   }
-  return <Navigate to="/matchfeed" />;
+  return <Navigate to="/match-feed" />;
 };
 
 const ProtectedRoute = ({ children }) => {

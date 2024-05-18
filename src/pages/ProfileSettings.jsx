@@ -89,7 +89,7 @@ function ProfileSettings() {
 	
 
 	const handleDiscard = () => {
-		navigate("/matchfeed");
+		navigate("/match-feed");
 	};
 
 	// const handleSubmit = async (e) => {
@@ -152,7 +152,7 @@ function ProfileSettings() {
 
 		if (result.data.message.modifiedCount >= 1) {
 			localStorage.setItem("horoscope", result.data.user.horoscope);
-			navigate("/matchfeed");
+			navigate("/match-feed");
 		} else {
 			setOpenAlert(!openAlert);
 		}

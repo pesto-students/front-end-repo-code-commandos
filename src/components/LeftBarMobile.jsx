@@ -31,7 +31,7 @@ function LeftBarMobile({ activeAt }) {
                 setSelectedOption(1);
               }}
             >
-              <Link to="/matchfeed">
+              <Link to="/match-feed">
                 <svg
                   width="35"
                   height="35"
