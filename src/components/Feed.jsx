@@ -77,7 +77,7 @@ function Feed({ children }) {
         {/* 1st Column (Span - 1)*/}
         <div className="md:px-4 md:col-span-2 lg:col-span-1">
           <div className="flex">
-            <CarouselDefault />
+            <CarouselDefault images={[children.profileImage]} />
           </div>
           <div className="md:mt-4 md:flex md:gap-4">
             <div className="md:h-12 md:w-full">

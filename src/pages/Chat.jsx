@@ -24,8 +24,7 @@ import { useNavigate } from "react-router-dom";
 
 function Chat() {
 	const navigate = useNavigate();
-	
-	const [token, setToken] = useState();
+	const token = localStorage.getItem('token')
 	const [cookies, removeCookie] = useCookies([]);
 	const [chatPartner, setChatPartner] = useState({});
 	const [senderId, setSenderId] = useState(localStorage.getItem("convo-you"));
@@ -88,8 +87,7 @@ function Chat() {
 	};
 
 	useEffect(() => {
-		setToken(localStorage.getItem('token'))
-		if(!token) navigate('/login');
+		if(token == null) navigate('/login');
 		else {
 			getConversations();
 			socketConnet();

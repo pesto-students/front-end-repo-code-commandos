@@ -25,7 +25,7 @@ import { redirect, useNavigate } from "react-router-dom";
 function ProfileSettings() {
 
 	const navigate = useNavigate();
-
+	const token = localStorage.getItem('token')
 	const {
 		setPage,
 		data,
@@ -39,7 +39,6 @@ function ProfileSettings() {
 	} = useFormContext();
 
 	const [profilePic, setProfilePic] = useState("");
-	const [token, setToken] = useState();
 
 	const convertToBase64 = (file) => {
 		return new Promise((resolve, reject) => {
@@ -211,8 +210,7 @@ function ProfileSettings() {
 	};
 
 	useEffect(() => {
-		setToken(localStorage.getItem('token'))
-		if(!token) navigate('/login')
+		if(token == null) navigate('/login')
 		else loadData();
 	}, []);
 

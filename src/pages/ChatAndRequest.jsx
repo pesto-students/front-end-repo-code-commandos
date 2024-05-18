@@ -90,7 +90,7 @@ function ChatAndRequest() {
   };
   
   const navigate = useNavigate();
-  const [token, setToken] = useState();
+  const token = localStorage.getItem('token')
   const [chat, setChat] = useState("md:col-span-11 col-span-1");
   const [chatList, setChatList] = useState("md:hidden hidden");
   const [chatListData, setChatListData] = useState([]);
@@ -205,9 +205,7 @@ function ChatAndRequest() {
   };
 
   useEffect(() => {
-   setToken(localStorage.getItem("token"));
-    
-    if (!token) navigate('/login');
+    if (token == null) navigate('/login');
     else{
       getData();
       putData();

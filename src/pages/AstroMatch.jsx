@@ -39,7 +39,7 @@ const theme = {
 
 function AstroMatch() {
   const navigate = useNavigate();
-  const [token, setToken] = useState();
+  const token = localStorage.getItem('token')
   const [card, setCard] = useState(1);
   const [title, setTitle] = useState("");
   const [open, setOpen] = React.useState(false);
@@ -112,8 +112,7 @@ function AstroMatch() {
   };
 
   useEffect(() => {
-    setToken(localStorage.getItem('token'))
-    if(!token) navigate('/login')
+    if(token == null) navigate('/login')
       else{
     loadData();
     changeTitle();

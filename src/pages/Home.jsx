@@ -22,9 +22,6 @@ import {
 } from "@material-tailwind/react";
 
 function Home() {
-	function refreshPage() {
-		window.location.reload(false);
-	}
 
 	const customTheme = {
 		tabsHeader: {
@@ -101,7 +98,8 @@ function Home() {
 		e.preventDefault();
 		await axios
 			.post(
-				`https://match-made-back.onrender.com/user/login`,
+				// `https://match-made-back.onrender.com/user/login`,
+				`http://localhost:3000/user/login`,
 				{ ...loginFormData },
 				{
 					headers: {
@@ -120,13 +118,14 @@ function Home() {
 				) {
 					setLoginOpen(true);
 				} else {
-					localStorage.setItem("token", response.data.token);
+					console.log(response)
+					localStorage.setItem("token", response.data.message.token);
 					localStorage.setItem(
 						"horoscope",
 						response.data.message.horoscope
 					);
 					// refreshPage();
-					navigate("/matchfeed");
+					navigate("/match-feed");
 				}
 			})
 			.catch((error) => console.log(error));

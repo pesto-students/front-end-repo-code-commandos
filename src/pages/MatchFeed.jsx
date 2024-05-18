@@ -16,8 +16,9 @@ import { host } from "../utils/APIRoutes";
 
 function MatchFeed() {
   const navigate = useNavigate();
+  const token = localStorage.getItem('token')
   const [cookies, removeCookie] = useCookies([]);
-  const [token, setToken] = useState();
+  // const [token, setToken] = useState(localStorage.getItem('token'));
 
   // useEffect(() => {
   //   const verifyCookie = async () => {
@@ -104,7 +105,8 @@ function MatchFeed() {
   const fetchData = async () => {
     try {
       const result = await axios.post(
-        `https://match-made-back.onrender.com/user/match-feed`,
+        // `https://match-made-back.onrender.com/user/match-feed`,
+        `http://localhost:3000/user/match-feed`,
         "",
         {
           headers: {
@@ -131,13 +133,16 @@ function MatchFeed() {
   };
 
   useEffect(() => {
-    setToken(localStorage.getItem("token"));
-    if (!token) {
+    // setToken(localStorage.getItem('token'));
+    console.log('token'+token)
+    if (token == null) {
       navigate('/login');
     }
     else{
       fetchData();
     }
+    // setInterval(() => {
+    // },2000)
   }, []);
 
   const handleClick = (click) => {
