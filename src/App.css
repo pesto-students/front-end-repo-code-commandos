@@ -1,0 +1,37 @@
+/* @media (min-width: 1024px) {
+  .overflow-scroll::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+    .overflow-scroll::-webkit-scrollbar {
+      display: none;
+    }
+  } */
+
+/* .overflow-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+@media (min-width: 960px) {
+  .lg\:.overflow-scroll::-webkit-scrollbar {
+    overflow: scroll;
+    display: none;
+  }
+}
+
+@media (min-width: 720px) {
+  .md\:.overflow-scroll::-webkit-scrollbar {
+    overflow: scroll;
+    display: none;
+  }
+} */
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  margin: 0;
+}
