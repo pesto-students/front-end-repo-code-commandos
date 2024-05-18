@@ -119,7 +119,7 @@ function Home() {
 					setLoginOpen(true);
 				} else {
 					console.log(response)
-					localStorage.setItem("token", response.data.message.token);
+					localStorage.setItem("token", response.data.token);
 					localStorage.setItem(
 						"horoscope",
 						response.data.message.horoscope
