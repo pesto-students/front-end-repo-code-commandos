@@ -135,7 +135,7 @@ function MatchFeed() {
   useEffect(() => {
     // setToken(localStorage.getItem('token'));
     console.log('token'+token)
-    if (token == null) {
+    if (token == null || token == undefined) {
       navigate('/login');
     }
     else{

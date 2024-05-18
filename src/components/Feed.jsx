@@ -9,6 +9,7 @@ import { useCookies } from "react-cookie";
 
 function Feed({ children }) {
   console.log(children);
+  const token = localStorage.getItem('token')
   const [cookies, removeCookie] = useCookies([]);
   const navigate = useNavigate();
   const [alertOpen, setAlertOpen] = useState(false);
@@ -23,7 +24,6 @@ function Feed({ children }) {
 
   const handleFavourite = async () => {
     // console.log();
-    const token = localStorage.getItem("token")
     try {
       const result = await axios.post(
         `https://match-made-back.onrender.com/user/set-favourite`,

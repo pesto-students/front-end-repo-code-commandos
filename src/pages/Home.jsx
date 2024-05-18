@@ -124,8 +124,11 @@ function Home() {
 						"horoscope",
 						response.data.message.horoscope
 					);
+					const token = localStorage.getItem('token')
 					// refreshPage();
-					navigate("/match-feed");
+					if(token !== null || token !== undefined){
+						navigate("/match-feed");
+					}
 				}
 			})
 			.catch((error) => console.log(error));
